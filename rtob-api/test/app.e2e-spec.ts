@@ -1,24 +1,15 @@
 import request from 'supertest';
-import { Test } from '@nestjs/testing';
-import { AppModule } from './../src/app.module';
-import { INestApplication } from '@nestjs/common';
+import request from 'supertest';
+import { HttpStatus } from '@nestjs/common';
+import { GetReq, PostReq } from './share';
+import { EventEntity } from '../src/healthcare/event.entity';
 
-describe('AppController (e2e)', () => {
-  let app: INestApplication;
+test('It should response 200', async () => {
+  const response = await GetReq('/util/version');
+  expect(response.statusCode).toBe(200);
+});
 
-  beforeAll(async () => {
-    const moduleFixture = await Test.createTestingModule({
-      imports: [AppModule],
-    }).compile();
-
-    app = moduleFixture.createNestApplication();
-    await app.init();
-  });
-
-  it('/GET /', () => {
-    return request(app.getHttpServer())
-      .get('/')
-      .expect(200)
-      .expect('Hello World!');
-  });
+test('It should response 404', async () => {
+  const response = await GetReq('/util/api-not-exist');
+  expect(response.statusCode).toBe(404);
 });
