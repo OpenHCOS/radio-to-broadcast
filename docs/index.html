@@ -20,7 +20,7 @@
                 </template>
                 <hr class="my-4">
                 <div>
-                    <b-card overlay img-src="rawpixel-com-558597-unsplash.jpg" img-alt="Card Image" text-variant="white" title="MarshBook" sub-title="Our Personal Data Are Precious.">
+                    <b-card overlay img-src="rawpixel-com-558597-unsplash.jpg" img-alt="Card Image" text-variant="white" title="Radio-to-Broadcast" sub-title="收音機到廣播電台之路">
                         <p class="card-text">
                             2018 博祖克議題松D組試驗專案
                         </p>
@@ -29,6 +29,112 @@
                 <p>Photo by rawpixel.com on Unsplash</p>
                 <b-btn variant="success" href="https://github.com/OpenHCOS/radio-to-broadcast">Github</b-btn>
             </b-jumbotron>
+            <div>
+                <b-card title="Card Title"
+                        img-src="https://lorempixel.com/600/300/food/5/"
+                        img-alt="Image"
+                        img-top
+                        tag="article"
+                        style="max-width: 20rem;"
+                        class="mb-2">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                  </p>
+                  <b-button href="#" variant="primary">Go somewhere</b-button>
+                </b-card>
+              </div>
+              <div>
+                <b-card-group deck>
+                    <b-card header="featured"
+                            header-tag="header"
+                            footer="Card Footer"
+                            footer-tag="footer"
+                            title="Title">
+                        <p class="card-text">Header and footers using props.</p>
+                        <b-button href="#"
+                                  variant="primary">Go somewhere</b-button>
+                    </b-card>
+                    <b-card title="Title"
+                            header-tag="header"
+                            footer-tag="footer">
+                        <h6 slot="header"
+                            class="mb-0">Header Slot</h6>
+                        <em slot="footer">Footer Slot</em>
+                        <p class="card-text">Header and footers using slots.</p>
+                        <b-button href="#"
+                                  variant="primary">Go somewhere</b-button>
+                    </b-card>
+                </b-card-group>
+            </div>
+            <div>
+                <b-card no-body
+                        style="max-width: 20rem;"
+                        img-src="https://placekitten.com/380/200"
+                        img-alt="Image"
+                        img-top>
+                    <h4 slot="header">Hello World</h4>
+                    <b-card-body>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </p>
+                    </b-card-body>
+                    <b-list-group flush>
+                        <b-list-group-item>Cras justo odio</b-list-group-item>
+                        <b-list-group-item>Dapibus ac facilisis in</b-list-group-item>
+                        <b-list-group-item>Vestibulum at eros</b-list-group-item>
+                    </b-list-group>
+                    <b-card-body>
+                        <a href="#"
+                           class="card-link">Card link</a>
+                        <a href="#"
+                           class="card-link">Another link</a>
+                    </b-card-body>
+                    <b-card-footer>This is a footer</b-card-footer>
+                    <b-card-img src="https://placekitten.com/480/210"
+                                alt="Image"
+                                bottom></b-card-img>
+                </b-card>
+            </div>
+            <hr/>
+            <div>
+                <b-card-group>
+                    <b-card title="Title"
+                            img-src="https://placekitten.com/g/300/450"
+                            img-alt="Img"
+                            img-top>
+                        <p class="card-text">
+                            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit
+                            longer.
+                        </p>
+                        <div slot="footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </b-card>
+                    <b-card title="Title"
+                            img-src="https://placekitten.com/g/300/450"
+                            img-alt="Img"
+                            img-top>
+                        <p class="card-text">
+                            This card has supporting text below as a natural lead-in to additional content.
+                        </p>
+                        <div slot="footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </b-card>
+                    <b-card title="Title"
+                            img-src="https://placekitten.com/g/300/450"
+                            img-alt="Img"
+                            img-top>
+                        <p class="card-text">
+                            This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content
+                            than the first to show that equal height action.
+                        </p>
+                        <div slot="footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </b-card>
+                </b-card-group>
+            </div>
         </b-container>
     </div>
     <!-- Add this after vue.js -->
