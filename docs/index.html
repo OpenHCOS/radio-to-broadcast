@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <title>呷好逗相報 - 2018 博祖克議題松D組試驗專案</title>
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
+</head>
+
+<BODY>
+    <!-- Our application root element -->
+    <div id="app" style="margin-top:3em;">
+        <b-container>
+            <b-jumbotron>
+                <template slot="header">
+                    呷好逗相報
+                </template>
+                <template slot="lead">
+                    2018 博祖克議題松D組試驗專案
+                </template>
+                <hr class="my-4">
+                <div>
+                    <b-card overlay img-src="rawpixel-com-558597-unsplash.jpg" img-alt="Card Image" text-variant="white" title="MarshBook" sub-title="Our Personal Data Are Precious.">
+                        <p class="card-text">
+                            2018 博祖克議題松D組試驗專案
+                        </p>
+                    </b-card>
+                </div>
+                <p>Photo by rawpixel.com on Unsplash</p>
+                <b-btn variant="success" href="https://github.com/OpenHCOS/radio-to-broadcast">Github</b-btn>
+            </b-jumbotron>
+        </b-container>
+    </div>
+    <!-- Add this after vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="//unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+    <script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+    <script>
+        window.app = new Vue({
+            el: "#app",
+            data: {
+                name: ''
+            }
+        })
+    </script>
+</BODY>
+
+</HTML>
