@@ -1,0 +1,84 @@
+openapi: "3.0.0"
+info:
+  version: 0.0.1
+  title: radio-to-broadcast OpenAPI Specification v3
+  license:
+    name: MIT
+servers:
+  - url: http://localhost:3000/api/v1
+  - url: http://marsh-book-host/v1
+  - url: http://marsh-book-host:3000/api/v1
+security:
+  - bearerAuth: []
+paths:
+  /event/events:
+    get:
+      summary: "取得所有博祖克事件列表, role: None"
+      tags:
+        - event
+      parameters: []
+      responses:
+        '200':
+          content:
+            application/json:
+  /event:
+    post:
+      summary: "新增博祖克事件, role: None"
+      tags:
+        - event
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                omahaRaw:
+                  type: string
+                domain:
+                  type: string
+                problem:
+                  type: number
+                sign:
+                  type: number
+              example:
+                omahaRaw: '{"D4":"TODO_TEST"}'
+                domain: 'D4'
+                problem: 1
+                sign: 11
+      responses:
+        '200':
+          content:
+            application/json:
+  /util/version:
+    get:
+      tags:
+        - util
+      parameters: []
+      responses:
+        '200':
+          content:
+            application/json:
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    QueryDTO:
+      properties:
+        id:
+          type: integer
+        type:
+          type: string
+    Error:
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: integer
+          format: int32
+        message:
+          type: string
