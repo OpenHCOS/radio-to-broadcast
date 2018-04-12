@@ -3,6 +3,9 @@
 
 ```bash
 $ npm install
+$ npm i -g npm-run-all
+$ npm i -g wait-on
+$ npm i -g shx
 ```
 
 ## Running the app
@@ -21,12 +24,6 @@ npm run start:prod
 ## Test
 
 ```bash
-# unit tests
-$ npm run test
-
 # e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+$ npm run test:all
 ```

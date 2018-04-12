@@ -1,5 +1,3 @@
-import request from 'supertest';
-import request from 'supertest';
 import { HttpStatus } from '@nestjs/common';
 import { GetReq, PostReq } from './share';
 import { EventEntity } from '../src/healthcare/event.entity';
