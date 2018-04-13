@@ -18,6 +18,7 @@ $ npm run start
 $ npm run start:dev
 
 # production mode
+cp ormconfig.dist.json ormconfig.json
 npm run start:prod
 ```
 
