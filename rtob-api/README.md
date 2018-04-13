@@ -28,3 +28,10 @@ npm run start:prod
 # e2e tests
 $ npm run test:all
 ```
+
+## docker build and run
+
+```
+$ docker build -t rtob-api .
+$ docker run rtob-api
+```
