@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build":"browserify index.js --standalone RtobCommon > dist/rtob-common.js",
     "test": "jest"
   },
   "keywords": [],
