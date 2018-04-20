@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"browserify index.js --standalone RtobCommon > dist/rtob-common.js",
+    "build": "browserify index.js --standalone RtobCommon > dist/rtob-common.js",
+    "raw:180420": "node raw/csv2json-180420.js",
     "test": "jest"
   },
   "keywords": [],
@@ -14,6 +15,7 @@
     "bip39": "^2.5.0"
   },
   "devDependencies": {
+    "csvjson": "^5.0.0",
     "jest": "^22.4.3"
   }
 }
