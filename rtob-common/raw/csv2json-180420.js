@@ -55,7 +55,7 @@ fs.writeFileSync(
 );
 
 var result = {
-  "@context": "https://openhcos.github.io/radio-to-broadcast/schema/service-codes-180420.jsonld",
+  "@context": "https://openhcos.github.io/radio-to-broadcast/schema/service-codes-180420.ld.json",
   "@schema":"https://openhcos.github.io/radio-to-broadcast/schema/service-codes-180420.schema.json",
   "@id": "https://https://openhcos.github.io/radio-to-broadcast/service-codes-181420",
   serviceMap: x2

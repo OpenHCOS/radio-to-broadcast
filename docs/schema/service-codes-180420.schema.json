@@ -34,7 +34,7 @@
   },
   "properties": {
     "@context": { "$ref": "#/definitions/JsonLdContext" },
-    "validationSchema":{ "type": "string" , "format": "uri"},
+    "@schema":{ "type": "string" , "format": "uri"},
     "@id": {
       "description": "The unique identifier for a service list",
       "type": "string"
