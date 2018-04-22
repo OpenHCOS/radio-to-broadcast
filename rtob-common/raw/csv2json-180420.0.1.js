@@ -34,7 +34,7 @@ var x = csvjson
     r.id =  v["編號"]
     r.serviceType = v["照顧組合"]
     r.price = parseInt(v["給（支）付價格（元）"])
-    r.priceRemote = parseInt(v["原民區或離島支付價格（元）"])
+    r.priceext = parseInt(v["原民區或離島支付價格（元）"])
     return r;
   }).filter(v2 => {
     return v2.id.match(/^[A-Z]+/)
@@ -42,9 +42,22 @@ var x = csvjson
   
 var x2 = x.reduce((map,obj)=>{
     map[obj.id] = obj
+    obj['@id'] = `https://openhcos.github.io/radio-to-broadcast/service-codes-181420#${obj.id}`
+    obj['@type'] = 'schema:Service'
+    obj['priceNormal'] = {
+      "@type": "PriceSpecification",
+      "price": obj.price,
+      "priceCurrency": "TWD"
+    }
+
+    obj['priceSpecial'] = {
+      "@type": "PriceSpecification",
+      "price": obj.priceext,
+      "priceCurrency": "TWD"
+    }
     delete obj.id
-    obj.price  = obj.price ? obj.price : 0
-    obj.priceRemote  = obj.priceRemote ? obj.priceRemote : 0
+    delete obj.price
+    delete obj.priceext
     return map
   }, {});
 
@@ -55,14 +68,21 @@ fs.writeFileSync(
 );
 
 var result = {
-  "@context": "https://openhcos.github.io/radio-to-broadcast/schema/service-codes-180420.jsonld",
-  "@schema":"https://openhcos.github.io/radio-to-broadcast/schema/service-codes-180420.schema.json",
+  "@context": {
+    "schema": "http://schema.org/",
+    "priceNormal": "schema:PriceSpecification",
+    "priceSpecial": "schema:PriceSpecification",
+    "serviceList": {
+      "@id": "schema:Service",
+      "@container": "@index"
+    }
+  },
   "@id": "https://https://openhcos.github.io/radio-to-broadcast/service-codes-181420",
-  serviceMap: x2
+  serviceList: x2
 };
 
 fs.writeFileSync(
-  path.join(__dirname, "service-codes-180420.json"),
+  path.join(__dirname, "calc-service-codes-180420-final.json"),
   JSON.stringify(result, null, 4),
   { encoding: "utf8" }
 );

@@ -1,0 +1,2282 @@
+{
+    "AA01": {
+        "serviceType": "照顧計畫擬定與服務連結",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#AA01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 1500,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1800,
+            "priceCurrency": "TWD"
+        }
+    },
+    "AA02": {
+        "serviceType": "照顧管理",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#AA02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 300,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 360,
+            "priceCurrency": "TWD"
+        }
+    },
+    "AA03": {
+        "serviceType": "照顧服務員配合專業服務",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#AA03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 600,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 720,
+            "priceCurrency": "TWD"
+        }
+    },
+    "AA04": {
+        "serviceType": "於臨終日提供服務加計",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#AA04",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 1200,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1440,
+            "priceCurrency": "TWD"
+        }
+    },
+    "AA05": {
+        "serviceType": "照顧困難之服務加計",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#AA05",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 100,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 120,
+            "priceCurrency": "TWD"
+        }
+    },
+    "AA06": {
+        "serviceType": "身體照顧困難加計",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#AA06",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 200,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 240,
+            "priceCurrency": "TWD"
+        }
+    },
+    "AA07": {
+        "serviceType": "家庭照顧功能微弱之服務加計",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#AA07",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 760,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 915,
+            "priceCurrency": "TWD"
+        }
+    },
+    "AA08": {
+        "serviceType": "晚間服務",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#AA08",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 385,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 465,
+            "priceCurrency": "TWD"
+        }
+    },
+    "AA09": {
+        "serviceType": "例假日服務",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#AA09",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 770,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 925,
+            "priceCurrency": "TWD"
+        }
+    },
+    "AA10": {
+        "serviceType": "夜間緊急服務",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#AA10",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 1000,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1200,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA01": {
+        "serviceType": "基本身體清潔",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 260,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 310,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA02": {
+        "serviceType": "基本日常照顧",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 310,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 370,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA03": {
+        "serviceType": "測量生命徵象",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 35,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 40,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA04": {
+        "serviceType": "協助餵食或灌食",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA04",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 130,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 155,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA05": {
+        "serviceType": "餐食照顧",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA05",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 310,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 370,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA06": {
+        "serviceType": "協助沐浴",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA06",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 290,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 350,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA07": {
+        "serviceType": "協助沐浴及洗頭",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA07",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 325,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 385,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA08": {
+        "serviceType": "足部照護",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA08",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 500,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 600,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA09": {
+        "serviceType": "到宅沐浴車服務",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA09",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 1500,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1800,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA10": {
+        "serviceType": "翻身拍背",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA10",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 155,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 190,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA11": {
+        "serviceType": "肢體關節活動",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA11",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 195,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 235,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA12": {
+        "serviceType": "協助上(下)樓梯",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA12",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 130,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 155,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA13": {
+        "serviceType": "陪同外出",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA13",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 195,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 235,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA14": {
+        "serviceType": "陪同就醫",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA14",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 685,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 825,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA15": {
+        "serviceType": "家務協助",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA15",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 195,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 235,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA16": {
+        "serviceType": "代購或代領或代送服務",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA16",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 130,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 155,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA17": {
+        "serviceType": "協助執行輔助性醫療",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA17",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 65,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 80,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA18": {
+        "serviceType": "安全看視",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA18",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 400,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 480,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA19": {
+        "serviceType": "安全看視（續）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA19",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 200,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 240,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA20": {
+        "serviceType": "陪伴服務",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA20",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 350,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 420,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA21": {
+        "serviceType": "陪伴服務（續）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA21",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 175,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 210,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BA22": {
+        "serviceType": "巡視服務",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BA22",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 130,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 160,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BB01": {
+        "serviceType": "日間照顧（全日）--第1型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BB01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 675,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 810,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BB02": {
+        "serviceType": "日間照顧（半日）--第1型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BB02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 340,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 405,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BB03": {
+        "serviceType": "日間照顧（全日）--第2型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BB03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 840,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1005,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BB04": {
+        "serviceType": "日間照顧（半日）--第2型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BB04",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 420,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 505,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BB05": {
+        "serviceType": "日間照顧（全日）--第3型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BB05",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 920,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1105,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BB06": {
+        "serviceType": "日間照顧（半日）--第3型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BB06",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 460,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 555,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BB07": {
+        "serviceType": "日間照顧（全日）--第4型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BB07",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 1045,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1255,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BB08": {
+        "serviceType": "日間照顧（半日）--第4型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BB08",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 525,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 630,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BB09": {
+        "serviceType": "日間照顧（全日）--第5型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BB09",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 1130,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1355,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BB10": {
+        "serviceType": "日間照顧（半日）--第5型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BB10",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 565,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 680,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BB11": {
+        "serviceType": "日間照顧（全日）--第6型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BB11",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 1210,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1450,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BB12": {
+        "serviceType": "日間照顧（半日）--第6型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BB12",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 605,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 725,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BB13": {
+        "serviceType": "日間照顧（全日）--第7型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BB13",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 1285,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1540,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BB14": {
+        "serviceType": "日間照顧（半日）--第7型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BB14",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 645,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 770,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BC01": {
+        "serviceType": "家庭托顧（全日）--第1型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BC01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 625,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 750,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BC02": {
+        "serviceType": "家庭托顧（半日）--第1型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BC02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 315,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 375,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BC03": {
+        "serviceType": "家庭托顧（全日）--第2型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BC03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 760,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 915,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BC04": {
+        "serviceType": "家庭托顧（半日）--第2型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BC04",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 380,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 460,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BC05": {
+        "serviceType": "家庭托顧（全日）--第3型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BC05",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 785,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 945,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BC06": {
+        "serviceType": "家庭托顧（半日）--第3型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BC06",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 395,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 475,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BC07": {
+        "serviceType": "家庭托顧（全日）--第4型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BC07",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 880,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1055,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BC08": {
+        "serviceType": "家庭托顧（半日）--第4型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BC08",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 440,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 530,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BC09": {
+        "serviceType": "家庭托顧（全日）--第5型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BC09",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 960,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1155,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BC10": {
+        "serviceType": "家庭托顧（半日）--第5型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BC10",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 480,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 580,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BC11": {
+        "serviceType": "家庭托顧（全日）--第6型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BC11",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 980,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1180,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BC12": {
+        "serviceType": "家庭托顧（半日）--第6型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BC12",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 490,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 590,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BC13": {
+        "serviceType": "家庭托顧（全日）--第7型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BC13",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 1040,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1250,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BC14": {
+        "serviceType": "家庭托顧（半日）--第7型",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BC14",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 520,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 625,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BD01": {
+        "serviceType": "社區式協助沐浴",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BD01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 200,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 240,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BD02": {
+        "serviceType": "社區式晚餐",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BD02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 150,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 180,
+            "priceCurrency": "TWD"
+        }
+    },
+    "BD03": {
+        "serviceType": "社區式服務交通接送",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#BD03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 35,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 45,
+            "priceCurrency": "TWD"
+        }
+    },
+    "CA01": {
+        "serviceType": "IADLs復能照護--居家",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#CA01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 4500,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 5400,
+            "priceCurrency": "TWD"
+        }
+    },
+    "CA02": {
+        "serviceType": "IADLs復能照護--社區",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#CA02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 4050,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 4860,
+            "priceCurrency": "TWD"
+        }
+    },
+    "CA03": {
+        "serviceType": "ADLs復能照護--居家",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#CA03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 4500,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 5400,
+            "priceCurrency": "TWD"
+        }
+    },
+    "CA04": {
+        "serviceType": "ADLs復能照護--社區",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#CA04",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 4050,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 4860,
+            "priceCurrency": "TWD"
+        }
+    },
+    "CA05": {
+        "serviceType": "社區適應--居家",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#CA05",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 6000,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 7200,
+            "priceCurrency": "TWD"
+        }
+    },
+    "CA06": {
+        "serviceType": "社區適應--社區",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#CA06",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 5400,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 6480,
+            "priceCurrency": "TWD"
+        }
+    },
+    "CB01": {
+        "serviceType": "營養照護",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#CB01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 4000,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 4800,
+            "priceCurrency": "TWD"
+        }
+    },
+    "CB02": {
+        "serviceType": "進食與吞嚥照護",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#CB02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 9000,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 10800,
+            "priceCurrency": "TWD"
+        }
+    },
+    "CB03": {
+        "serviceType": "困擾行為照護",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#CB03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 4500,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 5400,
+            "priceCurrency": "TWD"
+        }
+    },
+    "CB04": {
+        "serviceType": "臥床或長期活動受限照護",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#CB04",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 9000,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 10800,
+            "priceCurrency": "TWD"
+        }
+    },
+    "CC01": {
+        "serviceType": "居家環境安全或無障礙空間規劃",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#CC01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 2000,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 2400,
+            "priceCurrency": "TWD"
+        }
+    },
+    "CD01": {
+        "serviceType": "居家護理訪視",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#CD01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 1300,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1300,
+            "priceCurrency": "TWD"
+        }
+    },
+    "DA01": {
+        "serviceType": "交通接送",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#DA01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "GA01": {
+        "serviceType": "居家喘息服務--全日",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#GA01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 2310,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 2775,
+            "priceCurrency": "TWD"
+        }
+    },
+    "GA02": {
+        "serviceType": "居家喘息服務--半日",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#GA02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 1155,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1390,
+            "priceCurrency": "TWD"
+        }
+    },
+    "GA03": {
+        "serviceType": "日間照顧中心喘息服務--全日",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#GA03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 1250,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1500,
+            "priceCurrency": "TWD"
+        }
+    },
+    "GA04": {
+        "serviceType": "日間照顧中心喘息服務--半日",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#GA04",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 625,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 750,
+            "priceCurrency": "TWD"
+        }
+    },
+    "GA05": {
+        "serviceType": "機構住宿式喘息服務",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#GA05",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 2310,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 2775,
+            "priceCurrency": "TWD"
+        }
+    },
+    "GA06": {
+        "serviceType": "小規模多機能服務-夜間喘息",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#GA06",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 1300,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1560,
+            "priceCurrency": "TWD"
+        }
+    },
+    "GA07": {
+        "serviceType": "巷弄長照站臨托-全日",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#GA07",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 1000,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1200,
+            "priceCurrency": "TWD"
+        }
+    },
+    "GA08": {
+        "serviceType": "巷弄長照站臨托-半日",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#GA08",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": 500,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 600,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EA01": {
+        "serviceType": "馬桶增高器、便盆椅或沐浴椅",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EA01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EB01": {
+        "serviceType": "單支枴杖-不銹鋼製",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EB01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EB02": {
+        "serviceType": "單支枴杖-鋁製",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EB02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EB03": {
+        "serviceType": "助行器",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EB03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EB04": {
+        "serviceType": "帶輪型助步車(助行椅)",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EB04",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 300,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EC01": {
+        "serviceType": "輪椅-A款(非輕量化量產型)",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EC01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EC02": {
+        "serviceType": "輪椅-B款(輕量化量產型)",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EC02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 450,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EC03": {
+        "serviceType": "輪椅-C款(量身訂製型)",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EC03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EC04": {
+        "serviceType": "輪椅附加功能-A款（具利於移位功能）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EC04",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 150,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EC05": {
+        "serviceType": "輪椅附加功能-B款（具仰躺功能）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EC05",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 150,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EC06": {
+        "serviceType": "輪椅附加功能-C款（具空中傾倒功能）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EC06",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 150,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EC07": {
+        "serviceType": "擺位系統-A款（平面型輪椅背靠）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EC07",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EC08": {
+        "serviceType": "擺位系統-B款（曲面適形輪椅背靠）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EC08",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EC09": {
+        "serviceType": "擺位系統-C款（輪椅軀幹側支撐架）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EC09",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EC10": {
+        "serviceType": "擺位系統-D款（輪椅頭靠系統）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EC10",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EC11": {
+        "serviceType": "電動輪椅",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EC11",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 2500,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EC12": {
+        "serviceType": "電動代步車",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EC12",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1200,
+            "priceCurrency": "TWD"
+        }
+    },
+    "ED01": {
+        "serviceType": "移位腰帶",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#ED01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "ED02": {
+        "serviceType": "移位板",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#ED02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "ED03": {
+        "serviceType": "人力移位吊帶",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#ED03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "ED04": {
+        "serviceType": "移位滑墊-A款",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#ED04",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "ED05": {
+        "serviceType": "移位滑墊-B款",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#ED05",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "ED06": {
+        "serviceType": "移位轉盤",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#ED06",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "ED07": {
+        "serviceType": "移位機",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#ED07",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 2000,
+            "priceCurrency": "TWD"
+        }
+    },
+    "ED08": {
+        "serviceType": "移位機吊帶",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#ED08",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EE01": {
+        "serviceType": "電話擴音器",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EE01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EE02": {
+        "serviceType": "電話閃光震動器",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EE02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EE03": {
+        "serviceType": "火警閃光警示器",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EE03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EE04": {
+        "serviceType": "門鈴閃光器",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EE04",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EE05": {
+        "serviceType": "無線震動警示器",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EE05",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EF01": {
+        "serviceType": "衣著用輔具",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EF01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EF02": {
+        "serviceType": "居家用生活輔具",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EF02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EF03": {
+        "serviceType": "飲食用輔具",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EF03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EG01": {
+        "serviceType": "氣墊床-A款",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EG01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 300,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EG02": {
+        "serviceType": "氣墊床-B款",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EG02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 500,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EG03": {
+        "serviceType": "輪椅座墊-A款（連通管型氣囊氣墊座-塑膠材質）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EG03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EG04": {
+        "serviceType": "輪椅座墊-B款（連通管型氣囊氣墊座-橡膠材質）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EG04",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EG05": {
+        "serviceType": "輪椅座墊-C款（液態凝膠座墊）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EG05",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EG06": {
+        "serviceType": "輪椅座墊-D款（固態凝膠座墊）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EG06",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EG07": {
+        "serviceType": "輪椅座墊-E款（填充式氣囊氣墊座）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EG07",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EG08": {
+        "serviceType": "輪椅座墊-F款（交替充氣型座墊）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EG08",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EG09": {
+        "serviceType": "輪椅座墊-G款（量製型座墊）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EG09",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EH01": {
+        "serviceType": "居家用照顧床",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EH01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 1000,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EH02": {
+        "serviceType": "居家用照顧床-附加功能A款（床面升降功能）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EH02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 200,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EH03": {
+        "serviceType": "居家用照顧床-附加功能B款（電動升降功能）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EH03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 500,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EH04": {
+        "serviceType": "爬梯機（單趟）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EH04",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 700,
+            "priceCurrency": "TWD"
+        }
+    },
+    "EH05": {
+        "serviceType": "爬梯機（月）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#EH05",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": 4000,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA01": {
+        "serviceType": "居家無障礙設施-扶手",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA01",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA02": {
+        "serviceType": "居家無障礙設施-可動式扶手",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA02",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA03": {
+        "serviceType": "居家無障礙設施-非固定式斜坡板A款",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA03",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA04": {
+        "serviceType": "居家無障礙設施-非固定式斜坡板B款",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA04",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA05": {
+        "serviceType": "居家無障礙設施-非固定式斜坡板C款",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA05",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA06": {
+        "serviceType": "居家無障礙設施-固定式斜坡道",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA06",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA07": {
+        "serviceType": "居家無障礙設施-架高式和式地板拆除",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA07",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA08": {
+        "serviceType": "居家無障礙設施-反光貼條或消光",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA08",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA09": {
+        "serviceType": "居家無障礙設施-隔間",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA09",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA10": {
+        "serviceType": "居家無障礙設施-防滑措施",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA10",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA11": {
+        "serviceType": "居家無障礙設施-門A款",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA11",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA12": {
+        "serviceType": "居家無障礙設施-門B款",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA12",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA13": {
+        "serviceType": "居家無障礙設施-水龍頭",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA13",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA14": {
+        "serviceType": "居家無障礙設施-改善浴缸（新增、改換、移除-居家環境改善含原處填補）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA14",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA15": {
+        "serviceType": "居家無障礙設施-改善洗臉台（槽）（新增、改換、移除-含原處填補）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA15",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA16": {
+        "serviceType": "居家無障礙設施-改善馬桶（新增、改換、移除-含原處填補）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA16",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA17": {
+        "serviceType": "居家無障礙設施-壁掛式淋浴椅（床）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA17",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA18": {
+        "serviceType": "居家無障礙設施-改善流理台（新增、改換）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA18",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA19": {
+        "serviceType": "居家無障礙設施-改善抽油煙機（位置調整）",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA19",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA20": {
+        "serviceType": "居家無障礙設施-特殊簡易洗槽",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA20",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    },
+    "FA21": {
+        "serviceType": "居家無障礙設施-特殊簡易浴槽",
+        "@id": "https://openhcos.github.io/radio-to-broadcast/service-codes-181420#FA21",
+        "@type": "schema:Service",
+        "priceNormal": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        },
+        "priceSpecial": {
+            "@type": "PriceSpecification",
+            "price": null,
+            "priceCurrency": "TWD"
+        }
+    }
+}

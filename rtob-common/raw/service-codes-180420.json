@@ -1,0 +1,767 @@
+{
+    "@context": "https://openhcos.github.io/radio-to-broadcast/schema/service-codes-180420.jsonld",
+    "@schema": "https://openhcos.github.io/radio-to-broadcast/schema/service-codes-180420.schema.json",
+    "@id": "https://https://openhcos.github.io/radio-to-broadcast/service-codes-181420",
+    "serviceMap": {
+        "AA01": {
+            "serviceType": "照顧計畫擬定與服務連結",
+            "price": 1500,
+            "priceRemote": 1800
+        },
+        "AA02": {
+            "serviceType": "照顧管理",
+            "price": 300,
+            "priceRemote": 360
+        },
+        "AA03": {
+            "serviceType": "照顧服務員配合專業服務",
+            "price": 600,
+            "priceRemote": 720
+        },
+        "AA04": {
+            "serviceType": "於臨終日提供服務加計",
+            "price": 1200,
+            "priceRemote": 1440
+        },
+        "AA05": {
+            "serviceType": "照顧困難之服務加計",
+            "price": 100,
+            "priceRemote": 120
+        },
+        "AA06": {
+            "serviceType": "身體照顧困難加計",
+            "price": 200,
+            "priceRemote": 240
+        },
+        "AA07": {
+            "serviceType": "家庭照顧功能微弱之服務加計",
+            "price": 760,
+            "priceRemote": 915
+        },
+        "AA08": {
+            "serviceType": "晚間服務",
+            "price": 385,
+            "priceRemote": 465
+        },
+        "AA09": {
+            "serviceType": "例假日服務",
+            "price": 770,
+            "priceRemote": 925
+        },
+        "AA10": {
+            "serviceType": "夜間緊急服務",
+            "price": 1000,
+            "priceRemote": 1200
+        },
+        "BA01": {
+            "serviceType": "基本身體清潔",
+            "price": 260,
+            "priceRemote": 310
+        },
+        "BA02": {
+            "serviceType": "基本日常照顧",
+            "price": 310,
+            "priceRemote": 370
+        },
+        "BA03": {
+            "serviceType": "測量生命徵象",
+            "price": 35,
+            "priceRemote": 40
+        },
+        "BA04": {
+            "serviceType": "協助餵食或灌食",
+            "price": 130,
+            "priceRemote": 155
+        },
+        "BA05": {
+            "serviceType": "餐食照顧",
+            "price": 310,
+            "priceRemote": 370
+        },
+        "BA06": {
+            "serviceType": "協助沐浴",
+            "price": 290,
+            "priceRemote": 350
+        },
+        "BA07": {
+            "serviceType": "協助沐浴及洗頭",
+            "price": 325,
+            "priceRemote": 385
+        },
+        "BA08": {
+            "serviceType": "足部照護",
+            "price": 500,
+            "priceRemote": 600
+        },
+        "BA09": {
+            "serviceType": "到宅沐浴車服務",
+            "price": 1500,
+            "priceRemote": 1800
+        },
+        "BA10": {
+            "serviceType": "翻身拍背",
+            "price": 155,
+            "priceRemote": 190
+        },
+        "BA11": {
+            "serviceType": "肢體關節活動",
+            "price": 195,
+            "priceRemote": 235
+        },
+        "BA12": {
+            "serviceType": "協助上(下)樓梯",
+            "price": 130,
+            "priceRemote": 155
+        },
+        "BA13": {
+            "serviceType": "陪同外出",
+            "price": 195,
+            "priceRemote": 235
+        },
+        "BA14": {
+            "serviceType": "陪同就醫",
+            "price": 685,
+            "priceRemote": 825
+        },
+        "BA15": {
+            "serviceType": "家務協助",
+            "price": 195,
+            "priceRemote": 235
+        },
+        "BA16": {
+            "serviceType": "代購或代領或代送服務",
+            "price": 130,
+            "priceRemote": 155
+        },
+        "BA17": {
+            "serviceType": "協助執行輔助性醫療",
+            "price": 65,
+            "priceRemote": 80
+        },
+        "BA18": {
+            "serviceType": "安全看視",
+            "price": 400,
+            "priceRemote": 480
+        },
+        "BA19": {
+            "serviceType": "安全看視（續）",
+            "price": 200,
+            "priceRemote": 240
+        },
+        "BA20": {
+            "serviceType": "陪伴服務",
+            "price": 350,
+            "priceRemote": 420
+        },
+        "BA21": {
+            "serviceType": "陪伴服務（續）",
+            "price": 175,
+            "priceRemote": 210
+        },
+        "BA22": {
+            "serviceType": "巡視服務",
+            "price": 130,
+            "priceRemote": 160
+        },
+        "BB01": {
+            "serviceType": "日間照顧（全日）--第1型",
+            "price": 675,
+            "priceRemote": 810
+        },
+        "BB02": {
+            "serviceType": "日間照顧（半日）--第1型",
+            "price": 340,
+            "priceRemote": 405
+        },
+        "BB03": {
+            "serviceType": "日間照顧（全日）--第2型",
+            "price": 840,
+            "priceRemote": 1005
+        },
+        "BB04": {
+            "serviceType": "日間照顧（半日）--第2型",
+            "price": 420,
+            "priceRemote": 505
+        },
+        "BB05": {
+            "serviceType": "日間照顧（全日）--第3型",
+            "price": 920,
+            "priceRemote": 1105
+        },
+        "BB06": {
+            "serviceType": "日間照顧（半日）--第3型",
+            "price": 460,
+            "priceRemote": 555
+        },
+        "BB07": {
+            "serviceType": "日間照顧（全日）--第4型",
+            "price": 1045,
+            "priceRemote": 1255
+        },
+        "BB08": {
+            "serviceType": "日間照顧（半日）--第4型",
+            "price": 525,
+            "priceRemote": 630
+        },
+        "BB09": {
+            "serviceType": "日間照顧（全日）--第5型",
+            "price": 1130,
+            "priceRemote": 1355
+        },
+        "BB10": {
+            "serviceType": "日間照顧（半日）--第5型",
+            "price": 565,
+            "priceRemote": 680
+        },
+        "BB11": {
+            "serviceType": "日間照顧（全日）--第6型",
+            "price": 1210,
+            "priceRemote": 1450
+        },
+        "BB12": {
+            "serviceType": "日間照顧（半日）--第6型",
+            "price": 605,
+            "priceRemote": 725
+        },
+        "BB13": {
+            "serviceType": "日間照顧（全日）--第7型",
+            "price": 1285,
+            "priceRemote": 1540
+        },
+        "BB14": {
+            "serviceType": "日間照顧（半日）--第7型",
+            "price": 645,
+            "priceRemote": 770
+        },
+        "BC01": {
+            "serviceType": "家庭托顧（全日）--第1型",
+            "price": 625,
+            "priceRemote": 750
+        },
+        "BC02": {
+            "serviceType": "家庭托顧（半日）--第1型",
+            "price": 315,
+            "priceRemote": 375
+        },
+        "BC03": {
+            "serviceType": "家庭托顧（全日）--第2型",
+            "price": 760,
+            "priceRemote": 915
+        },
+        "BC04": {
+            "serviceType": "家庭托顧（半日）--第2型",
+            "price": 380,
+            "priceRemote": 460
+        },
+        "BC05": {
+            "serviceType": "家庭托顧（全日）--第3型",
+            "price": 785,
+            "priceRemote": 945
+        },
+        "BC06": {
+            "serviceType": "家庭托顧（半日）--第3型",
+            "price": 395,
+            "priceRemote": 475
+        },
+        "BC07": {
+            "serviceType": "家庭托顧（全日）--第4型",
+            "price": 880,
+            "priceRemote": 1055
+        },
+        "BC08": {
+            "serviceType": "家庭托顧（半日）--第4型",
+            "price": 440,
+            "priceRemote": 530
+        },
+        "BC09": {
+            "serviceType": "家庭托顧（全日）--第5型",
+            "price": 960,
+            "priceRemote": 1155
+        },
+        "BC10": {
+            "serviceType": "家庭托顧（半日）--第5型",
+            "price": 480,
+            "priceRemote": 580
+        },
+        "BC11": {
+            "serviceType": "家庭托顧（全日）--第6型",
+            "price": 980,
+            "priceRemote": 1180
+        },
+        "BC12": {
+            "serviceType": "家庭托顧（半日）--第6型",
+            "price": 490,
+            "priceRemote": 590
+        },
+        "BC13": {
+            "serviceType": "家庭托顧（全日）--第7型",
+            "price": 1040,
+            "priceRemote": 1250
+        },
+        "BC14": {
+            "serviceType": "家庭托顧（半日）--第7型",
+            "price": 520,
+            "priceRemote": 625
+        },
+        "BD01": {
+            "serviceType": "社區式協助沐浴",
+            "price": 200,
+            "priceRemote": 240
+        },
+        "BD02": {
+            "serviceType": "社區式晚餐",
+            "price": 150,
+            "priceRemote": 180
+        },
+        "BD03": {
+            "serviceType": "社區式服務交通接送",
+            "price": 35,
+            "priceRemote": 45
+        },
+        "CA01": {
+            "serviceType": "IADLs復能照護--居家",
+            "price": 4500,
+            "priceRemote": 5400
+        },
+        "CA02": {
+            "serviceType": "IADLs復能照護--社區",
+            "price": 4050,
+            "priceRemote": 4860
+        },
+        "CA03": {
+            "serviceType": "ADLs復能照護--居家",
+            "price": 4500,
+            "priceRemote": 5400
+        },
+        "CA04": {
+            "serviceType": "ADLs復能照護--社區",
+            "price": 4050,
+            "priceRemote": 4860
+        },
+        "CA05": {
+            "serviceType": "社區適應--居家",
+            "price": 6000,
+            "priceRemote": 7200
+        },
+        "CA06": {
+            "serviceType": "社區適應--社區",
+            "price": 5400,
+            "priceRemote": 6480
+        },
+        "CB01": {
+            "serviceType": "營養照護",
+            "price": 4000,
+            "priceRemote": 4800
+        },
+        "CB02": {
+            "serviceType": "進食與吞嚥照護",
+            "price": 9000,
+            "priceRemote": 10800
+        },
+        "CB03": {
+            "serviceType": "困擾行為照護",
+            "price": 4500,
+            "priceRemote": 5400
+        },
+        "CB04": {
+            "serviceType": "臥床或長期活動受限照護",
+            "price": 9000,
+            "priceRemote": 10800
+        },
+        "CC01": {
+            "serviceType": "居家環境安全或無障礙空間規劃",
+            "price": 2000,
+            "priceRemote": 2400
+        },
+        "CD01": {
+            "serviceType": "居家護理訪視",
+            "price": 1300,
+            "priceRemote": 1300
+        },
+        "DA01": {
+            "serviceType": "交通接送",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "GA01": {
+            "serviceType": "居家喘息服務--全日",
+            "price": 2310,
+            "priceRemote": 2775
+        },
+        "GA02": {
+            "serviceType": "居家喘息服務--半日",
+            "price": 1155,
+            "priceRemote": 1390
+        },
+        "GA03": {
+            "serviceType": "日間照顧中心喘息服務--全日",
+            "price": 1250,
+            "priceRemote": 1500
+        },
+        "GA04": {
+            "serviceType": "日間照顧中心喘息服務--半日",
+            "price": 625,
+            "priceRemote": 750
+        },
+        "GA05": {
+            "serviceType": "機構住宿式喘息服務",
+            "price": 2310,
+            "priceRemote": 2775
+        },
+        "GA06": {
+            "serviceType": "小規模多機能服務-夜間喘息",
+            "price": 1300,
+            "priceRemote": 1560
+        },
+        "GA07": {
+            "serviceType": "巷弄長照站臨托-全日",
+            "price": 1000,
+            "priceRemote": 1200
+        },
+        "GA08": {
+            "serviceType": "巷弄長照站臨托-半日",
+            "price": 500,
+            "priceRemote": 600
+        },
+        "EA01": {
+            "serviceType": "馬桶增高器、便盆椅或沐浴椅",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EB01": {
+            "serviceType": "單支枴杖-不銹鋼製",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EB02": {
+            "serviceType": "單支枴杖-鋁製",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EB03": {
+            "serviceType": "助行器",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EB04": {
+            "serviceType": "帶輪型助步車(助行椅)",
+            "price": 0,
+            "priceRemote": 300
+        },
+        "EC01": {
+            "serviceType": "輪椅-A款(非輕量化量產型)",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EC02": {
+            "serviceType": "輪椅-B款(輕量化量產型)",
+            "price": 0,
+            "priceRemote": 450
+        },
+        "EC03": {
+            "serviceType": "輪椅-C款(量身訂製型)",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EC04": {
+            "serviceType": "輪椅附加功能-A款（具利於移位功能）",
+            "price": 0,
+            "priceRemote": 150
+        },
+        "EC05": {
+            "serviceType": "輪椅附加功能-B款（具仰躺功能）",
+            "price": 0,
+            "priceRemote": 150
+        },
+        "EC06": {
+            "serviceType": "輪椅附加功能-C款（具空中傾倒功能）",
+            "price": 0,
+            "priceRemote": 150
+        },
+        "EC07": {
+            "serviceType": "擺位系統-A款（平面型輪椅背靠）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EC08": {
+            "serviceType": "擺位系統-B款（曲面適形輪椅背靠）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EC09": {
+            "serviceType": "擺位系統-C款（輪椅軀幹側支撐架）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EC10": {
+            "serviceType": "擺位系統-D款（輪椅頭靠系統）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EC11": {
+            "serviceType": "電動輪椅",
+            "price": 0,
+            "priceRemote": 2500
+        },
+        "EC12": {
+            "serviceType": "電動代步車",
+            "price": 0,
+            "priceRemote": 1200
+        },
+        "ED01": {
+            "serviceType": "移位腰帶",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "ED02": {
+            "serviceType": "移位板",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "ED03": {
+            "serviceType": "人力移位吊帶",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "ED04": {
+            "serviceType": "移位滑墊-A款",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "ED05": {
+            "serviceType": "移位滑墊-B款",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "ED06": {
+            "serviceType": "移位轉盤",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "ED07": {
+            "serviceType": "移位機",
+            "price": 0,
+            "priceRemote": 2000
+        },
+        "ED08": {
+            "serviceType": "移位機吊帶",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EE01": {
+            "serviceType": "電話擴音器",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EE02": {
+            "serviceType": "電話閃光震動器",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EE03": {
+            "serviceType": "火警閃光警示器",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EE04": {
+            "serviceType": "門鈴閃光器",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EE05": {
+            "serviceType": "無線震動警示器",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EF01": {
+            "serviceType": "衣著用輔具",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EF02": {
+            "serviceType": "居家用生活輔具",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EF03": {
+            "serviceType": "飲食用輔具",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EG01": {
+            "serviceType": "氣墊床-A款",
+            "price": 0,
+            "priceRemote": 300
+        },
+        "EG02": {
+            "serviceType": "氣墊床-B款",
+            "price": 0,
+            "priceRemote": 500
+        },
+        "EG03": {
+            "serviceType": "輪椅座墊-A款（連通管型氣囊氣墊座-塑膠材質）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EG04": {
+            "serviceType": "輪椅座墊-B款（連通管型氣囊氣墊座-橡膠材質）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EG05": {
+            "serviceType": "輪椅座墊-C款（液態凝膠座墊）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EG06": {
+            "serviceType": "輪椅座墊-D款（固態凝膠座墊）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EG07": {
+            "serviceType": "輪椅座墊-E款（填充式氣囊氣墊座）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EG08": {
+            "serviceType": "輪椅座墊-F款（交替充氣型座墊）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EG09": {
+            "serviceType": "輪椅座墊-G款（量製型座墊）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "EH01": {
+            "serviceType": "居家用照顧床",
+            "price": 0,
+            "priceRemote": 1000
+        },
+        "EH02": {
+            "serviceType": "居家用照顧床-附加功能A款（床面升降功能）",
+            "price": 0,
+            "priceRemote": 200
+        },
+        "EH03": {
+            "serviceType": "居家用照顧床-附加功能B款（電動升降功能）",
+            "price": 0,
+            "priceRemote": 500
+        },
+        "EH04": {
+            "serviceType": "爬梯機（單趟）",
+            "price": 0,
+            "priceRemote": 700
+        },
+        "EH05": {
+            "serviceType": "爬梯機（月）",
+            "price": 0,
+            "priceRemote": 4000
+        },
+        "FA01": {
+            "serviceType": "居家無障礙設施-扶手",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA02": {
+            "serviceType": "居家無障礙設施-可動式扶手",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA03": {
+            "serviceType": "居家無障礙設施-非固定式斜坡板A款",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA04": {
+            "serviceType": "居家無障礙設施-非固定式斜坡板B款",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA05": {
+            "serviceType": "居家無障礙設施-非固定式斜坡板C款",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA06": {
+            "serviceType": "居家無障礙設施-固定式斜坡道",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA07": {
+            "serviceType": "居家無障礙設施-架高式和式地板拆除",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA08": {
+            "serviceType": "居家無障礙設施-反光貼條或消光",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA09": {
+            "serviceType": "居家無障礙設施-隔間",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA10": {
+            "serviceType": "居家無障礙設施-防滑措施",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA11": {
+            "serviceType": "居家無障礙設施-門A款",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA12": {
+            "serviceType": "居家無障礙設施-門B款",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA13": {
+            "serviceType": "居家無障礙設施-水龍頭",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA14": {
+            "serviceType": "居家無障礙設施-改善浴缸（新增、改換、移除-居家環境改善含原處填補）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA15": {
+            "serviceType": "居家無障礙設施-改善洗臉台（槽）（新增、改換、移除-含原處填補）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA16": {
+            "serviceType": "居家無障礙設施-改善馬桶（新增、改換、移除-含原處填補）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA17": {
+            "serviceType": "居家無障礙設施-壁掛式淋浴椅（床）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA18": {
+            "serviceType": "居家無障礙設施-改善流理台（新增、改換）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA19": {
+            "serviceType": "居家無障礙設施-改善抽油煙機（位置調整）",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA20": {
+            "serviceType": "居家無障礙設施-特殊簡易洗槽",
+            "price": 0,
+            "priceRemote": 0
+        },
+        "FA21": {
+            "serviceType": "居家無障礙設施-特殊簡易浴槽",
+            "price": 0,
+            "priceRemote": 0
+        }
+    }
+}

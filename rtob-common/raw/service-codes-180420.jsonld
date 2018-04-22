@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "serviceMap": {
+       "@container": "@index"
+     }
+    "serviceType": "schema:serviceType",
+    "price": "schema:price",
+    "priceRemote": "schema:price",
+  }
+}

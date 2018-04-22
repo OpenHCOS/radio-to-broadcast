@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Service",
+  "description": "A Service Code List",
+  "type": "object",
+  "definitions": {
+    "Service": {
+      "type": "object",
+      "properties": {
+        "serviceType": { "type": "string" },
+        "price": { "type": "number" },
+        "priceRemote": { "type": "number" }
+      },
+      "additionalProperties": false
+    },
+    "ServiceMap": {
+      "type": "object",
+      "patternProperties": {
+        "^[A-Z]+": {"$ref": "#/definitions/Service" }
+      },
+      "additionalProperties": false
+    },
+    "JsonLdContext": {
+      "description": "A link to a valid JSON-LD context file",
+      "oneOf": [
+        { "type": "string" },
+        { "type": "object" },
+        {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      ]
+    }
+  },
+  "properties": {
+    "@context": { "$ref": "#/definitions/JsonLdContext" },
+    "validationSchema":{ "type": "string" , "format": "uri"},
+    "@id": {
+      "description": "The unique identifier for a service list",
+      "type": "string"
+    },
+    "serviceMap": { "$ref": "#/definitions/ServiceMap" }
+  },
+  "required": ["@id", "@schema", "serviceMap"],
+  "additionalProperties": true
+}
