@@ -29,18 +29,22 @@
             </b-jumbotron>
             <b-jumbotron>
                 <template slot="header">
-                        長照2.0
+                        RTOB
                 </template>
                 <template slot="lead">
-                        API資源列表
+                        長照2.0 API資源列表
                 </template>
                 <h4>服務代碼價格 v20180420</h4>
-                <div>
+                <b-card>
                     <b-btn variant="primary" href="json/service-codes-180420.json">服務代碼價格 service-codes-180420.json</b-btn>
-                    <b-btn variant="danger" href="example-service-codes-1.html">範例</b-btn>
                     <b-btn variant="primary" href="schema/service-codes-180420.ld.json">JSONLD</b-btn>
                     <b-btn variant="primary" href="schema/service-codes-180420.schema.json">JSONSchema</b-btn>
-                </div>
+                </b-card>
+                <b-card>
+                    <b-btn variant="danger" href="example-service-codes-1.html">範例1列表</b-btn>
+                    <b-btn variant="danger" href="example-service-codes-2.html">範例2隨機</b-btn>
+                    <b-btn variant="danger" href="example-service-codes-3.html">範例3服務代碼價格搜尋</b-btn>
+                </b-card>
             </b-jumbotron>
         </b-container>
     </div>

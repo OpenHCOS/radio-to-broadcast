@@ -2,73 +2,29 @@
 <html lang="zh-Hant-TW">
 
 <head>
-    <title>radio-to-broadcast</title>
+    <title>範例1列表 - radio-to-broadcast</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
-    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
 </head>
 
 <BODY>
     <!-- Our application root element -->
     <div id="app" style="margin-top:3em;">
-        <b-container>
-            <b-jumbotron>
-                <template slot="header">
-                    長照2.0
-                </template>
-                <template slot="lead">
-                    API資源列表
-                </template>
-                <h2>服務代碼價格 - 隨機(八樣)菜單範例</h2>
-                <div v-for="(k, index) in randomKeys">
-                    <p>
-                        <b-badge>{{index+1}}</b-badge>
-                        <b-btn variant="primary">{{k}}</b-btn>
-                        {{serviceMap[k].serviceType}}
-                        <b-button variant="success">
-                            支付價格
-                            <b-badge variant="light">{{serviceMap[k].price}}</b-badge>
-                        </b-button>
-                        <b-button variant="danger">
-                            原民區或離島
-                            <b-badge variant="light">{{serviceMap[k].priceRemote}}</b-badge>
-                        </b-button>
-                    </p>
-                </div>
-                <hr/>
                 <h2>服務代碼價格列表 v20180420</h2>
                 <div v-for="(v,k) in serviceMap">
-                    <p>
-                        <b-btn variant="primary">{{k}}</b-btn>
-                        {{v.serviceType}}
-                        <b-button variant="success">
-                            支付價格
-                            <b-badge variant="light">{{v.price}}</b-badge>
-                        </b-button>
-                        <b-button variant="warning">
-                            原民區或離島支付價格
-                            <b-badge variant="light">{{v.priceRemote}}</b-badge>
-                        </b-button>
-                    </p>
+                    <h4>{{k}}, {{v.serviceType}} , 支付價格={{v.price}}, 原民區或離島支付價格={{v.priceRemote}}</h4>
                 </div>
-            </b-jumbotron>
-        </b-container>
     </div>
     <!-- Add this after vue.js -->
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.5/lodash.min.js"></script>
-    <script src="//unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
-    <script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
     <script>
         window.app = new Vue({
             el: "#app",
             data() {
                 return {
                     msg: 'hello',
-                    serviceMap: {},
-                    randomKeys: []
+                    serviceMap: {}
                 }
             },
             created: function () {
@@ -76,8 +32,6 @@
                 axios.get('json/service-codes-180420.json')
                     .then(function (response) {
                         instance.serviceMap = response.data.serviceMap;
-                        instance.randomKeys = _.sampleSize(Object.keys(instance.serviceMap), 8);
-                        console.log(instance.randomKeys)
                     })
                     .catch(function (error) {
                         console.log(error);

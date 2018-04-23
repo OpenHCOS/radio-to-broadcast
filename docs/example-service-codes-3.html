@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <title>服務代碼價格 - 搜尋- radio-to-broadcast</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
+</head>
+
+<BODY>
+    <!-- Our application root element -->
+    <div id="app" style="margin-top:3em;">
+        <b-container>
+            <b-jumbotron>
+                <template slot="header">
+                        RTOB
+                </template>
+                <template slot="lead">
+                        長照2.0 API資源列表
+                </template>
+                <h2>服務代碼價格 - 搜尋 <input v-model="search"></h2>
+                
+                <div style="margin:1em">
+                    <div v-for="(k, index) in filteredList">
+                        <p>
+                            <b-badge>{{index+1}}</b-badge>
+                            <b-btn variant="primary">{{k}}</b-btn>
+                            {{serviceMap[k].serviceType}}
+                            <b-button variant="success">
+                                支付價格
+                                <b-badge variant="light">{{serviceMap[k].price}}</b-badge>
+                            </b-button>
+                            <b-button variant="danger">
+                                原民區或離島
+                                <b-badge variant="light">{{serviceMap[k].priceRemote}}</b-badge>
+                            </b-button>
+                        </p>
+                    </div>
+                </div>
+            </b-jumbotron>
+        </b-container>
+    </div>
+    <!-- Add this after vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.5/lodash.min.js"></script>
+    <script src="//unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+    <script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+    <script>
+        window.app = new Vue({
+            el: "#app",
+            data() {
+                return {
+                    search: '',
+                    serviceMap: {},
+                    randomKeys: []
+                }
+            },
+
+            computed: {
+                filteredList() {
+                    return Object.keys(this.serviceMap).filter(key => {
+                        return key.toLowerCase().includes(this.search.toLowerCase())
+                    })
+                }
+            },
+            created: function () {
+                var instance = this;
+                axios.get('json/service-codes-180420.json')
+                    .then(function (response) {
+                        instance.serviceMap = response.data.serviceMap;
+                        instance.randomKeys = _.sampleSize(Object.keys(instance.serviceMap), 8);
+                        console.log(instance.randomKeys)
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+
+            }
+        })
+    </script>
+</BODY>
+
+</HTML>
