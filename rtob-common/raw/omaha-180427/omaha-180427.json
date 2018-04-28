@@ -1,296 +1,390 @@
-[
-    {
-        "面向名稱": "D1.環境面向",
-        "問題類型": "01.收入",
-        "代碼": "1",
-        "英文原文": "Income",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D1.環境面向",
-        "問題類型": "02.清潔衛生",
-        "代碼": "2",
-        "英文原文": "Sanitation",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D1.環境面向",
-        "問題類型": "03.住處",
-        "代碼": "3",
-        "英文原文": "Residence",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D1.環境面向",
-        "問題類型": "04.社區鄰里/工作場所安全",
-        "代碼": "4",
-        "英文原文": "Neighborhood/workplace safety",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D2.心理社會面向",
-        "問題類型": "01.與 社區資源的整合",
-        "代碼": "1",
-        "英文原文": "Communication with community resources",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D2.心理社會面向",
-        "問題類型": "02.社交",
-        "代碼": "2",
-        "英文原文": "Social contact",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D2.心理社會面向",
-        "問題類型": "03.角色改變",
-        "代碼": "3",
-        "英文原文": "Role change",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D2.心理社會面向",
-        "問題類型": "04.人際關係",
-        "代碼": "4",
-        "英文原文": "Interpersonal relationship",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D2.心理社會面向",
-        "問題類型": "05.信仰",
-        "代碼": "5",
-        "英文原文": "Spirituality",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D2.心理社會面向",
-        "問題類型": "06.喪慟",
-        "代碼": "6",
-        "英文原文": "Grief",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D2.心理社會面向",
-        "問題類型": "07.精神健康",
-        "代碼": "7",
-        "英文原文": "Mental health",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D2.心理社會面向",
-        "問題類型": "08.性",
-        "代碼": "8",
-        "英文原文": "Sexuality",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D2.心理社會面向",
-        "問題類型": "09.照顧/教養",
-        "代碼": "9",
-        "英文原文": "Caretaking/parenting",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D2.心理社會面向",
-        "問題類型": "10.疏忽",
-        "代碼": "10",
-        "英文原文": "Neglect",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D2.心理社會面向",
-        "問題類型": "11.虐待",
-        "代碼": "11",
-        "英文原文": "Abuse",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D2.心理社會面向",
-        "問題類型": "12.成長與發展",
-        "代碼": "12",
-        "英文原文": "Growth and development",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "01.聽力",
-        "代碼": "1",
-        "英文原文": "Hearing",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "02.視力8項",
-        "代碼": "2",
-        "英文原文": "Vision",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "03.談話、語言能力",
-        "代碼": "3",
-        "英文原文": "Speech and language",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "04.口腔健康",
-        "代碼": "4",
-        "英文原文": "Oral health",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "05.認知",
-        "代碼": "5",
-        "英文原文": "Cognition",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "06.病痛",
-        "代碼": "6",
-        "英文原文": "Pain",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "07.意識",
-        "代碼": "7",
-        "英文原文": "Consciousness",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "08.皮膚",
-        "代碼": "8",
-        "英文原文": "Skin",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "09.神經-肌肉-骨骼功能",
-        "代碼": "9",
-        "英文原文": "Neuro-musculo-skeletal function",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "10.呼吸",
-        "代碼": "10",
-        "英文原文": "Respiration",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "11.循環",
-        "代碼": "11",
-        "英文原文": "Circulation",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "12.消化-水分補充",
-        "代碼": "12",
-        "英文原文": "Digestion-hydration",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "13.腸道功能",
-        "代碼": "13",
-        "英文原文": "Bowel function",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "14.排尿功能",
-        "代碼": "14",
-        "英文原文": "Urinary function",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "15.生殖功能",
-        "代碼": "15",
-        "英文原文": "Reproductive function",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "16.懷孕",
-        "代碼": "16",
-        "英文原文": "Pregnancy",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "17.產後",
-        "代碼": "17",
-        "英文原文": "Postpartum",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D3.生理面向",
-        "問題類型": "18.Communicatable/infectious condition",
-        "代碼": "18",
-        "英文原文": "Communicable/infectious condition",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D4.健康相關行為面向",
-        "問題類型": "01.營養",
-        "代碼": "1",
-        "英文原文": "Nutrition",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D4.健康相關行為面向",
-        "問題類型": "02.睡覺與休息習慣",
-        "代碼": "2",
-        "英文原文": "Sleep and rest patterns",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D4.健康相關行為面向",
-        "問題類型": "03.體能活動",
-        "代碼": "3",
-        "英文原文": "Physical activity",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D4.健康相關行為面向",
-        "問題類型": "04.個人照顧",
-        "代碼": "4",
-        "英文原文": "Personal care",
-        "KBS Rating supplement": "0"
-    },
-    {
-        "面向名稱": "D4.健康相關行為面向",
-        "問題類型": "05.成癮藥物使用",
-        "代碼": "5",
-        "英文原文": "Substance use",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D4.健康相關行為面向",
-        "問題類型": "06.家庭計畫",
-        "代碼": "6",
-        "英文原文": "Family planning",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D4.健康相關行為面向",
-        "問題類型": "07.健康照顧督導",
-        "代碼": "7",
-        "英文原文": "Health care supervision",
-        "KBS Rating supplement": "1"
-    },
-    {
-        "面向名稱": "D4.健康相關行為面向",
-        "問題類型": "08.用藥習慣",
-        "代碼": "8",
-        "英文原文": "Medication regimen",
-        "KBS Rating supplement": "0"
+{
+    "domain": {
+        "D1": [
+            {
+                "problem": "收入",
+                "problemEn": "Income",
+                "domain": "環境面向",
+                "code": "1",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "清潔衛生",
+                "problemEn": "Sanitation",
+                "domain": "環境面向",
+                "code": "2",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "住處",
+                "problemEn": "Residence",
+                "domain": "環境面向",
+                "code": "3",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "社區鄰里/工作場所安全",
+                "problemEn": "Neighborhood/workplace safety",
+                "domain": "環境面向",
+                "code": "4",
+                "signs": [
+                    "TODO"
+                ]
+            }
+        ],
+        "D2": [
+            {
+                "problem": "與 社區資源的整合",
+                "problemEn": "Communication with community resources",
+                "domain": "心理社會面向",
+                "code": "1",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "社交",
+                "problemEn": "Social contact",
+                "domain": "心理社會面向",
+                "code": "2",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "角色改變",
+                "problemEn": "Role change",
+                "domain": "心理社會面向",
+                "code": "3",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "人際關係",
+                "problemEn": "Interpersonal relationship",
+                "domain": "心理社會面向",
+                "code": "4",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "信仰",
+                "problemEn": "Spirituality",
+                "domain": "心理社會面向",
+                "code": "5",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "喪慟",
+                "problemEn": "Grief",
+                "domain": "心理社會面向",
+                "code": "6",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "精神健康",
+                "problemEn": "Mental health",
+                "domain": "心理社會面向",
+                "code": "7",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "性",
+                "problemEn": "Sexuality",
+                "domain": "心理社會面向",
+                "code": "8",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "照顧/教養",
+                "problemEn": "Caretaking/parenting",
+                "domain": "心理社會面向",
+                "code": "9",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "疏忽",
+                "problemEn": "Neglect",
+                "domain": "心理社會面向",
+                "code": "10",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "虐待",
+                "problemEn": "Abuse",
+                "domain": "心理社會面向",
+                "code": "11",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "成長與發展",
+                "problemEn": "Growth and development",
+                "domain": "心理社會面向",
+                "code": "12",
+                "signs": [
+                    "TODO"
+                ]
+            }
+        ],
+        "D3": [
+            {
+                "problem": "聽力",
+                "problemEn": "Hearing",
+                "domain": "生理面向",
+                "code": "1",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "視力8項",
+                "problemEn": "Vision",
+                "domain": "生理面向",
+                "code": "2",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "談話、語言能力",
+                "problemEn": "Speech and language",
+                "domain": "生理面向",
+                "code": "3",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "口腔健康",
+                "problemEn": "Oral health",
+                "domain": "生理面向",
+                "code": "4",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "認知",
+                "problemEn": "Cognition",
+                "domain": "生理面向",
+                "code": "5",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "病痛",
+                "problemEn": "Pain",
+                "domain": "生理面向",
+                "code": "6",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "意識",
+                "problemEn": "Consciousness",
+                "domain": "生理面向",
+                "code": "7",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "皮膚",
+                "problemEn": "Skin",
+                "domain": "生理面向",
+                "code": "8",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "神經-肌肉-骨骼功能",
+                "problemEn": "Neuro-musculo-skeletal function",
+                "domain": "生理面向",
+                "code": "9",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "呼吸",
+                "problemEn": "Respiration",
+                "domain": "生理面向",
+                "code": "10",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "循環",
+                "problemEn": "Circulation",
+                "domain": "生理面向",
+                "code": "11",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "消化-水分補充",
+                "problemEn": "Digestion-hydration",
+                "domain": "生理面向",
+                "code": "12",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "腸道功能",
+                "problemEn": "Bowel function",
+                "domain": "生理面向",
+                "code": "13",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "排尿功能",
+                "problemEn": "Urinary function",
+                "domain": "生理面向",
+                "code": "14",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "生殖功能",
+                "problemEn": "Reproductive function",
+                "domain": "生理面向",
+                "code": "15",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "懷孕",
+                "problemEn": "Pregnancy",
+                "domain": "生理面向",
+                "code": "16",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "產後",
+                "problemEn": "Postpartum",
+                "domain": "生理面向",
+                "code": "17",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "Communicatable/infectious condition",
+                "problemEn": "Communicable/infectious condition",
+                "domain": "生理面向",
+                "code": "18",
+                "signs": [
+                    "TODO"
+                ]
+            }
+        ],
+        "D4": [
+            {
+                "problem": "營養",
+                "problemEn": "Nutrition",
+                "domain": "健康相關行為面向",
+                "code": "1",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "睡覺與休息習慣",
+                "problemEn": "Sleep and rest patterns",
+                "domain": "健康相關行為面向",
+                "code": "2",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "體能活動",
+                "problemEn": "Physical activity",
+                "domain": "健康相關行為面向",
+                "code": "3",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "個人照顧",
+                "problemEn": "Personal care",
+                "domain": "健康相關行為面向",
+                "code": "4",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "成癮藥物使用",
+                "problemEn": "Substance use",
+                "domain": "健康相關行為面向",
+                "code": "5",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "家庭計畫",
+                "problemEn": "Family planning",
+                "domain": "健康相關行為面向",
+                "code": "6",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "健康照顧督導",
+                "problemEn": "Health care supervision",
+                "domain": "健康相關行為面向",
+                "code": "7",
+                "signs": [
+                    "TODO"
+                ]
+            },
+            {
+                "problem": "用藥習慣",
+                "problemEn": "Medication regimen",
+                "domain": "健康相關行為面向",
+                "code": "8",
+                "signs": [
+                    "TODO"
+                ]
+            }
+        ]
     }
-]
+}
