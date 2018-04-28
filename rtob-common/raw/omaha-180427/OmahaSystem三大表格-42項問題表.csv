@@ -1,0 +1,43 @@
+面向名稱,問題類型,代碼,英文原文,KBS Rating supplement
+D1.環境面向,01.收入,1,Income,1
+D1.環境面向,02.清潔衛生,2,Sanitation,0
+D1.環境面向,03.住處,3,Residence,1
+D1.環境面向,04.社區鄰里/工作場所安全,4,Neighborhood/workplace safety,1
+D2.心理社會面向,01.與 社區資源的整合,1,Communication with community resources,1
+D2.心理社會面向,02.社交,2,Social contact,0
+D2.心理社會面向,03.角色改變,3,Role change,0
+D2.心理社會面向,04.人際關係,4,Interpersonal relationship,1
+D2.心理社會面向,05.信仰,5,Spirituality,0
+D2.心理社會面向,06.喪慟,6,Grief,0
+D2.心理社會面向,07.精神健康,7,Mental health,1
+D2.心理社會面向,08.性,8,Sexuality,0
+D2.心理社會面向,09.照顧/教養,9,Caretaking/parenting,1
+D2.心理社會面向,10.疏忽,10,Neglect,1
+D2.心理社會面向,11.虐待,11,Abuse,1
+D2.心理社會面向,12.成長與發展,12,Growth and development,1
+D3.生理面向,01.聽力,1,Hearing,0
+D3.生理面向,02.視力8項,2,Vision,0
+D3.生理面向,03.談話、語言能力,3,Speech and language,0
+D3.生理面向,04.口腔健康,4,Oral health,0
+D3.生理面向,05.認知,5,Cognition,1
+D3.生理面向,06.病痛,6,Pain,0
+D3.生理面向,07.意識,7,Consciousness,0
+D3.生理面向,08.皮膚,8,Skin,0
+D3.生理面向,09.神經-肌肉-骨骼功能,9,Neuro-musculo-skeletal function,0
+D3.生理面向,10.呼吸,10,Respiration,0
+D3.生理面向,11.循環,11,Circulation,0
+D3.生理面向,12.消化-水分補充,12,Digestion-hydration,0
+D3.生理面向,13.腸道功能,13,Bowel function,0
+D3.生理面向,14.排尿功能,14,Urinary function,0
+D3.生理面向,15.生殖功能,15,Reproductive function,0
+D3.生理面向,16.懷孕,16,Pregnancy,1
+D3.生理面向,17.產後,17,Postpartum,1
+D3.生理面向,18.Communicatable/infectious condition,18,Communicable/infectious condition,0
+D4.健康相關行為面向,01.營養,1,Nutrition,1
+D4.健康相關行為面向,02.睡覺與休息習慣,2,Sleep and rest patterns,0
+D4.健康相關行為面向,03.體能活動,3,Physical activity,1
+D4.健康相關行為面向,04.個人照顧,4,Personal care,0
+D4.健康相關行為面向,05.成癮藥物使用,5,Substance use,1
+D4.健康相關行為面向,06.家庭計畫,6,Family planning,1
+D4.健康相關行為面向,07.健康照顧督導,7,Health care supervision,1
+D4.健康相關行為面向,08.用藥習慣,8,Medication regimen,0

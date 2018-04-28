@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "browserify index.js --standalone RtobCommon > dist/rtob-common.js",
-    "raw:180420": "node raw/csv2json-180420.js",
-    "schema:180420": "ajv validate -s raw/service-codes-180420.schema.json -d raw/service-codes-180420.json",
+    "raw:180420": "node raw/service-codes-180420/csv2json-180420.js",
+    "raw:omaha-180427": "node raw/omaha-180427/omaha-180427.js",
+    "schema:180420": "ajv validate -s raw/service-codes-180420/service-codes-180420.schema.json -d raw/service-codes-180420/service-codes-180420.json",
     "test": "jest"
   },
   "keywords": [],
