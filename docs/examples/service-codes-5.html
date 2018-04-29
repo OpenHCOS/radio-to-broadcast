@@ -104,7 +104,7 @@
                     var instance = this;
                     return keys.reduce((res,key)=> {
                         const v = instance.selectSrvMap[key]
-                        return v.priceRemote * v.count
+                        return res + v.priceRemote * v.count
                     } , 0)
                 }
             },
