@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
+    <style>
+    .btn {
+      margin-bottom:5px;
+    }
+</style>
 </head>
 
 <BODY>
@@ -28,23 +33,21 @@
                 </div>
             </b-jumbotron>
             <b-jumbotron>
-                <template slot="header">
-                        RTOB
-                </template>
-                <template slot="lead">
-                        長照2.0 API資源列表
-                </template>
-                <h4>服務代碼價格 v20180420</h4>
+                <h2>
+                    長照2.0API資源列表
+                </h2>
                 <b-card>
-                    <b-btn variant="primary" href="json/service-codes-180420.json">服務代碼價格 service-codes-180420.json</b-btn>
-                    <b-btn variant="primary" href="schema/service-codes-180420.ld.json">JSONLD</b-btn>
-                    <b-btn variant="primary" href="schema/service-codes-180420.schema.json">JSONSchema</b-btn>
-                </b-card>
-                <b-card>
-                    <b-btn variant="info" href="example-service-codes-1.html">範例1列表</b-btn>
-                    <b-btn variant="danger" href="example-service-codes-2.html">範例2隨機</b-btn>
-                    <b-btn variant="warning" href="example-service-codes-3.html">範例3服務代碼價格搜尋</b-btn>
-                    <b-btn variant="primary" href="example-service-codes-4.html">範例4服務代碼價格選取計算</b-btn>
+                    <h4>服務代碼價格 service-codes-180420.json</h4>
+                    <b-btn variant="primary" href="https://openhcos.github.io/radio-to-broadcast/json/service-codes-180420.json">service-codes-180420.json</b-btn>
+                    <b-btn variant="primary" href="https://openhcos.github.io/radio-to-broadcast/schema/service-codes-180420.ld.json">JSONLD</b-btn>
+                    <b-btn variant="primary" href="https://openhcos.github.io/radio-to-broadcast/schema/service-codes-180420.schema.json">JSONSchema</b-btn>
+                    <hr/>
+                    <p>範例展示如何應用 service-codes-180420.json 檔案，計算結果僅供撰寫應用參考，內容與長照新制給付標準計算方式可能有很大差異請注意。程式碼請參照 <a href="https://github.com/OpenHCOS/radio-to-broadcast/tree/master/docs">OpenHCOS/radio-to-broadcast</a></p>
+                    <b-btn variant="info" href="examples/service-codes-1.html">範例1: 列表</b-btn>
+                    <b-btn variant="danger" href="examples/service-codes-2.html">範例2: 隨機</b-btn>
+                    <b-btn variant="warning" href="examples/service-codes-3.html">範例3: 服務代碼價格搜尋</b-btn>
+                    <b-btn variant="primary" href="examples/service-codes-4.html">範例4: 服務選取累加計算</b-btn>
+                    <b-btn variant="primary" href="examples/service-codes-5.html">範例5: 服務次數</b-btn>
                 </b-card>
             </b-jumbotron>
         </b-container>

@@ -29,7 +29,7 @@
             },
             created: function () {
                 var instance = this;
-                axios.get('json/service-codes-180420.json')
+                axios.get('https://openhcos.github.io/radio-to-broadcast/json/service-codes-180420.json')
                     .then(function (response) {
                         instance.serviceMap = response.data.serviceMap;
                     })

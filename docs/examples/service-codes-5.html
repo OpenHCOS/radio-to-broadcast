@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <title>範例5: 計算限制 - radio-to-broadcast</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
+</head>
+
+<BODY>
+    <!-- Our application root element -->
+    <div id="app" style="margin-top:3em;">
+        <b-container>
+            <b-jumbotron>
+               <h2>RTOB - 長照2.0 API資源列表</h2>
+               <h3>範例5: 服務次數</h3>
+               <p>範例展示如何應用 service-codes-180420.json 檔案，計算結果僅供撰寫應用參考，內容與長照新制給付標準計算方式可能有很大差異請注意。程式碼請參照 <a href="https://github.com/OpenHCOS/radio-to-broadcast/tree/master/docs">OpenHCOS/radio-to-broadcast</a></p>
+    
+                <div style="margin:1em">
+                    <div style="padding:0.3em" v-for="(value, key, index) in selectSrvMap">
+                            <b-badge>{{index+1}}</b-badge>
+                            <b-btn variant="danger">{{key}}</b-btn>
+                            {{value.serviceType}}
+                            <span style="padding-left:2em">
+                                    次數
+                                    <b-badge >{{value.count}}</b-badge>
+                                </span>
+                            <span style="padding-left:2em">
+                                支付價格
+                                <b-badge >{{value.price}}</b-badge>
+                                原民區或離島
+                                <b-badge>{{value.priceRemote}}</b-badge>
+                            </span>
+                            <b-button @click="$delete(selectSrvMap,key)" variant="warning">刪除</b-button>
+                    </div>
+                </div>
+                <h3 style="text-align: end">總計: <b-button variant="success">
+                    支付價格
+                    <b-badge variant="light">{{totalPrice}}</b-badge>
+                </b-button>
+                <b-button variant="danger">
+                    原民區或離島
+                    <b-badge variant="light">{{totalPriceRemote}}</b-badge>
+                </b-button></h3>
+                <hr/>
+                <h2>服務代碼價格 - 搜尋 <input v-model="search"></h2>
+                
+                <div style="margin:1em">
+                    <div v-for="(k, index) in filteredList">
+                        <p>
+                            <b-badge>{{index+1}}</b-badge>
+                            <b-btn variant="primary">{{k}}</b-btn>
+                            {{serviceMap[k].serviceType}}
+                            <span style="padding-left: 2em;">
+                                支付價格
+                                <b-badge variant="light">{{serviceMap[k].price}}</b-badge>
+                                原民區或離島
+                                <b-badge variant="light">{{serviceMap[k].priceRemote}}</b-badge>
+                                <b-button @click="add(k)" variant="info">加入計算</b-button>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </b-jumbotron>
+        </b-container>
+    </div>
+    <!-- Add this after vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.5/lodash.min.js"></script>
+    <script src="https://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+    <script>
+        window.app = new Vue({
+            el: "#app",
+
+            data() {
+                return {
+                    search: '',
+                    serviceMap: {},
+                    selectSrvMap : { }
+                }
+            },
+
+            computed: {
+                filteredList() {
+                    return Object.keys(this.serviceMap).filter(key => {
+                        return key.toLowerCase().includes(this.search.toLowerCase())
+                    })
+                },
+                totalPrice() {
+                    // return this.selectKeys.reduce((accum,key)=>accum+ this.serviceMap[key].price,0)
+                    const keys = Object.keys(this.selectSrvMap)
+                    var instance = this;
+                    return keys.reduce((res,key)=> {
+                        const v = instance.selectSrvMap[key]
+                        return res + v.price * v.count
+                    } , 0)
+                },
+                totalPriceRemote() {
+                    const keys = Object.keys(this.selectSrvMap)
+                    var instance = this;
+                    return keys.reduce((res,key)=> {
+                        const v = instance.selectSrvMap[key]
+                        return v.priceRemote * v.count
+                    } , 0)
+                }
+            },
+
+            async created () {
+                var instance = this;
+                axios.get('https://openhcos.github.io/radio-to-broadcast/json/service-codes-180420.json')
+                    .then(function (response) {
+                        instance.serviceMap = response.data.serviceMap;
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+
+            },
+            methods: {
+                add(k){
+                    if(this.selectSrvMap.hasOwnProperty(k)){
+                        // 長照系統裡A碼與B碼不累計
+                        if(!k.startsWith('A')){
+                          this.selectSrvMap[k].count+=1
+                        }
+                    }else{
+                        const srv = this.serviceMap[k]
+                        const srvNew = JSON.parse(JSON.stringify(srv))
+                        srvNew.count = 1
+                        // this.selectSrvMap[k] = srvNew
+                        // https://vuejs.org/v2/guide/reactivity.html
+                        this.$set(this.selectSrvMap, k, srvNew)
+                    }
+                    console.log(this.selectSrvMap)
+                }
+            }
+        })
+    </script>
+</BODY>
+
+</HTML>
