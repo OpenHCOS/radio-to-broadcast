@@ -180,7 +180,9 @@
                       });
                 },
                 search1966(key) {
-                    return `https://www.google.com.tw/search?lr=&hl=zh-TW&q=${key}+site%3A1966.gov.tw&oq=AA04+site%3A1966.gov.tw`
+                    // BA01 OR B碼 site:1966.gov.tw
+                    const code = key.substring(0,1);
+                    return `https://www.google.com.tw/search?lr=&hl=zh-TW&q=${key}+OR+${code}碼+site%3A1966.gov.tw&oq=AA04+site%3A1966.gov.tw`
                 },
                 add(k){
                     if(!this.serviceMap.hasOwnProperty(k)){
