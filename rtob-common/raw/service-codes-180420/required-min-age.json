@@ -1,0 +1,15 @@
+{
+    "@context": "http://schema.org",
+    "@type":"ItemList",
+    "name":"長照資格(TODO)",
+    "itemListElement": {
+      "@type": "Service",
+      "name": "TODO http://schema.org/PeopleAudience",
+      "audience":{
+        "@type": "PeopleAudience",
+        "audienceType":"Erwachsene",
+        "requiredMinAge":"19"
+      }
+    }
+}
+  

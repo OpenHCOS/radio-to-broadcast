@@ -45,12 +45,13 @@
                                     <b-badge >{{value.count}}</b-badge>
                                 </span>
                             <span style="padding-left:2em">
-                                支付價格
-                                <b-badge >{{value.price}}</b-badge>
-                                原民區或離島
-                                <b-badge>{{value.priceRemote}}</b-badge>
+                                <b-badge variant="success">{{value.price}}</b-badge>
+                                <b-badge variant="danger">{{value.priceRemote}}</b-badge>
                             </span>
                             <b-button @click="$delete(selectSrvMap,key)" variant="warning">刪除</b-button>
+                            <b-button variant="light">
+                                <a :href="search1966(key)" target="_blank">?</a>
+                            </b-button>
                     </div>
                 </div>
                 <h3 style="text-align: center">總計: <b-button variant="success">
@@ -97,11 +98,14 @@
                         <b-btn variant="primary">{{k}}</b-btn>
                         {{serviceMap[k].serviceType}}
                         <span style="padding-left: 2em;">
-                            支付價格
+                            價格
                             <b-badge variant="light">{{serviceMap[k].price}}</b-badge>
-                            原民區或離島
+                            原民離島
                             <b-badge variant="light">{{serviceMap[k].priceRemote}}</b-badge>
-                            <b-button @click="add(k)" variant="info">加入計算</b-button>
+                            <b-button @click="add(k)" variant="info">加入</b-button>
+                            <b-button variant="light">
+                                <a :href="search1966(k)" target="_blank">?</a>
+                            </b-button>
                         </span>
                     </p>
                 </div>
@@ -174,6 +178,9 @@
                       .catch(function (error) {
                         console.log(error);
                       });
+                },
+                search1966(key) {
+                    return `https://www.google.com.tw/search?lr=&hl=zh-TW&q=${key}+site%3A1966.gov.tw&oq=AA04+site%3A1966.gov.tw`
                 },
                 add(k){
                     if(!this.serviceMap.hasOwnProperty(k)){
