@@ -2,8 +2,18 @@ const csvjson = require("csvjson");
 const fs = require("fs");
 const path = require("path");
 
-const data = fs.readFileSync(
+const dataProblem = fs.readFileSync(
   path.join(__dirname, "OmahaSystem三大表格-42項問題表.csv"),
+  { encoding: "utf8" }
+);
+
+const dataSign = fs.readFileSync(
+  path.join(__dirname, "OmahaSystem三大表格-問題與徵兆對照表.csv"),
+  { encoding: "utf8" }
+);
+
+const dataIntervension = fs.readFileSync(
+  path.join(__dirname, "OmahaSystem三大表格-介入措施.csv"),
   { encoding: "utf8" }
 );
 
@@ -13,28 +23,90 @@ var options = {
 };
 
 var problem = csvjson
-  .toObject(data, options).map(v=>{
+  .toObject(dataProblem, options).map(v=>{
     const r = {}
-    r.problem = v["問題類型"]
-    r.problemEn = v["英文原文"]
-    r.domain = v["面向名稱"]
+    //  '問題類型': '08.用藥習慣',
+    r.name =  v["問題類型"].substring(3)
+    r.nameEn = v["英文原文"]
+    // '面向名稱': 'D4.健康相關行為面向',
+    const domainArr = v["面向名稱"].split(".")
+    r.domain = domainArr[0]
     r.code = v["代碼"]
+    r.id = `${r.domain}-P${r.code}`
     return r;
-  }).reduce((res,obj)=>{
-    // group by domain
-    const domainArr = obj.domain.split(".")
-    const domain = domainArr[0]
-    res[domain] = res[domain] || [];
-    obj.domain = domainArr[1]
-    obj.problem = obj.problem.substring(3)
-    obj.signs = ['TODO']
-    res[domain].push(obj);
-    return res;
-  },{})
+  })
 
+  /*
+   {
+            "domain": "D1.環境面向",
+            "domainid": "D1",
+            "problemid": "1",
+            "id": "1",
+            "nameEn": "low/no income",
+            "name": "低或無收入"
+        },
+  */
+var sign = csvjson
+  .toObject(dataSign, options).map(v=>{
+    const r = {}
+    r.name = v.name
+    r.nameEn = v.nameEn
+    //r.domain = v.domainid
+    r.problem = `${v.domainid}-P${v.problemid}`
+    r.id = `${r.problem}-S${v.id}`
+    return r;
+  })
+
+var target = csvjson
+  .toObject(dataIntervension, options).map(v=>{
+    const r = {}
+    r.id = v.id
+    r.name = v.name
+    r.nameEn = v.nameEn
+    return r;
+  })
 
 const result = {
-  domain : problem
+  domain: {
+    D1: {
+      name: "環境面向",
+      nameEn: "Environmental Domain"
+    },
+    D2 :{
+      name: "心理社會面向",
+      nameEn: "Psychosocial Domain"
+    },
+    D3 :{
+      name: "生理面向",
+      nameEn: "Physiological Domain"
+    },
+    D4 :{
+      name: "健康相關行為面向",
+      nameEn: "Health-related Behaviors Domain"
+    }
+  },
+
+  interventionCategory:{
+    "TGC": {
+      name: "教學、引導、諮商",
+      nameEn: "Teaching/Guidance/Counseling"
+    },
+    "TP": {
+      name: "治療與程序",
+      nameEn: "Treatments/Procedures"
+    },
+    "CM": {
+      name: "個案管理",
+      nameEn: "Case Management"
+    },
+    "S": {
+      name: "監督",
+      nameEn: "Surveillance"
+    }
+  },
+  problem : problem,
+  sign : sign,
+  interventionTarget: target
 }
 
 fs.writeFileSync(

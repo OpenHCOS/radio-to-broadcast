@@ -1,4 +1,4 @@
-面向代號,面向代號,問題,症狀與徵兆,,,
+domain,domainid,problemid,id,nameEn,name
 D1.環境面向,D1,1,1,low/no income,低或無收入,
 D1.環境面向,D1,1,2,uninsured medical expenses,沒有醫療保險,
 D1.環境面向,D1,1,3,inadequate money manaement,無法管理金錢,
