@@ -1,18 +1,18 @@
 {
     "domain": {
-        "D1": {
+        "ENV": {
             "name": "環境面向",
             "nameEn": "Environmental Domain"
         },
-        "D2": {
+        "PSY": {
             "name": "心理社會面向",
             "nameEn": "Psychosocial Domain"
         },
-        "D3": {
+        "PHY": {
             "name": "生理面向",
             "nameEn": "Physiological Domain"
         },
-        "D4": {
+        "HEAL": {
             "name": "健康相關行為面向",
             "nameEn": "Health-related Behaviors Domain"
         }
@@ -39,2864 +39,3240 @@
         {
             "name": "收入",
             "nameEn": "Income",
-            "domain": "D1",
+            "domain": "ENV",
             "code": "1",
-            "id": "D1-P1"
+            "id": "ENV1"
         },
         {
             "name": "清潔衛生",
             "nameEn": "Sanitation",
-            "domain": "D1",
+            "domain": "ENV",
             "code": "2",
-            "id": "D1-P2"
+            "id": "ENV2"
         },
         {
             "name": "住處",
             "nameEn": "Residence",
-            "domain": "D1",
+            "domain": "ENV",
             "code": "3",
-            "id": "D1-P3"
+            "id": "ENV3"
         },
         {
             "name": "社區鄰里/工作場所安全",
             "nameEn": "Neighborhood/workplace safety",
-            "domain": "D1",
+            "domain": "ENV",
             "code": "4",
-            "id": "D1-P4"
+            "id": "ENV4"
         },
         {
             "name": "與 社區資源的整合",
             "nameEn": "Communication with community resources",
-            "domain": "D2",
+            "domain": "PSY",
             "code": "1",
-            "id": "D2-P1"
+            "id": "PSY1"
         },
         {
             "name": "社交",
             "nameEn": "Social contact",
-            "domain": "D2",
+            "domain": "PSY",
             "code": "2",
-            "id": "D2-P2"
+            "id": "PSY2"
         },
         {
             "name": "角色改變",
             "nameEn": "Role change",
-            "domain": "D2",
+            "domain": "PSY",
             "code": "3",
-            "id": "D2-P3"
+            "id": "PSY3"
         },
         {
             "name": "人際關係",
             "nameEn": "Interpersonal relationship",
-            "domain": "D2",
+            "domain": "PSY",
             "code": "4",
-            "id": "D2-P4"
+            "id": "PSY4"
         },
         {
             "name": "信仰",
             "nameEn": "Spirituality",
-            "domain": "D2",
+            "domain": "PSY",
             "code": "5",
-            "id": "D2-P5"
+            "id": "PSY5"
         },
         {
             "name": "喪慟",
             "nameEn": "Grief",
-            "domain": "D2",
+            "domain": "PSY",
             "code": "6",
-            "id": "D2-P6"
+            "id": "PSY6"
         },
         {
             "name": "精神健康",
             "nameEn": "Mental health",
-            "domain": "D2",
+            "domain": "PSY",
             "code": "7",
-            "id": "D2-P7"
+            "id": "PSY7"
         },
         {
             "name": "性",
             "nameEn": "Sexuality",
-            "domain": "D2",
+            "domain": "PSY",
             "code": "8",
-            "id": "D2-P8"
+            "id": "PSY8"
         },
         {
             "name": "照顧/教養",
             "nameEn": "Caretaking/parenting",
-            "domain": "D2",
+            "domain": "PSY",
             "code": "9",
-            "id": "D2-P9"
+            "id": "PSY9"
         },
         {
             "name": "疏忽",
             "nameEn": "Neglect",
-            "domain": "D2",
+            "domain": "PSY",
             "code": "10",
-            "id": "D2-P10"
+            "id": "PSY10"
         },
         {
             "name": "虐待",
             "nameEn": "Abuse",
-            "domain": "D2",
+            "domain": "PSY",
             "code": "11",
-            "id": "D2-P11"
+            "id": "PSY11"
         },
         {
             "name": "成長與發展",
             "nameEn": "Growth and development",
-            "domain": "D2",
+            "domain": "PSY",
             "code": "12",
-            "id": "D2-P12"
+            "id": "PSY12"
         },
         {
             "name": "聽力",
             "nameEn": "Hearing",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "1",
-            "id": "D3-P1"
+            "id": "PHY1"
         },
         {
             "name": "視力8項",
             "nameEn": "Vision",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "2",
-            "id": "D3-P2"
+            "id": "PHY2"
         },
         {
             "name": "談話、語言能力",
             "nameEn": "Speech and language",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "3",
-            "id": "D3-P3"
+            "id": "PHY3"
         },
         {
             "name": "口腔健康",
             "nameEn": "Oral health",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "4",
-            "id": "D3-P4"
+            "id": "PHY4"
         },
         {
             "name": "認知",
             "nameEn": "Cognition",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "5",
-            "id": "D3-P5"
+            "id": "PHY5"
         },
         {
             "name": "病痛",
             "nameEn": "Pain",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "6",
-            "id": "D3-P6"
+            "id": "PHY6"
         },
         {
             "name": "意識",
             "nameEn": "Consciousness",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "7",
-            "id": "D3-P7"
+            "id": "PHY7"
         },
         {
             "name": "皮膚",
             "nameEn": "Skin",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "8",
-            "id": "D3-P8"
+            "id": "PHY8"
         },
         {
             "name": "神經-肌肉-骨骼功能",
             "nameEn": "Neuro-musculo-skeletal function",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "9",
-            "id": "D3-P9"
+            "id": "PHY9"
         },
         {
             "name": "呼吸",
             "nameEn": "Respiration",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "10",
-            "id": "D3-P10"
+            "id": "PHY10"
         },
         {
             "name": "循環",
             "nameEn": "Circulation",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "11",
-            "id": "D3-P11"
+            "id": "PHY11"
         },
         {
             "name": "消化-水分補充",
             "nameEn": "Digestion-hydration",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "12",
-            "id": "D3-P12"
+            "id": "PHY12"
         },
         {
             "name": "腸道功能",
             "nameEn": "Bowel function",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "13",
-            "id": "D3-P13"
+            "id": "PHY13"
         },
         {
             "name": "排尿功能",
             "nameEn": "Urinary function",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "14",
-            "id": "D3-P14"
+            "id": "PHY14"
         },
         {
             "name": "生殖功能",
             "nameEn": "Reproductive function",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "15",
-            "id": "D3-P15"
+            "id": "PHY15"
         },
         {
             "name": "懷孕",
             "nameEn": "Pregnancy",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "16",
-            "id": "D3-P16"
+            "id": "PHY16"
         },
         {
             "name": "產後",
             "nameEn": "Postpartum",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "17",
-            "id": "D3-P17"
+            "id": "PHY17"
         },
         {
             "name": "Communicatable/infectious condition",
             "nameEn": "Communicable/infectious condition",
-            "domain": "D3",
+            "domain": "PHY",
             "code": "18",
-            "id": "D3-P18"
+            "id": "PHY18"
         },
         {
             "name": "營養",
             "nameEn": "Nutrition",
-            "domain": "D4",
+            "domain": "HEAL",
             "code": "1",
-            "id": "D4-P1"
+            "id": "HEAL1"
         },
         {
             "name": "睡覺與休息習慣",
             "nameEn": "Sleep and rest patterns",
-            "domain": "D4",
+            "domain": "HEAL",
             "code": "2",
-            "id": "D4-P2"
+            "id": "HEAL2"
         },
         {
             "name": "體能活動",
             "nameEn": "Physical activity",
-            "domain": "D4",
+            "domain": "HEAL",
             "code": "3",
-            "id": "D4-P3"
+            "id": "HEAL3"
         },
         {
             "name": "個人照顧",
             "nameEn": "Personal care",
-            "domain": "D4",
+            "domain": "HEAL",
             "code": "4",
-            "id": "D4-P4"
+            "id": "HEAL4"
         },
         {
             "name": "成癮藥物使用",
             "nameEn": "Substance use",
-            "domain": "D4",
+            "domain": "HEAL",
             "code": "5",
-            "id": "D4-P5"
+            "id": "HEAL5"
         },
         {
             "name": "家庭計畫",
             "nameEn": "Family planning",
-            "domain": "D4",
+            "domain": "HEAL",
             "code": "6",
-            "id": "D4-P6"
+            "id": "HEAL6"
         },
         {
             "name": "健康照顧督導",
             "nameEn": "Health care supervision",
-            "domain": "D4",
+            "domain": "HEAL",
             "code": "7",
-            "id": "D4-P7"
+            "id": "HEAL7"
         },
         {
             "name": "用藥習慣",
             "nameEn": "Medication regimen",
-            "domain": "D4",
+            "domain": "HEAL",
             "code": "8",
-            "id": "D4-P8"
+            "id": "HEAL8"
         }
     ],
     "sign": [
         {
             "name": "低或無收入",
             "nameEn": "low/no income",
-            "problem": "D1-P1",
-            "id": "D1-P1-S1"
+            "code": "1",
+            "problem": "ENV1",
+            "id": "ENV1-1"
         },
         {
             "name": "沒有醫療保險",
             "nameEn": "uninsured medical expenses",
-            "problem": "D1-P1",
-            "id": "D1-P1-S2"
+            "code": "2",
+            "problem": "ENV1",
+            "id": "ENV1-2"
         },
         {
             "name": "無法管理金錢",
             "nameEn": "inadequate money manaement",
-            "problem": "D1-P1",
-            "id": "D1-P1-S3"
+            "code": "3",
+            "problem": "ENV1",
+            "id": "ENV1-3"
         },
         {
             "name": "只買得起必需品",
             "nameEn": "able to buy only necessities",
-            "problem": "D1-P1",
-            "id": "D1-P1-S4"
+            "code": "4",
+            "problem": "ENV1",
+            "id": "ENV1-4"
         },
         {
             "name": "買必需品有困難",
             "nameEn": "difficulty buying necessities",
-            "problem": "D1-P1",
-            "id": "D1-P1-S5"
+            "code": "5",
+            "problem": "ENV1",
+            "id": "ENV1-5"
         },
         {
             "name": "其他",
             "nameEn": "other",
-            "problem": "D1-P1",
-            "id": "D1-P1-S6"
+            "code": "6",
+            "problem": "ENV1",
+            "id": "ENV1-6"
         },
         {
             "name": "髒亂的生活區",
             "nameEn": "soiled living area",
-            "problem": "D1-P2",
-            "id": "D1-P2-S1"
+            "code": "1",
+            "problem": "ENV2",
+            "id": "ENV2-1"
         },
         {
             "name": "缺乏存糧/缺乏備餐能力",
             "nameEn": "inadequate food storage/disposal",
-            "problem": "D1-P2",
-            "id": "D1-P2-S2"
+            "code": "2",
+            "problem": "ENV2",
+            "id": "ENV2-2"
         },
         {
             "name": "昆蟲/囓齒動物(老鼠?)",
             "nameEn": "insects/rodents",
-            "problem": "D1-P2",
-            "id": "D1-P2-S3"
+            "code": "3",
+            "problem": "ENV2",
+            "id": "ENV2-3"
         },
         {
             "name": "惡臭",
             "nameEn": "foul odor",
-            "problem": "D1-P2",
-            "id": "D1-P2-S4"
+            "code": "4",
+            "problem": "ENV2",
+            "id": "ENV2-4"
         },
         {
             "name": "水源不足",
             "nameEn": "inadequate water supply",
-            "problem": "D1-P2",
-            "id": "D1-P2-S5"
+            "code": "5",
+            "problem": "ENV2",
+            "id": "ENV2-5"
         },
         {
             "name": "汙水處理不足",
             "nameEn": "inadequate sewage disposal",
-            "problem": "D1-P2",
-            "id": "D1-P2-S6"
+            "code": "6",
+            "problem": "ENV2",
+            "id": "ENV2-6"
         },
         {
             "name": "洗衣設施不足",
             "nameEn": "inadequate laundry facilities",
-            "problem": "D1-P2",
-            "id": "D1-P2-S7"
+            "code": "7",
+            "problem": "ENV2",
+            "id": "ENV2-7"
         },
         {
             "name": "過敏原",
             "nameEn": "allergens",
-            "problem": "D1-P2",
-            "id": "D1-P2-S8"
+            "code": "8",
+            "problem": "ENV2",
+            "id": "ENV2-8"
         },
         {
             "name": "傳染源/汙染物",
             "nameEn": "infectious/contaminating agents",
-            "problem": "D1-P2",
-            "id": "D1-P2-S9"
+            "code": "9",
+            "problem": "ENV2",
+            "id": "ENV2-9"
         },
         {
             "name": "出現黴菌",
             "nameEn": "presence of mold",
-            "problem": "D1-P2",
-            "id": "D1-P2-S10"
+            "code": "10",
+            "problem": "ENV2",
+            "id": "ENV2-10"
         },
         {
             "name": "過多寵物",
             "nameEn": "excessive pets",
-            "problem": "D1-P2",
-            "id": "D1-P2-S11"
+            "code": "11",
+            "problem": "ENV2",
+            "id": "ENV2-11"
         },
         {
             "name": "其他",
             "nameEn": "other",
-            "problem": "D1-P2",
-            "id": "D1-P2-S12"
+            "code": "12",
+            "problem": "ENV2",
+            "id": "ENV2-12"
         },
         {
             "name": "不足的冷暖氣",
             "nameEn": "inadequate heating/cooling",
-            "problem": "D1-P3",
-            "id": "D1-P3-S2"
+            "code": "2",
+            "problem": "ENV3",
+            "id": "ENV3-2"
         },
         {
             "name": "很陡/不安全的階梯",
             "nameEn": "steep/unsafe stairs",
-            "problem": "D1-P3",
-            "id": "D1-P3-S3"
+            "code": "3",
+            "problem": "ENV3",
+            "id": "ENV3-3"
         },
         {
             "name": "缺乏/不通的進出口",
             "nameEn": "inadequate/obstructed exits/entries",
-            "problem": "D1-P3",
-            "id": "D1-P3-S4"
+            "code": "4",
+            "problem": "ENV3",
+            "id": "ENV3-4"
         },
         {
             "name": "雜物遍布",
             "nameEn": "cluttered living space",
-            "problem": "D1-P3",
-            "id": "D1-P3-S5"
+            "code": "5",
+            "problem": "ENV3",
+            "id": "ENV3-5"
         },
         {
             "name": "儲存危險物品/物質",
             "nameEn": "unsafe storage of dangerous objects/substances",
-            "problem": "D1-P3",
-            "id": "D1-P3-S6"
+            "code": "6",
+            "problem": "ENV3",
+            "id": "ENV3-6"
         },
         {
             "name": "不安全的地墊/滑動的地毯",
             "nameEn": "unsafe mats/throw rugs",
-            "problem": "D1-P3",
-            "id": "D1-P3-S7"
+            "code": "7",
+            "problem": "ENV3",
+            "id": "ENV3-7"
         },
         {
             "name": "缺乏安源的裝備",
             "nameEn": "inadequate safety devices",
-            "problem": "D1-P3",
-            "id": "D1-P3-S8"
+            "code": "8",
+            "problem": "ENV3",
+            "id": "ENV3-8"
         },
         {
             "name": "空間以鉛基油漆塗裝",
             "nameEn": "presence of lead-based paint",
-            "problem": "D1-P3",
-            "id": "D1-P3-S9"
+            "code": "9",
+            "problem": "ENV3",
+            "id": "ENV3-9"
         },
         {
             "name": "不安全的用具/設備",
             "nameEn": "unsafe appliances/equiptment",
-            "problem": "D1-P3",
-            "id": "D1-P3-S10"
+            "code": "10",
+            "problem": "ENV3",
+            "id": "ENV3-10"
         },
         {
             "name": "不足/擁擠的生活空間",
             "nameEn": "inadequate/crowded living space",
-            "problem": "D1-P3",
-            "id": "D1-P3-S11"
+            "code": "11",
+            "problem": "ENV3",
+            "id": "ENV3-11"
         },
         {
             "name": "管線外露",
             "nameEn": "exposed wiring",
-            "problem": "D1-P3",
-            "id": "D1-P3-S12"
+            "code": "12",
+            "problem": "ENV3",
+            "id": "ENV3-12"
         },
         {
             "name": "結構性障礙",
             "nameEn": "structural barriers",
-            "problem": "D1-P3",
-            "id": "D1-P3-S13"
+            "code": "13",
+            "problem": "ENV3",
+            "id": "ENV3-13"
         },
         {
             "name": "無家可歸",
             "nameEn": "homeless",
-            "problem": "D1-P3",
-            "id": "D1-P3-S14"
+            "code": "14",
+            "problem": "ENV3",
+            "id": "ENV3-14"
         },
         {
             "name": "其他",
             "nameEn": "other",
-            "problem": "D1-P3",
-            "id": "D1-P3-S15"
+            "code": "15",
+            "problem": "ENV3",
+            "id": "ENV3-15"
         },
         {
             "name": "高犯罪率",
             "nameEn": "high crime rate",
-            "problem": "D1-P4",
-            "id": "D1-P4-S1"
+            "code": "1",
+            "problem": "ENV4",
+            "id": "ENV4-1"
         },
         {
             "name": "高汙染等級",
             "nameEn": "high pollution level",
-            "problem": "D1-P4",
-            "id": "D1-P4-S2"
+            "code": "2",
+            "problem": "ENV4",
+            "id": "ENV4-2"
         },
         {
             "name": "不受控/危險的/帶病的動物",
             "nameEn": "uncontrolled/dangerous/infected animals",
-            "problem": "D1-P4",
-            "id": "D1-P4-S3"
+            "code": "3",
+            "problem": "ENV4",
+            "id": "ENV4-3"
         },
         {
             "name": "不足的/不安全遊戲場或運動場",
             "nameEn": "inadequate/unsafe play/exercise areas",
-            "problem": "D1-P4",
-            "id": "D1-P4-S4"
+            "code": "4",
+            "problem": "ENV4",
+            "id": "ENV4-4"
         },
         {
             "name": "不足的空間與資源促進健康",
             "nameEn": "inadequate space/resources to foster health",
-            "problem": "D1-P4",
-            "id": "D1-P4-S5"
+            "code": "5",
+            "problem": "ENV4",
+            "id": "ENV4-5"
         },
         {
             "name": "正在或被通報遭受暴力",
             "nameEn": "threats/reports of violence",
-            "problem": "D1-P4",
-            "id": "D1-P4-S6"
+            "code": "6",
+            "problem": "ENV4",
+            "id": "ENV4-6"
         },
         {
             "name": "物理性危害",
             "nameEn": "physical hazards",
-            "problem": "D1-P4",
-            "id": "D1-P4-S7"
+            "code": "7",
+            "problem": "ENV4",
+            "id": "ENV4-7"
         },
         {
             "name": "車輛/交通危害",
             "nameEn": "vehicle/traffic hazards",
-            "problem": "D1-P4",
-            "id": "D1-P4-S8"
+            "code": "8",
+            "problem": "ENV4",
+            "id": "ENV4-8"
         },
         {
             "name": "化學性危害",
             "nameEn": "chemical hazards",
-            "problem": "D1-P4",
-            "id": "D1-P4-S9"
+            "code": "9",
+            "problem": "ENV4",
+            "id": "ENV4-9"
         },
         {
             "name": "放射線危害",
             "nameEn": "radiological hazards",
-            "problem": "D1-P4",
-            "id": "D1-P4-S10"
+            "code": "10",
+            "problem": "ENV4",
+            "id": "ENV4-10"
         },
         {
             "name": "不穩固的建築",
             "nameEn": "structurally unsound",
-            "problem": "D1-P3",
-            "id": "D1-P3-S1"
+            "code": "1",
+            "problem": "ENV3",
+            "id": "ENV3-1"
         },
         {
             "name": "難以理解服務提供者的角色與法規限制",
             "nameEn": "unfamiliar with options/procedures for obtaining services",
-            "problem": "D2-P1",
-            "id": "D2-P1-S1"
+            "code": "1",
+            "problem": "PSY1",
+            "id": "PSY1-1"
         },
         {
             "name": "不知如何向服務提供者提出訴求",
             "nameEn": "difficulty understanding roles/regulations of service providers",
-            "problem": "D2-P1",
-            "id": "D2-P1-S2"
+            "code": "2",
+            "problem": "PSY1",
+            "id": "PSY1-2"
         },
         {
             "name": "不滿服務",
             "nameEn": "unable to communicate concerns to provider",
-            "problem": "D2-P1",
-            "id": "D2-P1-S3"
+            "code": "3",
+            "problem": "PSY1",
+            "id": "PSY1-3"
         },
         {
             "name": "缺乏可及資源",
             "nameEn": "dissatisfaction with services",
-            "problem": "D2-P1",
-            "id": "D2-P1-S4"
+            "code": "4",
+            "problem": "PSY1",
+            "id": "PSY1-4"
         },
         {
             "name": "語言阻礙",
             "nameEn": "inadequate/unavailable resources",
-            "problem": "D2-P1",
-            "id": "D2-P1-S5"
+            "code": "5",
+            "problem": "PSY1",
+            "id": "PSY1-5"
         },
         {
             "name": "文化阻礙",
             "nameEn": "language barrier",
-            "problem": "D2-P1",
-            "id": "D2-P1-S6"
+            "code": "6",
+            "problem": "PSY1",
+            "id": "PSY1-6"
         },
         {
             "name": "教育阻礙",
             "nameEn": "cultural barrier",
-            "problem": "D2-P1",
-            "id": "D2-P1-S7"
+            "code": "7",
+            "problem": "PSY1",
+            "id": "PSY1-7"
         },
         {
             "name": "交通運輸阻礙",
             "nameEn": "educational barrier",
-            "problem": "D2-P1",
-            "id": "D2-P1-S8"
+            "code": "8",
+            "problem": "PSY1",
+            "id": "PSY1-8"
         },
         {
             "name": "求助管道有限(照顧、服務、物資)",
             "nameEn": "transportation barrier",
-            "problem": "D2-P1",
-            "id": "D2-P1-S9"
+            "code": "9",
+            "problem": "PSY1",
+            "id": "PSY1-9"
         },
         {
             "name": "不用會/沒有通訊設備",
             "nameEn": "limited access to care/services/goods",
-            "problem": "D2-P1",
-            "id": "D2-P1-S10"
+            "code": "10",
+            "problem": "PSY1",
+            "id": "PSY1-10"
         },
         {
             "name": "無法使用/擁有不合適的溝通器具/設備",
             "nameEn": "unable to use/has inadequate communication devices/equiptment",
-            "problem": "D2-P1",
-            "id": "D2-P1-S11"
+            "code": "11",
+            "problem": "PSY1",
+            "id": "PSY1-11"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D2-P1",
-            "id": "D2-P1-S12"
+            "code": "12",
+            "problem": "PSY1",
+            "id": "PSY1-12"
         },
         {
             "name": "有限的社交",
             "nameEn": "limited social contact",
-            "problem": "D2-P2",
-            "id": "D2-P2-S1"
+            "code": "1",
+            "problem": "PSY2",
+            "id": "PSY2-1"
         },
         {
             "name": "耗用健康照護提供者當社交",
             "nameEn": "uses health care provider for social contact",
-            "problem": "D2-P2",
-            "id": "D2-P2-S2"
+            "code": "2",
+            "problem": "PSY2",
+            "id": "PSY2-2"
         },
         {
             "name": "很少戶外刺激與休閒活動",
             "nameEn": "minimal outside stimulation/leisure time activities",
-            "problem": "D2-P2",
-            "id": "D2-P2-S3"
+            "code": "3",
+            "problem": "PSY2",
+            "id": "PSY2-3"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D2-P2",
-            "id": "D2-P2-S4"
+            "code": "4",
+            "problem": "PSY2",
+            "id": "PSY2-4"
         },
         {
             "name": "非自願的角色轉換",
             "nameEn": "involuntary role reversal",
-            "problem": "D2-P3",
-            "id": "D2-P3-S1"
+            "code": "1",
+            "problem": "PSY3",
+            "id": "PSY3-1"
         },
         {
             "name": "承擔新角色",
             "nameEn": "assumes new role",
-            "problem": "D2-P3",
-            "id": "D2-P3-S2"
+            "code": "2",
+            "problem": "PSY3",
+            "id": "PSY3-2"
         },
         {
             "name": "失去過往角色功能",
             "nameEn": "loses previous role",
-            "problem": "D2-P3",
-            "id": "D2-P3-S3"
+            "code": "3",
+            "problem": "PSY3",
+            "id": "PSY3-3"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D2-P3",
-            "id": "D2-P3-S4"
+            "code": "4",
+            "problem": "PSY3",
+            "id": "PSY3-4"
         },
         {
             "name": "難建立或維持關係",
             "nameEn": "difficulty establishing/maintaining relationships",
-            "problem": "D2-P4",
-            "id": "D2-P4-S1"
+            "code": "1",
+            "problem": "PSY4",
+            "id": "PSY4-1"
         },
         {
             "name": "吝於分享",
             "nameEn": "minimal shared activities",
-            "problem": "D2-P4",
-            "id": "D2-P4-S2"
+            "code": "2",
+            "problem": "PSY4",
+            "id": "PSY4-2"
         },
         {
             "name": "眼高手低",
             "nameEn": "incongruent values/goals/expectations/schedules",
-            "problem": "D2-P4",
-            "id": "D2-P4-S3"
+            "code": "3",
+            "problem": "PSY4",
+            "id": "PSY4-3"
         },
         {
             "name": "缺乏溝通技巧",
             "nameEn": "inadequate interpersonal communication skills",
-            "problem": "D2-P4",
-            "id": "D2-P4-S4"
+            "code": "4",
+            "problem": "PSY4",
+            "id": "PSY4-4"
         },
         {
             "name": "沒完沒了的僵局",
             "nameEn": "prolonged, unrelieved tension",
-            "problem": "D2-P4",
-            "id": "D2-P4-S5"
+            "code": "5",
+            "problem": "PSY4",
+            "id": "PSY4-5"
         },
         {
             "name": "控制狂",
             "nameEn": "inappropriate suspicion/manipulation/control",
-            "problem": "D2-P4",
-            "id": "D2-P4-S6"
+            "code": "6",
+            "problem": "PSY4",
+            "id": "PSY4-6"
         },
         {
             "name": "對伴侶進行身心虐待",
             "nameEn": "physically/emotionally abusive to partner",
-            "problem": "D2-P4",
-            "id": "D2-P4-S7"
+            "code": "7",
+            "problem": "PSY4",
+            "id": "PSY4-7"
         },
         {
             "name": "不動干戈解決難題",
             "nameEn": "difficulty problem solving without conflict",
-            "problem": "D2-P4",
-            "id": "D2-P4-S8"
+            "code": "8",
+            "problem": "PSY4",
+            "id": "PSY4-8"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D2-P4",
-            "id": "D2-P4-S9"
+            "code": "9",
+            "problem": "PSY4",
+            "id": "PSY4-9"
         },
         {
             "name": "TBD",
             "nameEn": "expresses spiritual concerns",
-            "problem": "D2-P5",
-            "id": "D2-P5-S1"
+            "code": "1",
+            "problem": "PSY5",
+            "id": "PSY5-1"
         },
         {
             "name": "具爭議的宗教儀式",
             "nameEn": "disrupted spiritual rituals",
-            "problem": "D2-P5",
-            "id": "D2-P5-S2"
+            "code": "2",
+            "problem": "PSY5",
+            "id": "PSY5-2"
         },
         {
             "name": "TBD",
             "nameEn": "disrupted spiritual trust",
-            "problem": "D2-P5",
-            "id": "D2-P5-S3"
+            "code": "3",
+            "problem": "PSY5",
+            "id": "PSY5-3"
         },
         {
             "name": "靈性信仰與醫療/照護衝突",
             "nameEn": "conflicting spiritual beliefs and medical/health care regimen",
-            "problem": "D2-P5",
-            "id": "D2-P5-S4"
+            "code": "4",
+            "problem": "PSY5",
+            "id": "PSY5-4"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D2-P5",
-            "id": "D2-P5-S5"
+            "code": "5",
+            "problem": "PSY5",
+            "id": "PSY5-5"
         },
         {
             "name": "TBD",
             "nameEn": "fails to recognize stages of grief/process of healing",
-            "problem": "D2-P6",
-            "id": "D2-P6-S1"
+            "code": "1",
+            "problem": "PSY6",
+            "id": "PSY6-1"
         },
         {
             "name": "難以調適的哀傷反應",
             "nameEn": "difficulty coping with grief responses",
-            "problem": "D2-P6",
-            "id": "D2-P6-S2"
+            "code": "2",
+            "problem": "PSY6",
+            "id": "PSY6-2"
         },
         {
             "name": "難以言表的哀傷反應",
             "nameEn": "difficulty expressing grief responses",
-            "problem": "D2-P6",
-            "id": "D2-P6-S3"
+            "code": "3",
+            "problem": "PSY6",
+            "id": "PSY6-3"
         },
         {
             "name": "TBD",
             "nameEn": "conflicting stages of grief among individuals/families",
-            "problem": "D2-P6",
-            "id": "D2-P6-S4"
+            "code": "4",
+            "problem": "PSY6",
+            "id": "PSY6-4"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D2-P6",
-            "id": "D2-P6-S5"
+            "code": "5",
+            "problem": "PSY6",
+            "id": "PSY6-5"
         },
         {
             "name": "悲傷/無望/低自尊",
             "nameEn": "sadness/hopelessness/decreased self-esteem",
-            "problem": "D2-P7",
-            "id": "D2-P7-S1"
+            "code": "1",
+            "problem": "PSY7",
+            "id": "PSY7-1"
         },
         {
             "name": "杞人憂天",
             "nameEn": "apprehension/undefined fear",
-            "problem": "D2-P7",
-            "id": "D2-P7-S2"
+            "code": "2",
+            "problem": "PSY7",
+            "id": "PSY7-2"
         },
         {
             "name": "對參與活動/自我照顧失去興趣",
             "nameEn": "loss of interest/involvement in activities/self-care",
-            "problem": "D2-P7",
-            "id": "D2-P7-S3"
+            "code": "3",
+            "problem": "PSY7",
+            "id": "PSY7-3"
         },
         {
             "name": "狹隘導致 分散注意力與焦點",
             "nameEn": "narrowed to scattered attention/focus",
-            "problem": "D2-P7",
-            "id": "D2-P7-S4"
+            "code": "4",
+            "problem": "PSY7",
+            "id": "PSY7-4"
         },
         {
             "name": "情感平淡",
             "nameEn": "flat affect",
-            "problem": "D2-P7",
-            "id": "D2-P7-S5"
+            "code": "5",
+            "problem": "PSY7",
+            "id": "PSY7-5"
         },
         {
             "name": "焦躁/激動/侵略性",
             "nameEn": "irritable/agitated/aggressive",
-            "problem": "D2-P7",
-            "id": "D2-P7-S6"
+            "code": "6",
+            "problem": "PSY7",
+            "id": "PSY7-6"
         },
         {
             "name": "強迫性無目的行為",
             "nameEn": "purposeless/compulsive activity",
-            "problem": "D2-P7",
-            "id": "D2-P7-S7"
+            "code": "7",
+            "problem": "PSY7",
+            "id": "PSY7-7"
         },
         {
             "name": "難控制壓力",
             "nameEn": "difficulty managing stress",
-            "problem": "D2-P7",
-            "id": "D2-P7-S8"
+            "code": "8",
+            "problem": "PSY7",
+            "id": "PSY7-8"
         },
         {
             "name": "難控制怒氣",
             "nameEn": "difficulty managing anger",
-            "problem": "D2-P7",
-            "id": "D2-P7-S9"
+            "code": "9",
+            "problem": "PSY7",
+            "id": "PSY7-9"
         },
         {
             "name": "身體症狀/疲勞",
             "nameEn": "somatic complaints/fatigue",
-            "problem": "D2-P7",
-            "id": "D2-P7-S10"
+            "code": "10",
+            "problem": "PSY7",
+            "id": "PSY7-10"
         },
         {
             "name": "妄想",
             "nameEn": "delusions",
-            "problem": "D2-P7",
-            "id": "D2-P7-S11"
+            "code": "11",
+            "problem": "PSY7",
+            "id": "PSY7-11"
         },
         {
             "name": "幻覺/幻想",
             "nameEn": "hallucinations/illusions",
-            "problem": "D2-P7",
-            "id": "D2-P7-S12"
+            "code": "12",
+            "problem": "PSY7",
+            "id": "PSY7-12"
         },
         {
             "name": "表達自傷傷人想法",
             "nameEn": "expresses suicidal/homicidal thoughts",
-            "problem": "D2-P7",
-            "id": "D2-P7-S13"
+            "code": "13",
+            "problem": "PSY7",
+            "id": "PSY7-13"
         },
         {
             "name": "企圖自傷/傷人",
             "nameEn": "attempts suicide/homicide",
-            "problem": "D2-P7",
-            "id": "D2-P7-S14"
+            "code": "14",
+            "problem": "PSY7",
+            "id": "PSY7-14"
         },
         {
             "name": "自殘",
             "nameEn": "self-mutilation",
-            "problem": "D2-P7",
-            "id": "D2-P7-S15"
+            "code": "15",
+            "problem": "PSY7",
+            "id": "PSY7-15"
         },
         {
             "name": "情緒波動",
             "nameEn": "mood swings",
-            "problem": "D2-P7",
-            "id": "D2-P7-S16"
+            "code": "16",
+            "problem": "PSY7",
+            "id": "PSY7-16"
         },
         {
             "name": "情境再現",
             "nameEn": "flash-backs",
-            "problem": "D2-P7",
-            "id": "D2-P7-S17"
+            "code": "17",
+            "problem": "PSY7",
+            "id": "PSY7-17"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D2-P7",
-            "id": "D2-P7-S18"
+            "code": "18",
+            "problem": "PSY7",
+            "id": "PSY7-18"
         },
         {
             "name": "不考慮後果的性行為",
             "nameEn": "difficulty recognizing consequences of sexual behavior",
-            "problem": "D2-P8",
-            "id": "D2-P8-S1"
+            "code": "1",
+            "problem": "PSY8",
+            "id": "PSY8-1"
         },
         {
             "name": "難以表達親密",
             "nameEn": "difficulty expressing intimacy",
-            "problem": "D2-P8",
-            "id": "D2-P8-S2"
+            "code": "2",
+            "problem": "PSY8",
+            "id": "PSY8-2"
         },
         {
             "name": "性別認同混淆",
             "nameEn": "sexual identity confusion",
-            "problem": "D2-P8",
-            "id": "D2-P8-S3"
+            "code": "3",
+            "problem": "PSY8",
+            "id": "PSY8-3"
         },
         {
             "name": "性價值混亂",
             "nameEn": "sexual value confusion",
-            "problem": "D2-P8",
-            "id": "D2-P8-S4"
+            "code": "4",
+            "problem": "PSY8",
+            "id": "PSY8-4"
         },
         {
             "name": "性飢渴",
             "nameEn": "dissatisfied with sexual relationships",
-            "problem": "D2-P8",
-            "id": "D2-P8-S5"
+            "code": "5",
+            "problem": "PSY8",
+            "id": "PSY8-5"
         },
         {
             "name": "不安全性行為",
             "nameEn": "unsafe sexual practices",
-            "problem": "D2-P8",
-            "id": "D2-P8-S6"
+            "code": "6",
+            "problem": "PSY8",
+            "id": "PSY8-6"
         },
         {
             "name": "性衝動/性挑逗/性騷擾",
             "nameEn": "sexual acting out/provocative behaviors/harassment",
-            "problem": "D2-P8",
-            "id": "D2-P8-S7"
+            "code": "7",
+            "problem": "PSY8",
+            "id": "PSY8-7"
         },
         {
             "name": "性犯罪/毆打",
             "nameEn": "sexual perpetration/assault",
-            "problem": "D2-P8",
-            "id": "D2-P8-S8"
+            "code": "8",
+            "problem": "PSY8",
+            "id": "PSY8-8"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D2-P8",
-            "id": "D2-P8-S9"
+            "code": "9",
+            "problem": "PSY8",
+            "id": "PSY8-9"
         },
         {
             "name": "難以提供生理照護與安全",
             "nameEn": "difficulty providing physical care/safety",
-            "problem": "D2-P9",
-            "id": "D2-P9-S1"
+            "code": "1",
+            "problem": "PSY9",
+            "id": "PSY9-1"
         },
         {
             "name": "難以提供情感滋養",
             "nameEn": "difficulty providing emotional nurturance",
-            "problem": "D2-P9",
-            "id": "D2-P9-S2"
+            "code": "2",
+            "problem": "PSY9",
+            "id": "PSY9-2"
         },
         {
             "name": "難以提供認知學習經驗與活動",
             "nameEn": "difficulty providing cognitive learning experiences and activities",
-            "problem": "D2-P9",
-            "id": "D2-P9-S3"
+            "code": "3",
+            "problem": "PSY9",
+            "id": "PSY9-3"
         },
         {
             "name": "難以提供預防保健照護",
             "nameEn": "difficulty providing preventive and therapeutic health care",
-            "problem": "D2-P9",
-            "id": "D2-P9-S4"
+            "code": "4",
+            "problem": "PSY9",
+            "id": "PSY9-4"
         },
         {
             "name": "揠苗助長",
             "nameEn": "expectations incongruent with stage of growth and development",
-            "problem": "D2-P9",
-            "id": "D2-P9-S5"
+            "code": "5",
+            "problem": "PSY9",
+            "id": "PSY9-5"
         },
         {
             "name": "不滿/無法承擔責任",
             "nameEn": "dissatisfaction/difficulty with responsibilities",
-            "problem": "D2-P9",
-            "id": "D2-P9-S6"
+            "code": "6",
+            "problem": "PSY9",
+            "id": "PSY9-6"
         },
         {
             "name": "難有語言非語言之互動或回應",
             "nameEn": "difficulty interpreting or responding to verbal/nonverbal communication",
-            "problem": "D2-P9",
-            "id": "D2-P9-S7"
+            "code": "7",
+            "problem": "PSY9",
+            "id": "PSY9-7"
         },
         {
             "name": "忽視",
             "nameEn": "neglectful",
-            "problem": "D2-P9",
-            "id": "D2-P9-S8"
+            "code": "8",
+            "problem": "PSY9",
+            "id": "PSY9-8"
         },
         {
             "name": "辱罵",
             "nameEn": "abusive",
-            "problem": "D2-P9",
-            "id": "D2-P9-S9"
+            "code": "9",
+            "problem": "PSY9",
+            "id": "PSY9-9"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D2-P9",
-            "id": "D2-P9-S10"
+            "code": "10",
+            "problem": "PSY9",
+            "id": "PSY9-10"
         },
         {
             "name": "身體照顧缺失",
             "nameEn": "acks adequate physical care",
-            "problem": "D2-P10",
-            "id": "D2-P10-S1"
+            "code": "1",
+            "problem": "PSY10",
+            "id": "PSY10-1"
         },
         {
             "name": "缺乏情緒滋養與支持",
             "nameEn": "lacks emotional nurturance/support",
-            "problem": "D2-P10",
-            "id": "D2-P10-S2"
+            "code": "2",
+            "problem": "PSY10",
+            "id": "PSY10-2"
         },
         {
             "name": "缺乏合式的刺激與認知經驗",
             "nameEn": "lacks appropriate stimulation/cognitive experiences",
-            "problem": "D2-P10",
-            "id": "D2-P10-S3"
+            "code": "3",
+            "problem": "PSY10",
+            "id": "PSY10-3"
         },
         {
             "name": "不合宜的任其獨處",
             "nameEn": "inappropiately left alone",
-            "problem": "D2-P10",
-            "id": "D2-P10-S4"
+            "code": "4",
+            "problem": "PSY10",
+            "id": "PSY10-4"
         },
         {
             "name": "放牛吃草",
             "nameEn": "lacks necessary supervision",
-            "problem": "D2-P10",
-            "id": "D2-P10-S5"
+            "code": "5",
+            "problem": "PSY10",
+            "id": "PSY10-5"
         },
         {
             "name": "不適當或延遲就醫",
             "nameEn": "inadequate/delayed medical care",
-            "problem": "D2-P10",
-            "id": "D2-P10-S6"
+            "code": "6",
+            "problem": "PSY10",
+            "id": "PSY10-6"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D2-P10",
-            "id": "D2-P10-S7"
+            "code": "7",
+            "problem": "PSY10",
+            "id": "PSY10-7"
         },
         {
             "name": "苛刻/過度嚴格的管教",
             "nameEn": "harsh/excessive discipline",
-            "problem": "D2-P11",
-            "id": "D2-P11-S1"
+            "code": "1",
+            "problem": "PSY11",
+            "id": "PSY11-1"
         },
         {
             "name": "傷痕與燒傷或其他傷勢",
             "nameEn": "welts/burns/other injuries",
-            "problem": "D2-P11",
-            "id": "D2-P11-S2"
+            "code": "2",
+            "problem": "PSY11",
+            "id": "PSY11-2"
         },
         {
             "name": "不合理的傷勢",
             "nameEn": "questionable explanation of injury",
-            "problem": "D2-P11",
-            "id": "D2-P11-S3"
+            "code": "3",
+            "problem": "PSY11",
+            "id": "PSY11-3"
         },
         {
             "name": "語言暴力",
             "nameEn": "attacked verbally",
-            "problem": "D2-P11",
-            "id": "D2-P11-S4"
+            "code": "4",
+            "problem": "PSY11",
+            "id": "PSY11-4"
         },
         {
             "name": "恐懼/過度警覺",
             "nameEn": "fearful/hypervigilant behavior",
-            "problem": "D2-P11",
-            "id": "D2-P11-S5"
+            "code": "5",
+            "problem": "PSY11",
+            "id": "PSY11-5"
         },
         {
             "name": "暴力環境",
             "nameEn": "violent environment",
-            "problem": "D2-P11",
-            "id": "D2-P11-S6"
+            "code": "6",
+            "problem": "PSY11",
+            "id": "PSY11-6"
         },
         {
             "name": "TBD",
             "nameEn": "consistent negative messages",
-            "problem": "D2-P11",
-            "id": "D2-P11-S7"
+            "code": "7",
+            "problem": "PSY11",
+            "id": "PSY11-7"
         },
         {
             "name": "性暴力",
             "nameEn": "assaulted sexually",
-            "problem": "D2-P11",
-            "id": "D2-P11-S8"
+            "code": "8",
+            "problem": "PSY11",
+            "id": "PSY11-8"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D2-P11",
-            "id": "D2-P11-S9"
+            "code": "9",
+            "problem": "PSY11",
+            "id": "PSY11-9"
         },
         {
             "name": "發展檢核量表有異常",
             "nameEn": "abnormal results of developmental screening tests",
-            "problem": "D2-P12",
-            "id": "D2-P12-S1"
+            "code": "1",
+            "problem": "PSY12",
+            "id": "PSY12-1"
         },
         {
             "name": "偏離該年齡生長發育平均值(體重/身高/頭圍)",
             "nameEn": "abnormal weight/height/head circumference in relation growth/aging standards",
-            "problem": "D2-P12",
-            "id": "D2-P12-S2"
+            "code": "2",
+            "problem": "PSY12",
+            "id": "PSY12-2"
         },
         {
             "name": "與年齡不相符的行為舉止",
             "nameEn": "age-inappropriate behavior",
-            "problem": "D2-P12",
-            "id": "D2-P12-S3"
+            "code": "3",
+            "problem": "PSY12",
+            "id": "PSY12-3"
         },
         {
             "name": "TBD",
             "nameEn": "inadequate achieve",
-            "problem": "D2-P12",
-            "id": "D2-P12-S4"
+            "code": "4",
+            "problem": "PSY12",
+            "id": "PSY12-4"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D2-P12",
-            "id": "D2-P12-S5"
+            "code": "5",
+            "problem": "PSY12",
+            "id": "PSY12-5"
         },
         {
             "name": "難以聽懂一般腔調",
             "nameEn": "difficulty hearing normal speech tones",
-            "problem": "D3-P1",
-            "id": "D3-P1-S1"
+            "code": "1",
+            "problem": "PHY1",
+            "id": "PHY1-1"
         },
         {
             "name": "在吵雜的環境中有障礙",
             "nameEn": "difficulty hearing speech in large group settings",
-            "problem": "D3-P1",
-            "id": "D3-P1-S2"
+            "code": "2",
+            "problem": "PHY1",
+            "id": "PHY1-2"
         },
         {
             "name": "難以聽見高頻音",
             "nameEn": "difficulty hearing high frequency sounds",
-            "problem": "D3-P1",
-            "id": "D3-P1-S3"
+            "code": "3",
+            "problem": "PHY1",
+            "id": "PHY1-3"
         },
         {
             "name": "對聲音反應異常",
             "nameEn": "absent/abnormal response to sound",
-            "problem": "D3-P1",
-            "id": "D3-P1-S4"
+            "code": "4",
+            "problem": "PHY1",
+            "id": "PHY1-4"
         },
         {
             "name": "聽力篩檢異常",
             "nameEn": "abnormal results of hearing screening test",
-            "problem": "D3-P1",
-            "id": "D3-P1-S5"
+            "code": "5",
+            "problem": "PHY1",
+            "id": "PHY1-5"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P1",
-            "id": "D3-P1-S6"
+            "code": "6",
+            "problem": "PHY1",
+            "id": "PHY1-6"
         },
         {
             "name": "老花",
             "nameEn": "difficulty seeing small print/calibrations",
-            "problem": "D3-P2",
-            "id": "D3-P2-S1"
+            "code": "1",
+            "problem": "PHY2",
+            "id": "PHY2-1"
         },
         {
             "name": "近視",
             "nameEn": "difficulty seeing distant objects",
-            "problem": "D3-P2",
-            "id": "D3-P2-S2"
+            "code": "2",
+            "problem": "PHY2",
+            "id": "PHY2-2"
         },
         {
             "name": "遠視",
             "nameEn": "difficulty seeing close objects",
-            "problem": "D3-P2",
-            "id": "D3-P2-S3"
+            "code": "3",
+            "problem": "PHY2",
+            "id": "PHY2-3"
         },
         {
             "name": "對於視覺刺激沒反應/不正常反應",
             "nameEn": "absent/abnormal response to visual stimuli",
-            "problem": "D3-P2",
-            "id": "D3-P2-S4"
+            "code": "4",
+            "problem": "PHY2",
+            "id": "PHY2-4"
         },
         {
             "name": "視力篩檢異常",
             "nameEn": "abnormal results of vision screening test",
-            "problem": "D3-P2",
-            "id": "D3-P2-S5"
+            "code": "5",
+            "problem": "PHY2",
+            "id": "PHY2-5"
         },
         {
             "name": "瞇眼/閃爍/撕裂/模糊",
             "nameEn": "squinting/blinking/tearing/blurring",
-            "problem": "D3-P2",
-            "id": "D3-P2-S6"
+            "code": "6",
+            "problem": "PHY2",
+            "id": "PHY2-6"
         },
         {
             "name": "飛蚊症/閃光",
             "nameEn": "floaters/flashes",
-            "problem": "D3-P2",
-            "id": "D3-P2-S7"
+            "code": "7",
+            "problem": "PHY2",
+            "id": "PHY2-7"
         },
         {
             "name": "辨色力差",
             "nameEn": "difficulty differentiating colors",
-            "problem": "D3-P2",
-            "id": "D3-P2-S8"
+            "code": "8",
+            "problem": "PHY2",
+            "id": "PHY2-8"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P2",
-            "id": "D3-P2-S9"
+            "code": "9",
+            "problem": "PHY2",
+            "id": "PHY2-9"
         },
         {
             "name": "缺乏/異常的談話或演講能力",
             "nameEn": "absent/abnormal ability to speak/vocalize",
-            "problem": "D3-P3",
-            "id": "D3-P3-S1"
+            "code": "1",
+            "problem": "PHY3",
+            "id": "PHY3-1"
         },
         {
             "name": "缺乏/異常的理解能力",
             "nameEn": "absent/abnormal ability to understand",
-            "problem": "D3-P3",
-            "id": "D3-P3-S2"
+            "code": "2",
+            "problem": "PHY3",
+            "id": "PHY3-2"
         },
         {
             "name": "缺交互溝通的技巧或手勢",
             "nameEn": "lacks alternative communication skills/gestures",
-            "problem": "D3-P3",
-            "id": "D3-P3-S3"
+            "code": "3",
+            "problem": "PHY3",
+            "id": "PHY3-3"
         },
         {
             "name": "句子結構不恰當",
             "nameEn": "inappropriate sentence structure",
-            "problem": "D3-P3",
-            "id": "D3-P3-S4"
+            "code": "4",
+            "problem": "PHY3",
+            "id": "PHY3-4"
         },
         {
             "name": "發音含糊不清",
             "nameEn": "limited enunciation/clarity",
-            "problem": "D3-P3",
-            "id": "D3-P3-S5"
+            "code": "5",
+            "problem": "PHY3",
+            "id": "PHY3-5"
         },
         {
             "name": "不當用字",
             "nameEn": "inappropriate word usage",
-            "problem": "D3-P3",
-            "id": "D3-P3-S6"
+            "code": "6",
+            "problem": "PHY3",
+            "id": "PHY3-6"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P3",
-            "id": "D3-P3-S7"
+            "code": "7",
+            "problem": "PHY3",
+            "id": "PHY3-7"
         },
         {
             "name": "缺失/斷裂/畸形牙齒",
             "nameEn": "missing/broken/malformed teeth",
-            "problem": "D3-P4",
-            "id": "D3-P4-S1"
+            "code": "1",
+            "problem": "PHY4",
+            "id": "PHY4-1"
         },
         {
             "name": "齲齒",
             "nameEn": "caries",
-            "problem": "D3-P4",
-            "id": "D3-P4-S2"
+            "code": "2",
+            "problem": "PHY4",
+            "id": "PHY4-2"
         },
         {
             "name": "牙菌斑",
             "nameEn": "excess tartar",
-            "problem": "D3-P4",
-            "id": "D3-P4-S3"
+            "code": "3",
+            "problem": "PHY4",
+            "id": "PHY4-3"
         },
         {
             "name": "疼痛/腫脹/牙齦出血",
             "nameEn": "sore/swollen/bleeding gums",
-            "problem": "D3-P4",
-            "id": "D3-P4-S4"
+            "code": "4",
+            "problem": "PHY4",
+            "id": "PHY4-4"
         },
         {
             "name": "咬合不正",
             "nameEn": "malocclusion",
-            "problem": "D3-P4",
-            "id": "D3-P4-S5"
+            "code": "5",
+            "problem": "PHY4",
+            "id": "PHY4-5"
         },
         {
             "name": "假牙不合/遺失",
             "nameEn": "ill-fitting/missing dentures",
-            "problem": "D3-P4",
-            "id": "D3-P4-S6"
+            "code": "6",
+            "problem": "PHY4",
+            "id": "PHY4-6"
         },
         {
             "name": "冷熱敏感",
             "nameEn": "sensitivity to hot or cold",
-            "problem": "D3-P4",
-            "id": "D3-P4-S7"
+            "code": "7",
+            "problem": "PHY4",
+            "id": "PHY4-7"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P4",
-            "id": "D3-P4-S8"
+            "code": "8",
+            "problem": "PHY4",
+            "id": "PHY4-8"
         },
         {
             "name": "判斷力變差",
             "nameEn": "diminished judgment",
-            "problem": "D3-P5",
-            "id": "D3-P5-S1"
+            "code": "1",
+            "problem": "PHY5",
+            "id": "PHY5-1"
         },
         {
             "name": "定向感有異 時/地/人",
             "nameEn": "disoriented to time/place/person",
-            "problem": "D3-P5",
-            "id": "D3-P5-S2"
+            "code": "2",
+            "problem": "PHY5",
+            "id": "PHY5-2"
         },
         {
             "name": "短期記憶缺失",
             "nameEn": "limited recall of recent events",
-            "problem": "D3-P5",
-            "id": "D3-P5-S3"
+            "code": "3",
+            "problem": "PHY5",
+            "id": "PHY5-3"
         },
         {
             "name": "長期記憶缺失",
             "nameEn": "limited recall of long past events",
-            "problem": "D3-P5",
-            "id": "D3-P5-S4"
+            "code": "4",
+            "problem": "PHY5",
+            "id": "PHY5-4"
         },
         {
             "name": "計算與排序能力差",
             "nameEn": "limited calculating/sequencing skills",
-            "problem": "D3-P5",
-            "id": "D3-P5-S5"
+            "code": "5",
+            "problem": "PHY5",
+            "id": "PHY5-5"
         },
         {
             "name": "難以專心",
             "nameEn": "limited concentration",
-            "problem": "D3-P5",
-            "id": "D3-P5-S6"
+            "code": "6",
+            "problem": "PHY5",
+            "id": "PHY5-6"
         },
         {
             "name": "推理/抽象思考能力差",
             "nameEn": "limited reasoning/abstract thinking",
-            "problem": "D3-P5",
-            "id": "D3-P5-S7"
+            "code": "7",
+            "problem": "PHY5",
+            "id": "PHY5-7"
         },
         {
             "name": "衝動",
             "nameEn": "impulsiveness",
-            "problem": "D3-P5",
-            "id": "D3-P5-S8"
+            "code": "8",
+            "problem": "PHY5",
+            "id": "PHY5-8"
         },
         {
             "name": "重複語言/行為",
             "nameEn": "repetitious language/behavior",
-            "problem": "D3-P5",
-            "id": "D3-P5-S9"
+            "code": "9",
+            "problem": "PHY5",
+            "id": "PHY5-9"
         },
         {
             "name": "遊走",
             "nameEn": "wanders",
-            "problem": "D3-P5",
-            "id": "D3-P5-S10"
+            "code": "10",
+            "problem": "PHY5",
+            "id": "PHY5-10"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P5",
-            "id": "D3-P5-S11"
+            "code": "11",
+            "problem": "PHY5",
+            "id": "PHY5-11"
         },
         {
             "name": "表達不舒服/痛",
             "nameEn": "expresses discomfort/pain",
-            "problem": "D3-P6",
-            "id": "D3-P6-S1"
+            "code": "1",
+            "problem": "PHY6",
+            "id": "PHY6-1"
         },
         {
             "name": "脈搏快/呼吸喘/血壓高",
             "nameEn": "elevated pulse/respirations/blood pressure",
-            "problem": "D3-P6",
-            "id": "D3-P6-S2"
+            "code": "2",
+            "problem": "PHY6",
+            "id": "PHY6-2"
         },
         {
             "name": "TBD",
             "nameEn": "compensated movement/guarding",
-            "problem": "D3-P6",
-            "id": "D3-P6-S3"
+            "code": "3",
+            "problem": "PHY6",
+            "id": "PHY6-3"
         },
         {
             "name": "倉促不安",
             "nameEn": "restless behavior",
-            "problem": "D3-P6",
-            "id": "D3-P6-S4"
+            "code": "4",
+            "problem": "PHY6",
+            "id": "PHY6-4"
         },
         {
             "name": "臉部扭曲",
             "nameEn": "facial grimaces",
-            "problem": "D3-P6",
-            "id": "D3-P6-S5"
+            "code": "5",
+            "problem": "PHY6",
+            "id": "PHY6-5"
         },
         {
             "name": "蒼白/冒冷汗",
             "nameEn": "pallor/perspiration",
-            "problem": "D3-P6",
-            "id": "D3-P6-S6"
+            "code": "6",
+            "problem": "PHY6",
+            "id": "PHY6-6"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P6",
-            "id": "D3-P6-S7"
+            "code": "7",
+            "problem": "PHY6",
+            "id": "PHY6-7"
         },
         {
             "name": "倦怠",
             "nameEn": "lethargic",
-            "problem": "D3-P7",
-            "id": "D3-P7-S1"
+            "code": "1",
+            "problem": "PHY7",
+            "id": "PHY7-1"
         },
         {
             "name": "昏迷",
             "nameEn": "stuporous",
-            "problem": "D3-P7",
-            "id": "D3-P7-S2"
+            "code": "2",
+            "problem": "PHY7",
+            "id": "PHY7-2"
         },
         {
             "name": "沒有反應",
             "nameEn": "unresponsive",
-            "problem": "D3-P7",
-            "id": "D3-P7-S3"
+            "code": "3",
+            "problem": "PHY7",
+            "id": "PHY7-3"
         },
         {
             "name": "不省人事",
             "nameEn": "comatose",
-            "problem": "D3-P7",
-            "id": "D3-P7-S4"
+            "code": "4",
+            "problem": "PHY7",
+            "id": "PHY7-4"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P7",
-            "id": "D3-P7-S5"
+            "code": "5",
+            "problem": "PHY7",
+            "id": "PHY7-5"
         },
         {
             "name": "完整性受損/壓瘡",
             "nameEn": "lesion/pressure ulcer",
-            "problem": "D3-P8",
-            "id": "D3-P8-S1"
+            "code": "1",
+            "problem": "PHY8",
+            "id": "PHY8-1"
         },
         {
             "name": "皮疹",
             "nameEn": "rash",
-            "problem": "D3-P8",
-            "id": "D3-P8-S2"
+            "code": "2",
+            "problem": "PHY8",
+            "id": "PHY8-2"
         },
         {
             "name": "乾燥",
             "nameEn": "excessively dry",
-            "problem": "D3-P8",
-            "id": "D3-P8-S3"
+            "code": "3",
+            "problem": "PHY8",
+            "id": "PHY8-3"
         },
         {
             "name": "出油",
             "nameEn": "excessively oily",
-            "problem": "D3-P8",
-            "id": "D3-P8-S4"
+            "code": "4",
+            "problem": "PHY8",
+            "id": "PHY8-4"
         },
         {
             "name": "發炎",
             "nameEn": "inflammation",
-            "problem": "D3-P8",
-            "id": "D3-P8-S5"
+            "code": "5",
+            "problem": "PHY8",
+            "id": "PHY8-5"
         },
         {
             "name": "搔癢",
             "nameEn": "pruritus",
-            "problem": "D3-P8",
-            "id": "D3-P8-S6"
+            "code": "6",
+            "problem": "PHY8",
+            "id": "PHY8-6"
         },
         {
             "name": "引流",
             "nameEn": "drainage",
-            "problem": "D3-P8",
-            "id": "D3-P8-S7"
+            "code": "7",
+            "problem": "PHY8",
+            "id": "PHY8-7"
         },
         {
             "name": "瘀血",
             "nameEn": "bruising",
-            "problem": "D3-P8",
-            "id": "D3-P8-S8"
+            "code": "8",
+            "problem": "PHY8",
+            "id": "PHY8-8"
         },
         {
             "name": "指甲肥大",
             "nameEn": "hypertrophy of nails",
-            "problem": "D3-P8",
-            "id": "D3-P8-S9"
+            "code": "9",
+            "problem": "PHY8",
+            "id": "PHY8-9"
         },
         {
             "name": "傷口難以癒合",
             "nameEn": "delayed incisional healing",
-            "problem": "D3-P8",
-            "id": "D3-P8-S10"
+            "code": "10",
+            "problem": "PHY8",
+            "id": "PHY8-10"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P8",
-            "id": "D3-P8-S11"
+            "code": "11",
+            "problem": "PHY8",
+            "id": "PHY8-11"
         },
         {
             "name": "有限的運動範圍",
             "nameEn": "limited range of motion",
-            "problem": "D3-P9",
-            "id": "D3-P9-S1"
+            "code": "1",
+            "problem": "PHY9",
+            "id": "PHY9-1"
         },
         {
             "name": "肌肉不等長",
             "nameEn": "decreased muscle strength",
-            "problem": "D3-P9",
-            "id": "D3-P9-S2"
+            "code": "2",
+            "problem": "PHY9",
+            "id": "PHY9-2"
         },
         {
             "name": "不協調",
             "nameEn": "decreased coordination",
-            "problem": "D3-P9",
-            "id": "D3-P9-S3"
+            "code": "3",
+            "problem": "PHY9",
+            "id": "PHY9-3"
         },
         {
             "name": "肌肉低張",
             "nameEn": "decreased muscle tone",
-            "problem": "D3-P9",
-            "id": "D3-P9-S4"
+            "code": "4",
+            "problem": "PHY9",
+            "id": "PHY9-4"
         },
         {
             "name": "肌肉高張",
             "nameEn": "increased muscle tone",
-            "problem": "D3-P9",
-            "id": "D3-P9-S5"
+            "code": "5",
+            "problem": "PHY9",
+            "id": "PHY9-5"
         },
         {
             "name": "麻木",
             "nameEn": "decreased sensation",
-            "problem": "D3-P9",
-            "id": "D3-P9-S6"
+            "code": "6",
+            "problem": "PHY9",
+            "id": "PHY9-6"
         },
         {
             "name": "敏感",
             "nameEn": "increased sensation",
-            "problem": "D3-P9",
-            "id": "D3-P9-S7"
+            "code": "7",
+            "problem": "PHY9",
+            "id": "PHY9-7"
         },
         {
             "name": "平衡功能下降",
             "nameEn": "decreased balance",
-            "problem": "D3-P9",
-            "id": "D3-P9-S8"
+            "code": "8",
+            "problem": "PHY9",
+            "id": "PHY9-8"
         },
         {
             "name": "步態/行走障礙",
             "nameEn": "gait/ambulation disturbance",
-            "problem": "D3-P9",
-            "id": "D3-P9-S9"
+            "code": "9",
+            "problem": "PHY9",
+            "id": "PHY9-9"
         },
         {
             "name": "難以移位",
             "nameEn": "difficulty transferring",
-            "problem": "D3-P9",
-            "id": "D3-P9-S10"
+            "code": "10",
+            "problem": "PHY9",
+            "id": "PHY9-10"
         },
         {
             "name": "骨折",
             "nameEn": "fractures",
-            "problem": "D3-P9",
-            "id": "D3-P9-S11"
+            "code": "11",
+            "problem": "PHY9",
+            "id": "PHY9-11"
         },
         {
             "name": "震顫/癲癇發作",
             "nameEn": "tremors/seizures",
-            "problem": "D3-P9",
-            "id": "D3-P9-S12"
+            "code": "12",
+            "problem": "PHY9",
+            "id": "PHY9-12"
         },
         {
             "name": "體溫調節困難",
             "nameEn": "difficulty with thermoregulation",
-            "problem": "D3-P9",
-            "id": "D3-P9-S13"
+            "code": "13",
+            "problem": "PHY9",
+            "id": "PHY9-13"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P9",
-            "id": "D3-P9-S14"
+            "code": "14",
+            "problem": "PHY9",
+            "id": "PHY9-14"
         },
         {
             "name": "呼吸型態異常",
             "nameEn": "abnormal breath patterns",
-            "problem": "D3-P10",
-            "id": "D3-P10-S1"
+            "code": "1",
+            "problem": "PHY10",
+            "id": "PHY10-1"
         },
         {
             "name": "無法自主呼吸",
             "nameEn": "unable to breathe independently",
-            "problem": "D3-P10",
-            "id": "D3-P10-S2"
+            "code": "2",
+            "problem": "PHY10",
+            "id": "PHY10-2"
         },
         {
             "name": "咳嗽",
             "nameEn": "cough",
-            "problem": "D3-P10",
-            "id": "D3-P10-S3"
+            "code": "3",
+            "problem": "PHY10",
+            "id": "PHY10-3"
         },
         {
             "name": "無法自咳痰",
             "nameEn": "unable to cough/expectorate independently",
-            "problem": "D3-P10",
-            "id": "D3-P10-S4"
+            "code": "4",
+            "problem": "PHY10",
+            "id": "PHY10-4"
         },
         {
             "name": "發紺(缺氧)",
             "nameEn": "cyanosis",
-            "problem": "D3-P10",
-            "id": "D3-P10-S5"
+            "code": "5",
+            "problem": "PHY10",
+            "id": "PHY10-5"
         },
         {
             "name": "異常痰",
             "nameEn": "abnormal sputum",
-            "problem": "D3-P10",
-            "id": "D3-P10-S6"
+            "code": "6",
+            "problem": "PHY10",
+            "id": "PHY10-6"
         },
         {
             "name": "呼嚕聲",
             "nameEn": "noisy respirations",
-            "problem": "D3-P10",
-            "id": "D3-P10-S7"
+            "code": "7",
+            "problem": "PHY10",
+            "id": "PHY10-7"
         },
         {
             "name": "流鼻水/鼻塞",
             "nameEn": "rhinorrhea/nasal congestion",
-            "problem": "D3-P10",
-            "id": "D3-P10-S8"
+            "code": "8",
+            "problem": "PHY10",
+            "id": "PHY10-8"
         },
         {
             "name": "不正常呼吸音",
             "nameEn": "normal breath sounds",
-            "problem": "D3-P10",
-            "id": "D3-P10-S9"
+            "code": "9",
+            "problem": "PHY10",
+            "id": "PHY10-9"
         },
         {
             "name": "呼吸生理學相關檢查異常",
             "nameEn": "abnormal respiratory laboratory results",
-            "problem": "D3-P10",
-            "id": "D3-P10-S10"
+            "code": "10",
+            "problem": "PHY10",
+            "id": "PHY10-10"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P10",
-            "id": "D3-P10-S11"
+            "code": "11",
+            "problem": "PHY10",
+            "id": "PHY10-11"
         },
         {
             "name": "水腫",
             "nameEn": "edema",
-            "problem": "D3-P11",
-            "id": "D3-P11-S1"
+            "code": "1",
+            "problem": "PHY11",
+            "id": "PHY11-1"
         },
         {
             "name": "四肢疼痛/痙攣",
             "nameEn": "cramping/pain of extremities",
-            "problem": "D3-P11",
-            "id": "D3-P11-S2"
+            "code": "2",
+            "problem": "PHY11",
+            "id": "PHY11-2"
         },
         {
             "name": "心搏減速",
             "nameEn": "decreased pulses",
-            "problem": "D3-P11",
-            "id": "D3-P11-S3"
+            "code": "3",
+            "problem": "PHY11",
+            "id": "PHY11-3"
         },
         {
             "name": "皮膚變色",
             "nameEn": "discoloration of skin",
-            "problem": "D3-P11",
-            "id": "D3-P11-S4"
+            "code": "4",
+            "problem": "PHY11",
+            "id": "PHY11-4"
         },
         {
             "name": "局部體溫改變",
             "nameEn": "temperature change in affected area",
-            "problem": "D3-P11",
-            "id": "D3-P11-S5"
+            "code": "5",
+            "problem": "PHY11",
+            "id": "PHY11-5"
         },
         {
             "name": "靜脈曲張",
             "nameEn": "varicosities",
-            "problem": "D3-P11",
-            "id": "D3-P11-S6"
+            "code": "6",
+            "problem": "PHY11",
+            "id": "PHY11-6"
         },
         {
             "name": "昏厥/頭暈",
             "nameEn": "syncopal episodes (fainting)/dizziness",
-            "problem": "D3-P11",
-            "id": "D3-P11-S7"
+            "code": "7",
+            "problem": "PHY11",
+            "id": "PHY11-7"
         },
         {
             "name": "血壓值異常",
             "nameEn": "abnormal blood pressure reading",
-            "problem": "D3-P11",
-            "id": "D3-P11-S8"
+            "code": "8",
+            "problem": "PHY11",
+            "id": "PHY11-8"
         },
         {
             "name": "脈搏微弱",
             "nameEn": "pulse deficit",
-            "problem": "D3-P11",
-            "id": "D3-P11-S9"
+            "code": "9",
+            "problem": "PHY11",
+            "id": "PHY11-9"
         },
         {
             "name": "心律不整",
             "nameEn": "irregular heart rate",
-            "problem": "D3-P11",
-            "id": "D3-P11-S10"
+            "code": "10",
+            "problem": "PHY11",
+            "id": "PHY11-10"
         },
         {
             "name": "心搏過速",
             "nameEn": "excessively rapid heart rate",
-            "problem": "D3-P11",
-            "id": "D3-P11-S11"
+            "code": "11",
+            "problem": "PHY11",
+            "id": "PHY11-11"
         },
         {
             "name": "心搏過慢",
             "nameEn": "excessively slow heart rate",
-            "problem": "D3-P11",
-            "id": "D3-P11-S12"
+            "code": "12",
+            "problem": "PHY11",
+            "id": "PHY11-12"
         },
         {
             "name": "心絞痛",
             "nameEn": "anginal pain",
-            "problem": "D3-P11",
-            "id": "D3-P11-S13"
+            "code": "13",
+            "problem": "PHY11",
+            "id": "PHY11-13"
         },
         {
             "name": "心音異常",
             "nameEn": "abnormal heart sounds/murmurs",
-            "problem": "D3-P11",
-            "id": "D3-P11-S14"
+            "code": "14",
+            "problem": "PHY11",
+            "id": "PHY11-14"
         },
         {
             "name": "凝血異常",
             "nameEn": "abnormal clotting",
-            "problem": "D3-P11",
-            "id": "D3-P11-S15"
+            "code": "15",
+            "problem": "PHY11",
+            "id": "PHY11-15"
         },
         {
             "name": "心臟相關生理檢驗值異常",
             "nameEn": "abnormal cardiac laboratory results",
-            "problem": "D3-P11",
-            "id": "D3-P11-S16"
+            "code": "16",
+            "problem": "PHY11",
+            "id": "PHY11-16"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P11",
-            "id": "D3-P11-S17"
+            "code": "17",
+            "problem": "PHY11",
+            "id": "PHY11-17"
         },
         {
             "name": "噁心/嘔吐",
             "nameEn": "nausea/vomiting",
-            "problem": "D3-P12",
-            "id": "D3-P12-S1"
+            "code": "1",
+            "problem": "PHY12",
+            "id": "PHY12-1"
         },
         {
             "name": "難或無法咀嚼/吞嚥/消化",
             "nameEn": "difficulty/inability to chew/swallow/digest",
-            "problem": "D3-P12",
-            "id": "D3-P12-S2"
+            "code": "2",
+            "problem": "PHY12",
+            "id": "PHY12-2"
         },
         {
             "name": "消化不良",
             "nameEn": "indigestion",
-            "problem": "D3-P12",
-            "id": "D3-P12-S3"
+            "code": "3",
+            "problem": "PHY12",
+            "id": "PHY12-3"
         },
         {
             "name": "逆流",
             "nameEn": "reflux",
-            "problem": "D3-P12",
-            "id": "D3-P12-S4"
+            "code": "4",
+            "problem": "PHY12",
+            "id": "PHY12-4"
         },
         {
             "name": "厭食",
             "nameEn": "anorexia",
-            "problem": "D3-P12",
-            "id": "D3-P12-S5"
+            "code": "5",
+            "problem": "PHY12",
+            "id": "PHY12-5"
         },
         {
             "name": "貧血",
             "nameEn": "anemia",
-            "problem": "D3-P12",
-            "id": "D3-P12-S6"
+            "code": "6",
+            "problem": "PHY12",
+            "id": "PHY12-6"
         },
         {
             "name": "腹水",
             "nameEn": "ascites",
-            "problem": "D3-P12",
-            "id": "D3-P12-S7"
+            "code": "7",
+            "problem": "PHY12",
+            "id": "PHY12-7"
         },
         {
             "name": "黃疸/肝腫大",
             "nameEn": "jaundice/liver enlargement",
-            "problem": "D3-P12",
-            "id": "D3-P12-S8"
+            "code": "8",
+            "problem": "PHY12",
+            "id": "PHY12-8"
         },
         {
             "name": "皮膚乾癟",
             "nameEn": "decreased skin turgor",
-            "problem": "D3-P12",
-            "id": "D3-P12-S9"
+            "code": "9",
+            "problem": "PHY12",
+            "id": "PHY12-9"
         },
         {
             "name": "唇裂/口乾",
             "nameEn": "cracked lips/dry mouth",
-            "problem": "D3-P12",
-            "id": "D3-P12-S10"
+            "code": "10",
+            "problem": "PHY12",
+            "id": "PHY12-10"
         },
         {
             "name": "電解質不平衡",
             "nameEn": "electrolyte imbalance",
-            "problem": "D3-P12",
-            "id": "D3-P12-S11"
+            "code": "11",
+            "problem": "PHY12",
+            "id": "PHY12-11"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P12",
-            "id": "D3-P12-S12"
+            "code": "12",
+            "problem": "PHY12",
+            "id": "PHY12-12"
         },
         {
             "name": "大便次數異於平常",
             "nameEn": "abnormal frequency/consistency of stool",
-            "problem": "D3-P13",
-            "id": "D3-P13-S1"
+            "code": "1",
+            "problem": "PHY13",
+            "id": "PHY13-1"
         },
         {
             "name": "大便時疼痛",
             "nameEn": "painful defecation",
-            "problem": "D3-P13",
-            "id": "D3-P13-S2"
+            "code": "2",
+            "problem": "PHY13",
+            "id": "PHY13-2"
         },
         {
             "name": "腸蠕動音變少",
             "nameEn": "decreased bowel sounds",
-            "problem": "D3-P13",
-            "id": "D3-P13-S3"
+            "code": "3",
+            "problem": "PHY13",
+            "id": "PHY13-3"
         },
         {
             "name": "血便",
             "nameEn": "blood in stools",
-            "problem": "D3-P13",
-            "id": "D3-P13-S4"
+            "code": "4",
+            "problem": "PHY13",
+            "id": "PHY13-4"
         },
         {
             "name": "大便顏色異常",
             "nameEn": "abnormal color",
-            "problem": "D3-P13",
-            "id": "D3-P13-S5"
+            "code": "5",
+            "problem": "PHY13",
+            "id": "PHY13-5"
         },
         {
             "name": "腹脹不舒服",
             "nameEn": "cramping/abdominal discomfort",
-            "problem": "D3-P13",
-            "id": "D3-P13-S6"
+            "code": "6",
+            "problem": "PHY13",
+            "id": "PHY13-6"
         },
         {
             "name": "大便失禁",
             "nameEn": "incontinent of stool",
-            "problem": "D3-P13",
-            "id": "D3-P13-S7"
+            "code": "7",
+            "problem": "PHY13",
+            "id": "PHY13-7"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P13",
-            "id": "D3-P13-S8"
+            "code": "8",
+            "problem": "PHY13",
+            "id": "PHY13-8"
         },
         {
             "name": "排尿有灼熱感",
             "nameEn": "burning/painful urination",
-            "problem": "D3-P14",
-            "id": "D3-P14-S1"
+            "code": "1",
+            "problem": "PHY14",
+            "id": "PHY14-1"
         },
         {
             "name": "尿失禁",
             "nameEn": "incontinent of urine",
-            "problem": "D3-P14",
-            "id": "D3-P14-S2"
+            "code": "2",
+            "problem": "PHY14",
+            "id": "PHY14-2"
         },
         {
             "name": "頻尿",
             "nameEn": "urgency/frequency",
-            "problem": "D3-P14",
-            "id": "D3-P14-S3"
+            "code": "3",
+            "problem": "PHY14",
+            "id": "PHY14-3"
         },
         {
             "name": "剛開始尿不出來",
             "nameEn": "difficulty initiating urination",
-            "problem": "D3-P14",
-            "id": "D3-P14-S4"
+            "code": "4",
+            "problem": "PHY14",
+            "id": "PHY14-4"
         },
         {
             "name": "感覺尿不乾淨",
             "nameEn": "difficulty emptying bladder",
-            "problem": "D3-P14",
-            "id": "D3-P14-S5"
+            "code": "5",
+            "problem": "PHY14",
+            "id": "PHY14-5"
         },
         {
             "name": "尿量異常",
             "nameEn": "abnormal amount",
-            "problem": "D3-P14",
-            "id": "D3-P14-S6"
+            "code": "6",
+            "problem": "PHY14",
+            "id": "PHY14-6"
         },
         {
             "name": "血尿或不正常顏色",
             "nameEn": "hematuria/abnormal color",
-            "problem": "D3-P14",
-            "id": "D3-P14-S7"
+            "code": "7",
+            "problem": "PHY14",
+            "id": "PHY14-7"
         },
         {
             "name": "夜尿頻頻",
             "nameEn": "nocturia",
-            "problem": "D3-P14",
-            "id": "D3-P14-S8"
+            "code": "8",
+            "problem": "PHY14",
+            "id": "PHY14-8"
         },
         {
             "name": "尿液檢驗值異常",
             "nameEn": "abnormal urinary laboratory results",
-            "problem": "D3-P14",
-            "id": "D3-P14-S9"
+            "code": "9",
+            "problem": "PHY14",
+            "id": "PHY14-9"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P14",
-            "id": "D3-P14-S10"
+            "code": "10",
+            "problem": "PHY14",
+            "id": "PHY14-10"
         },
         {
             "name": "異常分泌物",
             "nameEn": "abnormal discharge",
-            "problem": "D3-P15",
-            "id": "D3-P15-S1"
+            "code": "1",
+            "problem": "PHY15",
+            "id": "PHY15-1"
         },
         {
             "name": "月經週期異常",
             "nameEn": "abnormal menstrual pattern",
-            "problem": "D3-P15",
-            "id": "D3-P15-S2"
+            "code": "2",
+            "problem": "PHY15",
+            "id": "PHY15-2"
         },
         {
             "name": "更年期停經滴滴答答不適",
             "nameEn": "difficulty managing menopause/andropause",
-            "problem": "D3-P15",
-            "id": "D3-P15-S3"
+            "code": "3",
+            "problem": "PHY15",
+            "id": "PHY15-3"
         },
         {
             "name": "生殖器與乳房有硬塊腫脹疼痛",
             "nameEn": "abnormal lumps/swelling/tenderness of genital organs or breasts",
-            "problem": "D3-P15",
-            "id": "D3-P15-S4"
+            "code": "4",
+            "problem": "PHY15",
+            "id": "PHY15-4"
         },
         {
             "name": "性交疼痛(包含過程與完事後)",
             "nameEn": "pain during or after sexual intercourse",
-            "problem": "D3-P15",
-            "id": "D3-P15-S5"
+            "code": "5",
+            "problem": "PHY15",
+            "id": "PHY15-5"
         },
         {
             "name": "不孕",
             "nameEn": "infertility",
-            "problem": "D3-P15",
-            "id": "D3-P15-S6"
+            "code": "6",
+            "problem": "PHY15",
+            "id": "PHY15-6"
         },
         {
             "name": "性無能",
             "nameEn": "impotency",
-            "problem": "D3-P15",
-            "id": "D3-P15-S7"
+            "code": "7",
+            "problem": "PHY15",
+            "id": "PHY15-7"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P15",
-            "id": "D3-P15-S8"
+            "code": "8",
+            "problem": "PHY15",
+            "id": "PHY15-8"
         },
         {
             "name": "難與胎兒建立連結",
             "nameEn": "difficulty bonding with unborn baby",
-            "problem": "D3-P16",
-            "id": "D3-P16-S1"
+            "code": "1",
+            "problem": "PHY16",
+            "id": "PHY16-1"
         },
         {
             "name": "難適應身形改變",
             "nameEn": "difficulty coping with body changes",
-            "problem": "D3-P16",
-            "id": "D3-P16-S2"
+            "code": "2",
+            "problem": "PHY16",
+            "id": "PHY16-2"
         },
         {
             "name": "難以進行產前運動/休息/飲食/行為",
             "nameEn": "difficulty with prenatal exercise/rest/diet/behaviors",
-            "problem": "D3-P16",
-            "id": "D3-P16-S3"
+            "code": "3",
+            "problem": "PHY16",
+            "id": "PHY16-3"
         },
         {
             "name": "害怕生產過程",
             "nameEn": "fears delivery procedure",
-            "problem": "D3-P16",
-            "id": "D3-P16-S4"
+            "code": "4",
+            "problem": "PHY16",
+            "id": "PHY16-4"
         },
         {
             "name": "產前併發症/早產",
             "nameEn": "prenatal complications/preterm labory",
-            "problem": "D3-P16",
-            "id": "D3-P16-S5"
+            "code": "5",
+            "problem": "PHY16",
+            "id": "PHY16-5"
         },
         {
             "name": "社會支持不足",
             "nameEn": "inadequate social support",
-            "problem": "D3-P16",
-            "id": "D3-P16-S6"
+            "code": "6",
+            "problem": "PHY16",
+            "id": "PHY16-6"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P16",
-            "id": "D3-P16-S7"
+            "code": "7",
+            "problem": "PHY16",
+            "id": "PHY16-7"
         },
         {
             "name": "哺乳困難",
             "nameEn": "difficulty breast-feeding",
-            "problem": "D3-P17",
-            "id": "D3-P17-S1"
+            "code": "1",
+            "problem": "PHY17",
+            "id": "PHY17-1"
         },
         {
             "name": "難以適應產後變化",
             "nameEn": "difficulty coping with postpartum changes",
-            "problem": "D3-P17",
-            "id": "D3-P17-S2"
+            "code": "2",
+            "problem": "PHY17",
+            "id": "PHY17-2"
         },
         {
             "name": "難以進行產後運動/休息/飲食/行為",
             "nameEn": "difficulty with postpartum exercise/rest/diet/behaviors",
-            "problem": "D3-P17",
-            "id": "D3-P17-S3"
+            "code": "3",
+            "problem": "PHY17",
+            "id": "PHY17-3"
         },
         {
             "name": "不正常出血或白帶",
             "nameEn": "abnormal bleeding/vaginal discharge",
-            "problem": "D3-P17",
-            "id": "D3-P17-S4"
+            "code": "4",
+            "problem": "PHY17",
+            "id": "PHY17-4"
         },
         {
             "name": "產後併發症",
             "nameEn": "postpartum complications",
-            "problem": "D3-P17",
-            "id": "D3-P17-S5"
+            "code": "5",
+            "problem": "PHY17",
+            "id": "PHY17-5"
         },
         {
             "name": "異常沮喪感",
             "nameEn": "abnormal depressed feelings",
-            "problem": "D3-P17",
-            "id": "D3-P17-S6"
+            "code": "6",
+            "problem": "PHY17",
+            "id": "PHY17-6"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D3-P17",
-            "id": "D3-P17-S7"
+            "code": "7",
+            "problem": "PHY17",
+            "id": "PHY17-7"
         },
         {
             "name": "感染",
             "nameEn": "infection",
-            "problem": "D3-P18",
-            "id": "D3-P18-S1"
+            "code": "1",
+            "problem": "PHY18",
+            "id": "PHY18-1"
         },
         {
             "name": "寄生蟲侵染",
             "nameEn": "infestation",
-            "problem": "D3-P18",
-            "id": "D3-P18-S2"
+            "code": "2",
+            "problem": "PHY18",
+            "id": "PHY18-2"
         },
         {
             "name": "發燒",
             "nameEn": "fever",
-            "problem": "D3-P18",
-            "id": "D3-P18-S3"
+            "code": "3",
+            "problem": "PHY18",
+            "id": "PHY18-3"
         },
         {
             "name": "生物危害",
             "nameEn": "biological hazards",
-            "problem": "D3-P18",
-            "id": "D3-P18-S4"
+            "code": "4",
+            "problem": "PHY18",
+            "id": "PHY18-4"
         },
         {
             "name": "篩檢/培養/實驗室檢查呈陽性",
             "nameEn": "positive screening/culture/laboratory results",
-            "problem": "D3-P18",
-            "id": "D3-P18-S5"
+            "code": "5",
+            "problem": "PHY18",
+            "id": "PHY18-5"
         },
         {
             "name": "TBD",
             "nameEn": "inadequat suppliesto /equipment/policies prevent transmission",
-            "problem": "D3-P18",
-            "id": "D3-P18-S6"
+            "code": "6",
+            "problem": "PHY18",
+            "id": "PHY18-6"
         },
         {
             "name": "未遵循感控方案",
             "nameEn": "does not follow infection control regimen",
-            "problem": "D3-P18",
-            "id": "D3-P18-S7"
+            "code": "7",
+            "problem": "PHY18",
+            "id": "PHY18-7"
         },
         {
             "name": "免疫力低下",
             "nameEn": "inadequate immunity",
-            "problem": "D3-P18",
-            "id": "D3-P18-S8"
+            "code": "8",
+            "problem": "PHY18",
+            "id": "PHY18-8"
         },
         {
             "name": "其他",
             "nameEn": "other",
-            "problem": "D3-P18",
-            "id": "D3-P18-S9"
+            "code": "9",
+            "problem": "PHY18",
+            "id": "PHY18-9"
         },
         {
             "name": "過重",
             "nameEn": "overweight: adult BMI 25.0 or more; child BMI 95th percentile or more",
-            "problem": "D4-P1",
-            "id": "D4-P1-S1"
+            "code": "1",
+            "problem": "HEAL1",
+            "id": "HEAL1-1"
         },
         {
             "name": "過輕",
             "nameEn": "underweight: adult BMI 18.5 or less; child BMI 5th percentile or less",
-            "problem": "D4-P1",
-            "id": "D4-P1-S2"
+            "code": "2",
+            "problem": "HEAL1",
+            "id": "HEAL1-2"
         },
         {
             "name": "低於每日飲食準則(液體量/卡洛里)",
             "nameEn": "lacks established standards for daily caloric/fluid intake",
-            "problem": "D4-P1",
-            "id": "D4-P1-S3"
+            "code": "3",
+            "problem": "HEAL1",
+            "id": "HEAL1-3"
         },
         {
             "name": "高過每日飲食準則(液體量/卡洛里)",
             "nameEn": "exceeds established standards for daily caloric/fluid intake",
-            "problem": "D4-P1",
-            "id": "D4-P1-S4"
+            "code": "4",
+            "problem": "HEAL1",
+            "id": "HEAL1-4"
         },
         {
             "name": "不均衡飲食",
             "nameEn": "unbalanced diet",
-            "problem": "D4-P1",
-            "id": "D4-P1-S5"
+            "code": "5",
+            "problem": "HEAL1",
+            "id": "HEAL1-5"
         },
         {
             "name": "與年齡不合的進食餐數",
             "nameEn": "improper feeding schedule for age",
-            "problem": "D4-P1",
-            "id": "D4-P1-S6"
+            "code": "6",
+            "problem": "HEAL1",
+            "id": "HEAL1-6"
         },
         {
             "name": "無法遵從營養建議",
             "nameEn": "does not follow recommended nutrition plan",
-            "problem": "D4-P1",
-            "id": "D4-P1-S7"
+            "code": "7",
+            "problem": "HEAL1",
+            "id": "HEAL1-7"
         },
         {
             "name": "無法解釋的體重下降",
             "nameEn": "unexplained/progressive weight loss",
-            "problem": "D4-P1",
-            "id": "D4-P1-S8"
+            "code": "8",
+            "problem": "HEAL1",
+            "id": "HEAL1-8"
         },
         {
             "name": "無法備餐",
             "nameEn": "unable to obtain/prepare food",
-            "problem": "D4-P1",
-            "id": "D4-P1-S9"
+            "code": "9",
+            "problem": "HEAL1",
+            "id": "HEAL1-9"
         },
         {
             "name": "低血糖",
             "nameEn": "hypoglycemia",
-            "problem": "D4-P1",
-            "id": "D4-P1-S10"
+            "code": "10",
+            "problem": "HEAL1",
+            "id": "HEAL1-10"
         },
         {
             "name": "高血糖",
             "nameEn": "hyperglycemia",
-            "problem": "D4-P1",
-            "id": "D4-P1-S11"
+            "code": "11",
+            "problem": "HEAL1",
+            "id": "HEAL1-11"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D4-P1",
-            "id": "D4-P1-S12"
+            "code": "12",
+            "problem": "HEAL1",
+            "id": "HEAL1-12"
         },
         {
             "name": "睡眠/休息模式擾亂家庭",
             "nameEn": "sleep/rest pattern disrupts family",
-            "problem": "D4-P2",
-            "id": "D4-P2-S1"
+            "code": "1",
+            "problem": "HEAL2",
+            "id": "HEAL2-1"
         },
         {
             "name": "常在夜裡醒來",
             "nameEn": "frequently wakes during night",
-            "problem": "D4-P2",
-            "id": "D4-P2-S2"
+            "code": "2",
+            "problem": "HEAL2",
+            "id": "HEAL2-2"
         },
         {
             "name": "夢遊",
             "nameEn": "sleepwalking",
-            "problem": "D4-P2",
-            "id": "D4-P2-S3"
+            "code": "3",
+            "problem": "HEAL2",
+            "id": "HEAL2-3"
         },
         {
             "name": "失眠",
             "nameEn": "insomnia",
-            "problem": "D4-P2",
-            "id": "D4-P2-S4"
+            "code": "4",
+            "problem": "HEAL2",
+            "id": "HEAL2-4"
         },
         {
             "name": "噩夢",
             "nameEn": "nightmares",
-            "problem": "D4-P2",
-            "id": "D4-P2-S5"
+            "code": "5",
+            "problem": "HEAL2",
+            "id": "HEAL2-5"
         },
         {
             "name": "與年齡與身體狀況睡眠不足",
             "nameEn": "insufficient sleep/rest for age/physical condition",
-            "problem": "D4-P2",
-            "id": "D4-P2-S6"
+            "code": "6",
+            "problem": "HEAL2",
+            "id": "HEAL2-6"
         },
         {
             "name": "睡眠呼吸暫停",
             "nameEn": "sleep apnea",
-            "problem": "D4-P2",
-            "id": "D4-P2-S7"
+            "code": "7",
+            "problem": "HEAL2",
+            "id": "HEAL2-7"
         },
         {
             "name": "打鼾",
             "nameEn": "snoring",
-            "problem": "D4-P2",
-            "id": "D4-P2-S8"
+            "code": "8",
+            "problem": "HEAL2",
+            "id": "HEAL2-8"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D4-P2",
-            "id": "D4-P2-S9"
+            "code": "9",
+            "problem": "HEAL2",
+            "id": "HEAL2-9"
         },
         {
             "name": "靜態生活型態",
             "nameEn": "sedentary life style",
-            "problem": "D4-P3",
-            "id": "D4-P3-S1"
+            "code": "1",
+            "problem": "HEAL3",
+            "id": "HEAL3-1"
         },
         {
             "name": "不適當/不​​持續的運動模式",
             "nameEn": "inadequate/inconsistent exercise routine",
-            "problem": "D4-P3",
-            "id": "D4-P3-S2"
+            "code": "2",
+            "problem": "HEAL3",
+            "id": "HEAL3-2"
         },
         {
             "name": "不適合現在體能狀況的運動型態或運動量",
             "nameEn": "inappropriate type/amount of exercise for age/physical condition",
-            "problem": "D4-P3",
-            "id": "D4-P3-S3"
+            "code": "3",
+            "problem": "HEAL3",
+            "id": "HEAL3-3"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D4-P3",
-            "id": "D4-P3-S4"
+            "code": "4",
+            "problem": "HEAL3",
+            "id": "HEAL3-4"
         },
         {
             "name": "難以洗衣服",
             "nameEn": "difficulty laundering clothing",
-            "problem": "D4-P4",
-            "id": "D4-P4-S1"
+            "code": "1",
+            "problem": "HEAL4",
+            "id": "HEAL4-1"
         },
         {
             "name": "難以洗澡",
             "nameEn": "difficulty with bathing",
-            "problem": "D4-P4",
-            "id": "D4-P4-S2"
+            "code": "2",
+            "problem": "HEAL4",
+            "id": "HEAL4-2"
         },
         {
             "name": "難以上廁所",
             "nameEn": "difficulty with toileting activities",
-            "problem": "D4-P4",
-            "id": "D4-P4-S3"
+            "code": "3",
+            "problem": "HEAL4",
+            "id": "HEAL4-3"
         },
         {
             "name": "難以穿脫下半身衣服",
             "nameEn": "difficulty dressing lower body",
-            "problem": "D4-P4",
-            "id": "D4-P4-S4"
+            "code": "4",
+            "problem": "HEAL4",
+            "id": "HEAL4-4"
         },
         {
             "name": "難以穿脫上衣",
             "nameEn": "difficulty dressing upper body",
-            "problem": "D4-P4",
-            "id": "D4-P4-S5"
+            "code": "5",
+            "problem": "HEAL4",
+            "id": "HEAL4-5"
         },
         {
             "name": "身體惡臭",
             "nameEn": "foul body odor",
-            "problem": "D4-P4",
-            "id": "D4-P4-S6"
+            "code": "6",
+            "problem": "HEAL4",
+            "id": "HEAL4-6"
         },
         {
             "name": "無法洗頭/梳頭",
             "nameEn": "difficulty shampooing/combing hair",
-            "problem": "D4-P4",
-            "id": "D4-P4-S7"
+            "code": "7",
+            "problem": "HEAL4",
+            "id": "HEAL4-7"
         },
         {
             "name": "難以刷牙/使用牙線/口腔護理",
             "nameEn": "difficulty brushing/flossing/mouth care",
-            "problem": "D4-P4",
-            "id": "D4-P4-S8"
+            "code": "8",
+            "problem": "HEAL4",
+            "id": "HEAL4-8"
         },
         {
             "name": "不情願/無法/忘記完成自我照護",
             "nameEn": "unwilling/unable/forgets to complete personal care activities",
-            "problem": "D4-P4",
-            "id": "D4-P4-S9"
+            "code": "9",
+            "problem": "HEAL4",
+            "id": "HEAL4-9"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D4-P4",
-            "id": "D4-P4-S10"
+            "code": "10",
+            "problem": "HEAL4",
+            "id": "HEAL4-10"
         },
         {
             "name": "濫用非處方/處方藥物",
             "nameEn": "abuses over-the-counter/prescription medications",
-            "problem": "D4-P5",
-            "id": "D4-P5-S1"
+            "code": "1",
+            "problem": "HEAL5",
+            "id": "HEAL5-1"
         },
         {
             "name": "使用娛樂性藥物(幻覺劑、興奮劑、抗憂鬱劑)",
             "nameEn": "uses 'street' - recreatinal drugs",
-            "problem": "D4-P5",
-            "id": "D4-P5-S2"
+            "code": "2",
+            "problem": "HEAL5",
+            "id": "HEAL5-2"
         },
         {
             "name": "酒精濫用",
             "nameEn": "abuses alcohol",
-            "problem": "D4-P5",
-            "id": "D4-P5-S3"
+            "code": "3",
+            "problem": "HEAL5",
+            "id": "HEAL5-3"
         },
         {
             "name": "抽菸/使用菸草製品",
             "nameEn": "smokes/uses tobacco products",
-            "problem": "D4-P5",
-            "id": "D4-P5-S4"
+            "code": "4",
+            "problem": "HEAL5",
+            "id": "HEAL5-4"
         },
         {
             "name": "難以執行平日角色",
             "nameEn": "difficulty performing normal routines",
-            "problem": "D4-P5",
-            "id": "D4-P5-S5"
+            "code": "5",
+            "problem": "HEAL5",
+            "id": "HEAL5-5"
         },
         {
             "name": "反射異常",
             "nameEn": "reflex disturbances",
-            "problem": "D4-P5",
-            "id": "D4-P5-S6"
+            "code": "6",
+            "problem": "HEAL5",
+            "id": "HEAL5-6"
         },
         {
             "name": "行為改變",
             "nameEn": "behavior change",
-            "problem": "D4-P5",
-            "id": "D4-P5-S7"
+            "code": "7",
+            "problem": "HEAL5",
+            "id": "HEAL5-7"
         },
         {
             "name": "暴露在二手菸中",
             "nameEn": "exposure to cigarette/cigar smoke",
-            "problem": "D4-P5",
-            "id": "D4-P5-S8"
+            "code": "8",
+            "problem": "HEAL5",
+            "id": "HEAL5-8"
         },
         {
             "name": "買賣毒品",
             "nameEn": "buys/sells illegal substances",
-            "problem": "D4-P5",
-            "id": "D4-P5-S9"
+            "code": "9",
+            "problem": "HEAL5",
+            "id": "HEAL5-9"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D4-P5",
-            "id": "D4-P5-S10"
+            "code": "10",
+            "problem": "HEAL5",
+            "id": "HEAL5-10"
         },
         {
             "name": "育兒知識不足/不恰當",
             "nameEn": "inappropriate/insufficient knowledge about family planning methods",
-            "problem": "D4-P6",
-            "id": "D4-P6-S1"
+            "code": "1",
+            "problem": "HEAL6",
+            "id": "HEAL6-1"
         },
         {
             "name": "健康行為的知識不足/不恰當",
             "nameEn": "inappropriate/insufficient knowledge about preconception health practices",
-            "problem": "D4-P6",
-            "id": "D4-P6-S2"
+            "code": "2",
+            "problem": "HEAL6",
+            "id": "HEAL6-2"
         },
         {
             "name": "TBD",
             "nameEn": "inaccurate/inconsistent use of family planning methods",
-            "problem": "D4-P6",
-            "id": "D4-P6-S3"
+            "code": "3",
+            "problem": "HEAL6",
+            "id": "HEAL6-3"
         },
         {
             "name": "對目前家庭計畫進行方式不滿",
             "nameEn": "dissatisfied with present family planning method",
-            "problem": "D4-P6",
-            "id": "D4-P6-S4"
+            "code": "4",
+            "problem": "HEAL6",
+            "id": "HEAL6-4"
         },
         {
             "name": "擔心他人對家庭計畫選擇的反應",
             "nameEn": "fears others' reactions regarding family planning choices",
-            "problem": "D4-P6",
-            "id": "D4-P6-S5"
+            "code": "5",
+            "problem": "HEAL6",
+            "id": "HEAL6-5"
         },
         {
             "name": "難以執行家庭計畫",
             "nameEn": "difficulty obtaining family planning methods",
-            "problem": "D4-P6",
-            "id": "D4-P6-S6"
+            "code": "6",
+            "problem": "HEAL6",
+            "id": "HEAL6-6"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D4-P6",
-            "id": "D4-P6-S7"
+            "code": "7",
+            "problem": "HEAL6",
+            "id": "HEAL6-7"
         },
         {
             "name": "未能獲得常規/預防性的健康照護",
             "nameEn": "fails to obtain routine/preventive health care",
-            "problem": "D4-P7",
-            "id": "D4-P7-S1"
+            "code": "1",
+            "problem": "HEAL7",
+            "id": "HEAL7-1"
         },
         {
             "name": "未能尋求徵狀的評估與治療",
             "nameEn": "fails to seek care for symptoms requiring evaluation/treatment",
-            "problem": "D4-P7",
-            "id": "D4-P7-S2"
+            "code": "2",
+            "problem": "HEAL7",
+            "id": "HEAL7-2"
         },
         {
             "name": "未能依照照護人員要求回診",
             "nameEn": "fails to return as requested to health care provider",
-            "problem": "D4-P7",
-            "id": "D4-P7-S3"
+            "code": "3",
+            "problem": "HEAL7",
+            "id": "HEAL7-3"
         },
         {
             "name": "無法配合不同專業的治療計畫",
             "nameEn": "inability to coordinate multiple appointments/treatment plans",
-            "problem": "D4-P7",
-            "id": "D4-P7-S4"
+            "code": "4",
+            "problem": "HEAL7",
+            "id": "HEAL7-4"
         },
         {
             "name": "健康照護資源來源不一致",
             "nameEn": "inconsistent source of health care",
-            "problem": "D4-P7",
-            "id": "D4-P7-S5"
+            "code": "5",
+            "problem": "HEAL7",
+            "id": "HEAL7-5"
         },
         {
             "name": "健康照護資源不足",
             "nameEn": "inadequate source of health care",
-            "problem": "D4-P7",
-            "id": "D4-P7-S6"
+            "code": "6",
+            "problem": "HEAL7",
+            "id": "HEAL7-6"
         },
         {
             "name": "治療計劃不足",
             "nameEn": "inadequate treatment plan",
-            "problem": "D4-P7",
-            "id": "D4-P7-S7"
+            "code": "7",
+            "problem": "HEAL7",
+            "id": "HEAL7-7"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D4-P7",
-            "id": "D4-P7-S8"
+            "code": "8",
+            "problem": "HEAL7",
+            "id": "HEAL7-8"
         },
         {
             "name": "難以遵循服藥劑量與時間",
             "nameEn": "does not follow recommended dosage/schedule",
-            "problem": "D4-P8",
-            "id": "D4-P8-S1"
+            "code": "1",
+            "problem": "HEAL8",
+            "id": "HEAL8-1"
         },
         {
             "name": "出現藥物副作用/不良反應",
             "nameEn": "evidence of side effects/adverse reactions",
-            "problem": "D4-P8",
-            "id": "D4-P8-S2"
+            "code": "2",
+            "problem": "HEAL8",
+            "id": "HEAL8-2"
         },
         {
             "name": "出現藥物副作用/不良反應",
             "nameEn": "inadequate system for taking medication",
-            "problem": "D4-P8",
-            "id": "D4-P8-S3"
+            "code": "3",
+            "problem": "HEAL8",
+            "id": "HEAL8-3"
         },
         {
             "name": "藥物存放不當",
             "nameEn": "improper storage of medication",
-            "problem": "D4-P8",
-            "id": "D4-P8-S4"
+            "code": "4",
+            "problem": "HEAL8",
+            "id": "HEAL8-4"
         },
         {
             "name": "TBD",
             "nameEn": "fails to obtain refills appropriately",
-            "problem": "D4-P8",
-            "id": "D4-P8-S5"
+            "code": "5",
+            "problem": "HEAL8",
+            "id": "HEAL8-5"
         },
         {
             "name": "未能獲得免疫接種",
             "nameEn": "fails to obtain immunizations",
-            "problem": "D4-P8",
-            "id": "D4-P8-S6"
+            "code": "6",
+            "problem": "HEAL8",
+            "id": "HEAL8-6"
         },
         {
             "name": "未能獲得藥物治療",
             "nameEn": "inadequate medication regimen",
-            "problem": "D4-P8",
-            "id": "D4-P8-S7"
+            "code": "7",
+            "problem": "HEAL8",
+            "id": "HEAL8-7"
         },
         {
             "name": "無他人協助無法服藥",
             "nameEn": "unable to take medications without help",
-            "problem": "D4-P8",
-            "id": "D4-P8-S8"
+            "code": "8",
+            "problem": "HEAL8",
+            "id": "HEAL8-8"
         },
         {
             "name": "其他",
             "nameEn": "Other",
-            "problem": "D4-P8",
-            "id": "D4-P8-S9"
+            "code": "9",
+            "problem": "HEAL8",
+            "id": "HEAL8-9"
         }
     ],
     "interventionTarget": [
         {
-            "id": "1",
+            "id": "T1",
             "name": "解剖學/生理學",
             "nameEn": "anatomy/physiology"
         },
         {
-            "id": "2",
+            "id": "T2",
             "name": "憤怒情緒管理",
             "nameEn": "anger management"
         },
         {
-            "id": "3",
+            "id": "T3",
             "name": "行為修正",
             "nameEn": "behavior modification"
         },
         {
-            "id": "4",
+            "id": "T4",
             "name": "膀胱照護",
             "nameEn": "bladder care"
         },
         {
-            "id": "5",
+            "id": "T5",
             "name": "連結/依附",
             "nameEn": "bonding/attachment"
         },
         {
-            "id": "6",
+            "id": "T6",
             "name": "腸道照顧",
             "nameEn": "bowel care"
         },
         {
-            "id": "7",
+            "id": "T7",
             "name": "心臟護理",
             "nameEn": "cardiac care"
         },
         {
-            "id": "8",
+            "id": "T8",
             "name": "照料/育兒技巧",
             "nameEn": "caretaking/parenting skills"
         },
         {
-            "id": "9",
+            "id": "T9",
             "name": "打石膏",
             "nameEn": "cast care"
         },
         {
-            "id": "10",
+            "id": "T10",
             "name": "溝通",
             "nameEn": "communication"
         },
         {
-            "id": "11",
+            "id": "T11",
             "name": "社工外展服務",
             "nameEn": "community outreach worker services"
         },
         {
-            "id": "12",
+            "id": "T12",
             "name": "持續性照護",
             "nameEn": "continuity of care"
         },
         {
-            "id": "13",
+            "id": "T13",
             "name": "調適技巧",
             "nameEn": "coping skills"
         },
         {
-            "id": "14",
+            "id": "T14",
             "name": "日照/喘息",
             "nameEn": "day care/respite"
         },
         {
-            "id": "15",
+            "id": "T15",
             "name": "膳食調理",
             "nameEn": "dietary management"
         },
         {
-            "id": "16",
+            "id": "T16",
             "name": "訓練",
             "nameEn": "discipline"
         },
         {
-            "id": "17",
+            "id": "T17",
             "name": "換膚料/傷口照護",
             "nameEn": "dressing change/wound care"
         },
         {
-            "id": "30",
+            "id": "T30",
             "name": "TBD",
             "nameEn": "home"
         },
         {
-            "id": "31",
+            "id": "T31",
             "name": "家政/家務",
             "nameEn": "homemaking/housekeeping"
         },
         {
-            "id": "32",
+            "id": "T32",
             "name": "感控措施",
             "nameEn": "infection precautions"
         },
         {
-            "id": "33",
+            "id": "T33",
             "name": "互動",
             "nameEn": "interaction"
         },
         {
-            "id": "34",
+            "id": "T34",
             "name": "通譯員或翻譯服務",
             "nameEn": "interpreter/translator services"
         },
         {
-            "id": "35",
+            "id": "T35",
             "name": "檢驗發現",
             "nameEn": "laboratory findings"
         },
         {
-            "id": "36",
+            "id": "T36",
             "name": "法治系統",
             "nameEn": "legal system"
         },
         {
-            "id": "37",
+            "id": "T37",
             "name": "醫療/齒科照護",
             "nameEn": "medical/dental care"
         },
         {
-            "id": "38",
+            "id": "T38",
             "name": "藥物作用/副作用",
             "nameEn": "medication action/side effects"
         },
         {
-            "id": "39",
+            "id": "T39",
             "name": "藥物管理",
             "nameEn": "medication administration"
         },
         {
-            "id": "40",
+            "id": "T40",
             "name": "TBD",
             "nameEn": "medication coordination/ordering"
         },
         {
-            "id": "41",
+            "id": "T41",
             "name": "藥物處方",
             "nameEn": "medication prescription"
         },
         {
-            "id": "42",
+            "id": "T42",
             "name": "TBD",
             "nameEn": "medication set-up"
         },
         {
-            "id": "43",
+            "id": "T43",
             "name": "移動/轉位",
             "nameEn": "mobility/transfers"
         },
         {
-            "id": "44",
+            "id": "T44",
             "name": "護理",
             "nameEn": "nursing care"
         },
         {
-            "id": "45",
+            "id": "T45",
             "name": "職能治療",
             "nameEn": "occupational therapy care"
         },
         {
-            "id": "46",
+            "id": "T46",
             "name": "造口護理",
             "nameEn": "ostomy care"
         },
         {
-            "id": "47",
+            "id": "T47",
             "name": "其他社區資源",
             "nameEn": "other community resources"
         },
         {
-            "id": "48",
+            "id": "T48",
             "name": "輔助療護",
             "nameEn": "paraprofessional/aide care"
         },
         {
-            "id": "49",
+            "id": "T49",
             "name": "個人衛生",
             "nameEn": "personal hygiene"
         },
         {
-            "id": "50",
+            "id": "T50",
             "name": "物理治療",
             "nameEn": "physical therapy care"
         },
         {
-            "id": "51",
+            "id": "T51",
             "name": "擺位",
             "nameEn": "positioning"
         },
         {
-            "id": "52",
+            "id": "T52",
             "name": "休閒治療照護",
             "nameEn": "recreational therapy care"
         },
         {
-            "id": "53",
+            "id": "T53",
             "name": "放鬆語呼吸法",
             "nameEn": "relaxation/breathing techniques"
         },
         {
-            "id": "54",
+            "id": "T54",
             "name": "呼吸照護",
             "nameEn": "respiratory care"
         },
         {
-            "id": "55",
+            "id": "T55",
             "name": "呼吸治療照護",
             "nameEn": "respiratory therapy care"
         },
         {
-            "id": "56",
+            "id": "T56",
             "name": "休息/睡眠",
             "nameEn": "rest/sleep"
         },
         {
-            "id": "57",
+            "id": "T57",
             "name": "安全",
             "nameEn": "safety"
         },
         {
-            "id": "58",
+            "id": "T58",
             "name": "篩檢",
             "nameEn": "screening procedures"
         },
         {
-            "id": "59",
+            "id": "T59",
             "name": "疾病/意外照護",
             "nameEn": "sickness/injury care"
         },
         {
-            "id": "60",
+            "id": "T60",
             "name": "靈性症狀",
             "nameEn": "signs/symptoms-mental/emotional"
         },
         {
-            "id": "61",
+            "id": "T61",
             "name": "生理症狀",
             "nameEn": "signs/symptoms-physical"
         },
         {
-            "id": "62",
+            "id": "T62",
             "name": "皮膚護理",
             "nameEn": "skin care"
         },
         {
-            "id": "63",
+            "id": "T63",
             "name": "社工/諮商",
             "nameEn": "social work/counseling care"
         },
         {
-            "id": "64",
+            "id": "T64",
             "name": "病理採樣",
             "nameEn": "specimen collection"
         },
         {
-            "id": "65",
+            "id": "T65",
             "name": "語言治療",
             "nameEn": "speech and language pathology care"
         },
         {
-            "id": "66",
+            "id": "T66",
             "name": "靈性關懷",
             "nameEn": "spiritual care"
         },
         {
-            "id": "67",
+            "id": "T67",
             "name": "TBD",
             "nameEn": "stimulation/nurturance"
         },
         {
-            "id": "68",
+            "id": "T68",
             "name": "壓力管理",
             "nameEn": "stress management"
         },
         {
-            "id": "69",
+            "id": "T69",
             "name": "戒癮",
             "nameEn": "substance use cessation"
         },
         {
-            "id": "70",
+            "id": "T70",
             "name": "補給",
             "nameEn": "supplies"
         },
         {
-            "id": "71",
+            "id": "T71",
             "name": "支持團體",
             "nameEn": "support group"
         },
         {
-            "id": "72",
+            "id": "T72",
             "name": "支持系統",
             "nameEn": "support system"
         },
         {
-            "id": "73",
+            "id": "T73",
             "name": "交通運輸",
             "nameEn": "transportation"
         },
         {
-            "id": "74",
+            "id": "T74",
             "name": "其他",
             "nameEn": "Other"
         }

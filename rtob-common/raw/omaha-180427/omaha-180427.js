@@ -22,6 +22,13 @@ var options = {
   quote: '"' // optional
 };
 
+const domainMap = {
+  D1: "ENV",
+  D2: "PSY",
+  D3: "PHY",
+  D4: "HEAL",
+}
+
 var problem = csvjson
   .toObject(dataProblem, options).map(v=>{
     const r = {}
@@ -30,9 +37,9 @@ var problem = csvjson
     r.nameEn = v["英文原文"]
     // '面向名稱': 'D4.健康相關行為面向',
     const domainArr = v["面向名稱"].split(".")
-    r.domain = domainArr[0]
+    r.domain = domainMap[domainArr[0]]
     r.code = v["代碼"]
-    r.id = `${r.domain}-P${r.code}`
+    r.id = `${r.domain}${r.code}`
     return r;
   })
 
@@ -51,16 +58,17 @@ var sign = csvjson
     const r = {}
     r.name = v.name
     r.nameEn = v.nameEn
+    r.code = v.id
     //r.domain = v.domainid
-    r.problem = `${v.domainid}-P${v.problemid}`
-    r.id = `${r.problem}-S${v.id}`
+    r.problem = `${domainMap[v.domainid]}${v.problemid}`
+    r.id = `${r.problem}-${v.id}`
     return r;
   })
 
 var target = csvjson
   .toObject(dataIntervension, options).map(v=>{
     const r = {}
-    r.id = v.id
+    r.id = `T${v.id}`
     r.name = v.name
     r.nameEn = v.nameEn
     return r;
@@ -68,19 +76,19 @@ var target = csvjson
 
 const result = {
   domain: {
-    D1: {
+    ENV: {
       name: "環境面向",
       nameEn: "Environmental Domain"
     },
-    D2 :{
+    PSY :{
       name: "心理社會面向",
       nameEn: "Psychosocial Domain"
     },
-    D3 :{
+    PHY :{
       name: "生理面向",
       nameEn: "Physiological Domain"
     },
-    D4 :{
+    HEAL :{
       name: "健康相關行為面向",
       nameEn: "Health-related Behaviors Domain"
     }
