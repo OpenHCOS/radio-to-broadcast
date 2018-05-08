@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <title>vue-base - radio-to-broadcast</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<BODY>
+    <!-- Our application root element -->
+    <div id="app" style="margin-top:3em;">
+                <h2>服務代碼價格列表 v20180420</h2>
+                <div v-for="(v,k) in serviceMap">
+                    <h4>{{k}}, {{v.serviceType}} , 支付價格={{v.price}}, 原民區或離島支付價格={{v.priceRemote}}</h4>
+                </div>
+    </div>
+    <!-- Add this after vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+        window.app = new Vue({
+            el: "#app",
+            data() {
+                return {
+                    msg: 'hello',
+                    serviceMap: {}
+                }
+            },
+            created: function () {
+                var instance = this;
+                axios.get('https://openhcos.github.io/radio-to-broadcast/json/service-codes-180420.json')
+                    .then(function (response) {
+                        instance.serviceMap = response.data.serviceMap;
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+
+            }
+        })
+    </script>
+</BODY>
+
+</HTML>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <title>vue-base - radio-to-broadcast</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<BODY>
+    <!-- Our application root element -->
+    <div id="app" style="margin-top:3em;">
+                <h2>{{msg}}</h2>
+                <h2>服務代碼價格列表</h2>
+                <div v-for="(v,k) in serviceMap">
+                    <h4>{{k}}, {{v.serviceType}} , 支付價格={{v.price}}, 原民區或離島支付價格={{v.priceRemote}}</h4>
+                </div>
+    </div>
+    <!-- Add this after vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+        
+        window.app = new Vue({
+            el: "#app",
+            data() {
+                return {
+                    msg: 'hello',
+                    serviceMap: {}
+                }
+            },
+            created: function () {
+                var instance = this;
+                this.loadSodium();
+                axios.get('https://openhcos.github.io/radio-to-broadcast/json/service-codes-180420.json')
+                    .then(function (response) {
+                        instance.serviceMap = response.data.serviceMap;
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+
+            },
+            methods: {
+                loadSodium(){
+                    var instance = this;
+                    window.sodium = {
+                      onload: function (sodium) {
+                       let h = sodium.crypto_generichash(32, sodium.from_string('test'));
+                       console.log(sodium.to_hex(h));
+                       instance.msg = sodium.to_hex(h);
+
+                       let key = sodium.crypto_secretstream_xchacha20poly1305_keygen();
+                       let res = sodium.crypto_secretstream_xchacha20poly1305_init_push(key);
+                       let [state_out, header] = [res.state, res.header];
+                       let c1 = sodium.crypto_secretstream_xchacha20poly1305_push(state_out,
+                               sodium.from_string('Hello radio-to-broadcast!!'), null,
+                               sodium.crypto_secretstream_xchacha20poly1305_TAG_MESSAGE);
+                       console.log(JSON.stringify(c1));
+                       let state_in = sodium.crypto_secretstream_xchacha20poly1305_init_pull(header, key);
+                       let r1 = sodium.crypto_secretstream_xchacha20poly1305_pull(state_in, c1);
+                       let [m1, tag1] = [sodium.to_string(r1.message), r1.tag];
+                        console.log('message');
+                        console.log(JSON.stringify(m1));
+                    }
+                };
+                }
+            }
+        })
+    </script>
+    <script src="https://rawgit.com/jedisct1/libsodium.js/master/dist/browsers/sodium.js" async></script>
+</BODY>
+
+</HTML>
