@@ -19,18 +19,26 @@
     <div id="app" style="margin-top:3em;">
         <b-container>
             <b-jumbotron>
-                <template slot="header">
-                    RTOB 
-                </template>
-                <template slot="lead">
-                    radio-to-broadcast : 博祖克型態概念專案
-                </template>
+                <h2>
+                    radio-to-broadcast : 博祖克型態資源分享概念專案
+                </h2>
+                <b-card>
+                <h3>omaha-180427.json</h3>
+                <h4>OmahaSystem2009三大表格</h4>
+                <p>範例展示如何應用json資源檔案。程式碼請參照 <a href="https://github.com/OpenHCOS/radio-to-broadcast/tree/master/docs">OpenHCOS/radio-to-broadcast</a></p>
                 <div>
-                    <b-btn variant="success" href="admin.html">範例展示網站(開發中)</b-btn>
-                    <b-btn variant="success" href="https://github.com/OpenHCOS/radio-to-broadcast">Github</b-btn>
-                    <b-btn variant="success" href="api.html">OpenAPI Spec v3</b-btn>
-                    <b-btn variant="success" href="index.20180409.html">博祖克議題松 - D組試驗專案</b-btn>
+                    <b-btn variant="info" href="examples/oms2009-180427-1.html">範例1: 列表</b-btn>
                 </div>
+                </b-card>
+                <b-card>
+                <h4>20180409 博祖克議題松 - D組試驗專案</h4>
+                <div>
+                    <b-btn variant="success" href="admin.html">[WIP] 範例展示網站(開發中)</b-btn>
+                    <b-btn variant="primary" href="https://github.com/OpenHCOS/radio-to-broadcast">Github</b-btn>
+                    <b-btn variant="info" href="api.html">[WIP] OpenAPI Spec v3</b-btn>
+                    <b-btn variant="danger" href="index.20180409.html">博祖克議題松 - D組試驗專案</b-btn>
+                </div>
+                </b-card>
             </b-jumbotron>
             <b-jumbotron>
                 <h2>
@@ -39,8 +47,8 @@
                 <b-card>
                     <h4>服務代碼價格 service-codes-180420.json</h4>
                     <b-btn variant="primary" href="https://openhcos.github.io/radio-to-broadcast/json/service-codes-180420.json">service-codes-180420.json</b-btn>
-                    <b-btn variant="primary" href="https://openhcos.github.io/radio-to-broadcast/schema/service-codes-180420.ld.json">JSONLD</b-btn>
-                    <b-btn variant="primary" href="https://openhcos.github.io/radio-to-broadcast/schema/service-codes-180420.schema.json">JSONSchema</b-btn>
+                    <b-btn variant="info" href="https://openhcos.github.io/radio-to-broadcast/schema/service-codes-180420.ld.json">JSONLD</b-btn>
+                    <b-btn variant="danger" href="https://openhcos.github.io/radio-to-broadcast/schema/service-codes-180420.schema.json">JSONSchema</b-btn>
                     <hr/>
                     <p>範例展示如何應用 service-codes-180420.json 檔案，計算結果僅供撰寫應用參考，內容與長照新制給付標準計算方式可能有很大差異請注意。程式碼請參照 <a href="https://github.com/OpenHCOS/radio-to-broadcast/tree/master/docs">OpenHCOS/radio-to-broadcast</a></p>
                     <b-btn variant="info" href="examples/service-codes-1.html">範例1: 列表</b-btn>

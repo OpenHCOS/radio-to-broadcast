@@ -35,6 +35,7 @@ var problem = csvjson
     //  '問題類型': '08.用藥習慣',
     r.name =  v["問題類型"].substring(3)
     r.nameEn = v["英文原文"]
+    r.name = r.name != 'TBD' ? r.name : r.nameEn 
     // '面向名稱': 'D4.健康相關行為面向',
     const domainArr = v["面向名稱"].split(".")
     r.domain = domainMap[domainArr[0]]
@@ -56,7 +57,7 @@ var problem = csvjson
 var sign = csvjson
   .toObject(dataSign, options).map(v=>{
     const r = {}
-    r.name = v.name
+    r.name = v.name != 'TBD' ? v.name : v.nameEn 
     r.nameEn = v.nameEn
     r.code = v.id
     //r.domain = v.domainid
@@ -64,12 +65,12 @@ var sign = csvjson
     r.id = `${r.problem}-${v.id}`
     return r;
   })
-
-var target = csvjson
+  
+  var target = csvjson
   .toObject(dataIntervension, options).map(v=>{
     const r = {}
     r.id = `T${v.id}`
-    r.name = v.name
+    r.name = v.name != 'TBD' ? v.name : v.nameEn 
     r.nameEn = v.nameEn
     return r;
   })

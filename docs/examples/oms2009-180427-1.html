@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <title>範例1: 列表 - radio-to-broadcast</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
+    <style>
+            .btn {
+              margin-bottom:5px;
+            }
+        </style>
+</head>
+
+<BODY style="margin:2em;">
+    <!-- Our application root element -->
+    <div id="app" style="margin-top:3em;">
+                <h2>OMS2009 問題列表</h2>
+                <div v-for="v in data.problem">
+                    <h4><b-badge variant="danger">{{v.id}}</b-badge> {{v.name}} <b-badge variant="info">{{v.nameEn}}</b-badge></h4>
+                    <h5>徵兆列表</h5>
+                    <div style="margin-left: 2em;">
+                        <p v-for="s in getSign(v.id)"><b-badge variant="success">{{s.id}}</b-badge> {{s.name}} <b-badge variant="info">{{s.nameEn}}</b-badge></p>
+                    </div>
+                </div>
+                <hr/>
+                <h2>介入措施列表</h2>
+                <div v-for="t in data.interventionTarget">
+                        <h4><b-badge variant="danger">{{t.id}}</b-badge> {{t.name}} <b-badge variant="info">{{t.nameEn}}</b-badge></h4>
+                </div>
+    </div>
+    <!-- Add this after vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+    <script>
+        window.app = new Vue({
+            el: "#app",
+            data() {
+                return {
+                    msg: 'hello',
+                    data: {}
+                }
+            },
+            created: function () {
+                var instance = this;
+                //axios.get('https://openhcos.github.io/radio-to-broadcast/json/omaha-180427.json')
+                axios.get('../json/omaha-180427.json')
+                    .then(function (response) {
+                        instance.data = response.data
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+            },
+            methods:{
+                getSign(k){
+                    return this.data.sign.filter(v=>v.problem==k)
+                }
+            }
+        })
+    </script>
+</BODY>
+
+</HTML>

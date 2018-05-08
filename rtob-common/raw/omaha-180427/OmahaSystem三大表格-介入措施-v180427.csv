@@ -16,18 +16,6 @@ Target,D5,1,14,day care/respite,日照/喘息
 Target,D5,1,15,dietary management,膳食調理
 Target,D5,1,16,discipline,訓練
 Target,D5,1,17,dressing change/wound care,換膚料/傷口照護
-Target,D5,1,18,durable medical equipment,耐用醫療器材
-Target,D5,1,19,education,教育
-Target,D5,1,20,employment,聘僱
-Target,D5,1,21,end-of-life care,臨終照護
-Target,D5,1,22,environment,環境改善
-Target,D5,1,23,exercises,運動
-Target,D5,1,24,family planning care,家庭計畫
-Target,D5,1,25,feeding procedures,鼻胃管餵食
-Target,D5,1,26,finances,經濟支持
-Target,D5,1,27,gait training,步態訓練
-Target,D5,1,28,genetics,基因檢測
-Target,D5,1,29,growth/development care,生長發育檢核
 Target,D5,1,30,home,TBD
 Target,D5,1,31,homemaking/housekeeping,家政/家務
 Target,D5,1,32,infection precautions,感控措施
@@ -61,7 +49,7 @@ Target,D5,1,59,sickness/injury care,疾病/意外照護
 Target,D5,1,60,signs/symptoms-mental/emotional,靈性症狀
 Target,D5,1,61,signs/symptoms-physical,生理症狀
 Target,D5,1,62,skin care,皮膚護理
-Target,D5,1,63,social work/counseling care,社會工作/諮商照顧
+Target,D5,1,63,social work/counseling care,社工/諮商
 Target,D5,1,64,specimen collection,病理採樣
 Target,D5,1,65,speech and language pathology care,語言治療
 Target,D5,1,66,spiritual care,靈性關懷
@@ -72,5 +60,4 @@ Target,D5,1,70,supplies,補給
 Target,D5,1,71,support group,支持團體
 Target,D5,1,72,support system,支持系統
 Target,D5,1,73,transportation,交通運輸
-Target,D5,1,74,wellness,全人健康
 Target,D5,1,74,Other,其他
