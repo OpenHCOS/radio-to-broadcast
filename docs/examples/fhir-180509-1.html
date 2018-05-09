@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <title>FHIR patient-example.json 範例1: 列表 - radio-to-broadcast</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
+    <style>
+            .btn {
+              margin-bottom:5px;
+            }
+        </style>
+</head>
+
+<BODY style="margin:2em;">
+    <!-- Our application root element -->
+    <div id="app" style="margin-top:3em;">
+                <h2>FHIR patient-example.json 範例1: 列表</h2>
+                <h5>
+                    <a href="https://www.inside.com.tw/2018/05/09/deep-learning-for-electronic-health">Google 醫療AI 新成果！用深度學習分析電子病歷，預測患者病情發展 - INSIDE 硬塞的網路趨勢觀察</a>
+                </h5>
+                <h5>
+                    <a href="http://www.tpms.org.tw/2018/01/29/fhir/">快速健康照護互通資源 (FHIR) | 台灣精準醫學學會</a>
+                </h5>
+                <h5>
+                        <a href="https://weitinglin.com/2018/05/05/%e7%b0%a1%e4%bb%8b-%e5%bf%ab%e9%80%9f%e5%81%a5%e5%ba%b7%e7%85%a7%e8%ad%b7%e4%ba%92%e9%80%9a%e8%b3%87%e6%ba%90-fhir%e5%8f%8a%e7%9b%b8%e9%97%9c%e5%ad%b8%e7%bf%92%e8%b3%87%e6%ba%90/">簡介 快速健康照護互通資源 (FHIR)及相關學習資源 – 我們的基因體時代 Our &quot;Gene&quot;ration</a>
+                </h5>
+                <h5>
+                        <a href="https://weitinglin.com/2018/05/04/%e4%bd%bf%e7%94%a8vue2koa2%e6%90%ad%e5%bb%ba%e5%b0%8f%e6%87%89%e7%94%a8fhir-questionaire-%ef%bc%8c%e7%ac%a6%e5%90%88%e5%9c%8b%e9%9a%9b%e9%86%ab%e7%99%82%e5%82%b3%e8%bc%b8%e5%95%8f%e5%88%b8%e8%b3%87/">使用vue2+koa2搭建小應用:FHIR questionaire ，符合國際醫療傳輸問券資料格式之json檔產生器 – 我們的基因體時代 Our &quot;Gene&quot;ration</a>
+                </h5>
+                <b-card>
+                    <h3>patient-example.json</h3>
+                    <h5><b-badge variant="warning">識別</b-badge> : {{data.identifier}}</h5>
+                    <div v-for="name in data.name">
+                        <h5><b-badge variant="danger">名字</b-badge> : {{name}}</h5>
+                    </div>
+                    <h5><b-badge variant="warning">生日</b-badge> : {{data.birthDate}}</h5>
+                    <h5><b-badge variant="success">性別</b-badge> : {{data.gender}}</h5>
+                    <h5>地址 : {{data.address[0]}}</h5>
+                    <h5>聯絡人地址 : {{data.contact[0].address}}</h5>
+                    <h5>聯絡人關係: {{data.contact[0].relationship}}</h5>
+                </b-card>
+                </div>
+                <!-- Add this after vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+    <script>
+        window.app = new Vue({
+            el: "#app",
+            data() {
+                return {
+                    msg: 'hello',
+                    data: {}
+                }
+            },
+            created: function () {
+                var instance = this;
+                axios.get('https://www.hl7.org/fhir/patient-example.json')
+                    .then(function (response) {
+                        instance.data = response.data
+                        console.log(instance.data)
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+            },
+            methods:{
+                getSign(k){
+                    return this.data.sign.filter(v=>v.problem==k)
+                }
+            }
+        })
+    </script>
+</BODY>
+
+</HTML>
