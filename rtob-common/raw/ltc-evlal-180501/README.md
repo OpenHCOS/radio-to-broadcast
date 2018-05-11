@@ -1,3 +1,8 @@
+# 20180510
+
+* minimaxir/textgenrnn: Easily train your own text-generating neural network of any size and complexity on any text dataset with a few lines of code. https://github.com/minimaxir/textgenrnn
+* fukuball/Tom-Chang-Deep-Lyrics: 基於 LSTM 深度學習方法研發而成的張雨生歌詞產生模型，致敬張雨生 https://github.com/fukuball/Tom-Chang-Deep-Lyrics
+* 基於 LSTM 深度學習方法研發而成的張雨生歌詞產生模型，致敬張雨生 http://blog.fukuball.com/ji-yu-lstm-shen-du-xue-xi-fang-fa-yan-fa-er-cheng-de-zhang-yu-sheng-ge-ci-chan-sheng-mo-xing-zhi-jing-zhang-yu-sheng/
 
 # 20180501
 
