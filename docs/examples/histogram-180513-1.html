@@ -1,0 +1,106 @@
+<html>
+
+<head>
+    <title>histogram example 1</title>
+    <style>
+        .myDiv {
+            -ms-transform: rotate(10eg);
+            /* IE 9 */
+            -webkit-transform: rotate(10deg);
+            /* Safari */
+            transform: rotate(10deg);
+            /* Standard syntax */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div style="margin:4em;">
+            <h3><a href="https://openhcos.github.io/radio-to-broadcast/">radio-to-broadcast</a></h3>
+            <h3>
+                <a href="https://www.thenewslens.com/article/95282">居服員平均42歲以上，年輕人不願加入「長照行列」的五大原因 - The News Lens 關鍵評論網</a>
+            </h3>
+            <h3>2015年全人口失能人數76萬人，2031年快速增加至120萬人。<a href="https://www.ndc.gov.tw/News_Content.aspx?n=2DCDB96EC62664CF&sms=75F5C3F1D89C1224&s=1223874EC5D5329A">我國長期照護服務需求評估</a></h3>
+            <h3>
+                國中畢業生2015年26.6萬人至2031年19.7萬人，16年減6.9萬人，年減4.3千人。<a href="https://depart.moe.edu.tw/ed4500/News_Content.aspx?n=48EBDB3B9D51F2B8&sms=F78B10654B1FDBB5&s=D05665FAA7850D1B">國民教育階段學生人數預測分析報告</a>
+            </h3>
+            <h1>{{msg}}</h1>
+            <h2>2018 希望年輕勞動力投入長照，使用中位數42歲分布(d3.randomNormal)模擬繪圖(plotly.js)。</h2>
+            <div id="myChart1" style="max-width: 600px;margin:4em;"></div>
+            <h2>2028 少子化右推中位數50歲分布，使用CSS頃斜div元素示意。</h2>
+            <div class="myDiv" id="myChart2" style="max-width: 600px;margin:4em;"></div>
+        </div>
+    </div>
+    <!-- Load TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+        function getRandomNormal(size, expectedValue, standardDeviation, offset) {
+            const r = [];
+            for (i = 0; i < size; i++) {
+                r.push(d3.randomNormal(expectedValue, standardDeviation)() + offset)
+            }
+            return r;
+        }
+
+        window.app = new Vue({
+            el: "#app",
+            data() {
+                return {
+                    msg: 'ploylt histogram example 1',
+                    data1: getRandomNormal(1000, 22, 8, 20),
+                    data2: getRandomNormal(1500, 30, 9, 20)
+                }
+            },
+
+            mounted() {
+                this.renderChart();
+            },
+
+            methods: {
+                renderChart() {
+                    const instance = this
+                    console.log(instance.data1)
+                    console.log(instance.data2)
+                    var layout1 = {
+                        bargap: 0.05,
+                        bargroupgap: 0.2,
+                        title: "Total 1000,Median 42",
+                        xaxis: {
+                            title: "Age",
+                            range: [0, 110]
+                        },
+                        yaxis: {
+                            title: "Count"
+                        }
+                    };
+                    var layout2 = {
+                        bargap: 0.05,
+                        bargroupgap: 0.2,
+                        title: "Total 1500,Median 50",
+                        xaxis: {
+                            title: "Age",
+                            range: [0, 110]
+                        },
+                        yaxis: {
+                            title: "Count"
+                        }
+                    };
+                    Plotly.newPlot('myChart1', [{
+                        x: instance.data1,
+                        type: 'histogram',
+                    }], layout1);
+                    Plotly.newPlot('myChart2', [{
+                        x: instance.data2,
+                        type: 'histogram',
+                    }], layout2);
+
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
