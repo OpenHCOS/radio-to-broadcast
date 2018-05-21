@@ -1,3 +1,28 @@
+## JS斷詞
+
+長照咖啡新聞轉換成為json檔案，複製新聞內容轉換成關鍵字
+
+```
+{
+  "keywords":["長照","咖啡","新港","古民堤防咖啡","每杯僅售25元","老人服務老人","C級巷弄長照站"],
+  "time":"2018-05-21",
+  "url":"http://www.chinatimes.com/newspapers/20180521000651-260107",
+  "title":"古民堤防咖啡揭牌 盼成社區關懷據點 - 中時電子報"
+}
+```
+
+* 用 JS 做語意分析是不是搞錯了什麼(一)：斷詞篇   https://noob.tw/js-nlp-jieba/
+* 線上中文斷詞工具：Jieba-JS / Online Chinese Analyzer: Jieba-JS - 布丁布丁吃什麼？ 
+ http://blog.pulipuli.info/2017/03/jieba-js-online-chinese-analyzer-jieba.html
+* 如何使用 jieba 結巴中文分詞程式 
+ http://blog.fukuball.com/ru-he-shi-yong-jieba-jie-ba-zhong-wen-fen-ci-cheng-shi/
+* yanyiwu/nodejieba: "结巴"中文分词的Node.js版本 
+ https://github.com/yanyiwu/nodejieba
+ * 中文自然語言處理基礎 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天 
+ https://ithelp.ithome.com.tw/articles/10192043
+ * APCLab/jieba-tw: 結巴中文斷詞台灣繁體版本 
+ https://github.com/APCLab/jieba-tw
+
 ## D3 - heatmap
 
 Simple D3.js heatmap https://bl.ocks.org/Bl3f/cdb5ad854b376765fa99
