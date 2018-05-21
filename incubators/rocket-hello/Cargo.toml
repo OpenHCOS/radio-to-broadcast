@@ -1,0 +1,11 @@
+[package]
+name = "rocket-hello"
+version = "0.1.0"
+authors = ["JOYE LIN <y12studio@gmail.com>"]
+
+[dependencies]
+rocket = "0.3.11"
+rocket_codegen = "0.3.11"
+# Update cookie dependency to 0.10 to avoid ring hell · Issue #627 · SergioBenitez/Rocket https://github.com/SergioBenitez/Rocket/issues/627
+# rocket = { git = "https://github.com/SergioBenitez/Rocket.git", branch = "master" }
+# rocket_codegen = { git = "https://github.com/SergioBenitez/Rocket.git", branch = "master" }

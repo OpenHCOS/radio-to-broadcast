@@ -2,7 +2,7 @@
 <html lang="zh-Hant-TW">
 
 <head>
-    <title>範例6: 支援書籤 - radio-to-broadcast</title>
+    <title>範例7: 試算B/C碼,一般戶 - radio-to-broadcast</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
@@ -15,8 +15,7 @@
             <div style="margin-top:3em;">
                     <b-container>
                         <b-jumbotron>
-                            <h2>RTOB - 長照2.0 API資源列表</h2>
-                            <h3>範例6: B/C碼支援書籤</h3>
+                            <h2>範例7: 試算B/C碼,一般戶 - 長照API資源 (<a href="https://openhcos.github.io/radio-to-broadcast/">radio-to-broadcast</a>)</h2>
                             <router-view></router-view>
                             <b-jumbotron>
                    <b-container>
@@ -65,8 +64,24 @@
                 <b-button variant="light">
                     <a :href="bookmarkurl" target="_blank">取得書籤網址</a>
                 </b-button>
+                <b-button variant="warning" @click="isClacShow = !isClacShow">試算BC碼</b-button>
                 </h3>
                 <hr/>
+                <div v-if="isClacShow">
+                    <h2>試算B/C碼,一般戶16%</h2>
+                    <div style="margin-bottom:0.2em;" v-for="v in calcPrice()">
+                        <div v-if="v.cms > 1">
+                            <b-button variant="danger">等級
+                                <b-badge variant="light">{{v.cms}}</b-badge>
+                            </b-button>
+                            <b-button variant="primary">支付{{ v.totalPrice }}</b-button>
+                            <b-button variant="info">B或C碼額度 {{v.BorC}} , 超額 {{v.diff}} </b-button>
+                            <b-button variant="warning">總計 {{ v.finalPrice }} <b-badge variant="light">自費{{selectedRate}}%計{{v.quotaWithRate}}</b-badge></b-button>
+                        </div>
+                    </div>
+                    <h4><a href="https://docs.google.com/spreadsheets/d/1JJG4qI8m306L_wzBja6SBijq5iutIPJwpbzZiocaSDw/edit?usp=sharing">給付計算機的180420副本 - Google 試算表</a></h4>
+                <hr/>
+                </div>
                 <h2>服務代碼價格 - 搜尋 <input v-model="search"></h2>
                 <h3>
                 <b-button @click="search='AA'" variant="info">AA</b-button>
@@ -120,6 +135,10 @@
                 return {
                     search: '',
                     serviceMap: {},
+                    quota:[],
+                    selectedRate: 16,
+                    rate:[],
+                    isClacShow: true ,
                     selectSrvMap : { }
                 }
             },
@@ -138,7 +157,7 @@
                             x.push(key)
                         }
                     })
-                    return `https://openhcos.github.io/radio-to-broadcast/examples/service-codes-6.html#/?srv=${x.join(',')}`
+                    return `#/?srv=${x.join(',')}`
                 },
                 totalPrice() {
                     const keys = Object.keys(this.selectSrvMap)
@@ -165,9 +184,11 @@
             methods: {
                 fetchData(){
                     var instance = this;
-                    axios.get('https://openhcos.github.io/radio-to-broadcast/json/service-codes-180420.json')
+                    axios.get('../json/service-codes-180420v2.json')
                       .then(function (response) {
-                        instance.serviceMap = response.data.serviceMap;
+                        instance.serviceMap = response.data.serviceMap
+                        instance.quota = response.data.quota
+                        instance.rate = response.data.rate
                         console.log(instance.serviceMap)
                         if( instance.$route.query.srv ){
                            const srvList = instance.$route.query.srv.split(',')
@@ -183,6 +204,32 @@
                     // BA01 OR B碼 site:1966.gov.tw
                     const code = key.substring(0,1);
                     return `https://www.google.com.tw/search?lr=&hl=zh-TW&q=${key}+OR+${code}碼+site%3A1966.gov.tw&oq=AA04+site%3A1966.gov.tw`
+                },
+
+                calcPrice(){
+                    const r = []
+                    this.quota.forEach(v=>{
+                        if(v.cms>1){
+                            // 超額
+                            v.totalPrice = this.totalPrice
+                            let diff = this.totalPrice-v.BorC
+                            v.diff = diff > 0 ? diff : 0
+                            v.rateTarget = v.diff > 0 ? v.BorC : this.totalPrice
+                            v.quotaWithRate = Math.floor(v.rateTarget * this.selectedRate/100)
+                            v.finalPrice = v.diff + v.quotaWithRate
+                            console.log(v)
+                            r.push(v)
+                        }
+                    })
+                    return r;
+                },
+
+                finalPrice(theTotalPrice, quotaBorC, theRate){
+                    // 超額
+                    let diff = theTotalPrice-quotaBorC;
+                    let rateTarget = diff > 0 ? quotaBorC : theTotalPrice;
+                    let quotaWithRate = Math.floor(rateTarget * theRate/100);
+                    return diff > 0 ?  diff + quotaWithRate : quotaWithRate ;
                 },
                 add(k){
                     if(!this.serviceMap.hasOwnProperty(k)){
