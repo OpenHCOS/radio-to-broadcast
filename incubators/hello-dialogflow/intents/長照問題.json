@@ -1,0 +1,37 @@
+{
+  "id": "f6a32f58-89a0-492e-b2d2-30839a5481e3",
+  "name": "長照問題",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a10a09f8-f809-4e02-b775-068b55f2a8d3",
+          "required": false,
+          "dataType": "@question",
+          "name": "question",
+          "value": "$question",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": "你問的是 $question"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527239625,
+  "fallbackIntent": false,
+  "events": []
+}

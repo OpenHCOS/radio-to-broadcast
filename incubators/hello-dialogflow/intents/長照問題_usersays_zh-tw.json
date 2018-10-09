@@ -1,0 +1,112 @@
+[
+  {
+    "id": "8522ca48-00d5-48d6-b1c2-908ff3b1e4f6",
+    "data": [
+      {
+        "text": "長照",
+        "userDefined": false
+      },
+      {
+        "text": "洗澡",
+        "alias": "question",
+        "meta": "@question",
+        "userDefined": true
+      },
+      {
+        "text": "的問題",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527239625
+  },
+  {
+    "id": "02e8e909-9d49-4de2-a0de-72fedab1636a",
+    "data": [
+      {
+        "text": "長照",
+        "userDefined": false
+      },
+      {
+        "text": "沐浴",
+        "alias": "question",
+        "meta": "@question",
+        "userDefined": true
+      },
+      {
+        "text": "的問題",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527239625
+  },
+  {
+    "id": "c28b3fb6-7bec-4a9e-9675-0d55c2d506cb",
+    "data": [
+      {
+        "text": "長照的",
+        "userDefined": false
+      },
+      {
+        "text": "補助",
+        "alias": "question",
+        "meta": "@question",
+        "userDefined": true
+      },
+      {
+        "text": "問題",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527239625
+  },
+  {
+    "id": "51e6df2d-9ea9-4866-bf25-01b9b971ae8a",
+    "data": [
+      {
+        "text": "長照的",
+        "userDefined": false
+      },
+      {
+        "text": "吃飯",
+        "alias": "question",
+        "meta": "@question",
+        "userDefined": true
+      },
+      {
+        "text": "問題",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527239625
+  },
+  {
+    "id": "044f59ce-5178-48f8-874d-3ac05a7f57cf",
+    "data": [
+      {
+        "text": "長照的",
+        "userDefined": false
+      },
+      {
+        "text": "沐浴",
+        "alias": "question",
+        "meta": "@question",
+        "userDefined": true
+      },
+      {
+        "text": "問題",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527239625
+  }
+]

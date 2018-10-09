@@ -1,0 +1,31 @@
+@startuml
+title State-Longcare-181009
+' 長照流程圖
+hide empty description
+LVX: 長照需要等級待核定
+Check_LV: 長照需要等級核定
+LV6 : TOTAL 100k
+[*] --> LVX
+LVX -down-> Check_LV : 65 歲以上
+LVX -down-> Check_LV : 領有身心障礙證明(手冊)者
+LVX -down-> Check_LV :55-64 歲原住民
+LVX -down-> Check_LV :50 歲以上失智症者
+Check_LV -down-> LV2
+Check_LV -> LV3
+LV2 -> LV3
+Check_LV -> LV4
+Check_LV -> LV5
+Check_LV -> LV6
+Check_LV -> LV7
+Check_LV -down-> LV8
+LV3 -down-> LV4
+LV3 -down-> LV5
+LV4 -down-> LV5
+LV5 -down-> LV6
+LV5 -down-> LV7
+LV5 -down-> LV8
+LV6 -down-> LV7
+LV7 -down-> LV8
+LV8 -> [*]
+
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+title State-Example-181009
+hide empty description
+[*] --> State1
+State1 --> [*]
+State1 : this is a string
+State1 : this is another string
+
+State1 -> State2
+State2 -> CheckKey
+State2 --> [*]
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+title Seq-Example-181009
+actor Alice #blue
+actor Bob #red
+
+Alice -> Bob : hello
+@enduml

@@ -1,0 +1,60 @@
+{
+  "id": "3e98bb82-1946-422a-a9ba-1e75ebe576dc",
+  "name": "餐廳訂位",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1a8c05ce-80a8-49d2-a759-b0073326275a",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "guests",
+          "value": "$guests",
+          "prompts": [
+            {
+              "lang": "zh-tw",
+              "value": "幾位"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "ad30872c-2a9d-467e-b7f0-eb27c1a9cb8a",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "zh-tw",
+              "value": "哪天"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": [
+            "共計 $guests 成功訂桌",
+            "訂桌完成期待你的光臨"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527227381,
+  "fallbackIntent": false,
+  "events": []
+}
