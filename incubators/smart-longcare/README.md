@@ -1,12 +1,22 @@
+# 長期照顧給付及支付基準
 
-# synthea module builder
+修正「長期照顧（照顧服務、專業服務、交通接送服務、輔具服務及居家無障礙環境改善服務）給付及支付基準」，並自107年11月1日起施行。- 衛生福利部 https://www.mohw.gov.tw/cp-3763-44235-1.html
+
+# Projects
+
+## PlantUML
+
+Open-source tool that uses simple textual descriptions to draw UML diagrams. 
+ http://en.plantuml.com/
+
+## synthea module builder
 
 https://synthetichealth.github.io/module-builder/
 
 https://synthetichealth.github.io/module-builder/#Homelessness
 
 
-# Issues
+### Issues
 
 Editing Module · Issue #314 · synthetichealth/synthea https://github.com/synthetichealth/synthea/issues/314
 
@@ -14,7 +24,7 @@ Generic Module Framework: States · synthetichealth/synthea Wiki https://github.
 
 Examplitis Confusion · Issue #264 · synthetichealth/synthea https://github.com/synthetichealth/synthea/issues/264
 
-# Exercise SyntheaTM: Massive FHIR Data
+### Exercise SyntheaTM: Massive FHIR Data
 
 https://www.fhirdevdays.com/boston/wp-content/uploads/sites/3/2018/06/DevDays18_Boston_Exercise_Synthea_v3.pdf
 

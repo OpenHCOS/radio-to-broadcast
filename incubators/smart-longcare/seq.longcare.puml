@@ -1,31 +1,32 @@
 @startuml
-title Seq-LongCare-181009
+title Seq-LongCare-181009-1
 ' 修正「長期照顧（照顧服務、專業服務、交通接送服務、輔具服務及居家無障礙環境改善服務）給付及支付基準」，並自107年11月1日起施行。- 衛生福利部 https://www.mohw.gov.tw/cp-3763-44235-1.html
 ' 長期照顧給付及支付基準(1071101公告版).pdf
 ' 直轄市、縣(市)政府辦理長期照顧服務提供者特約簽訂及費用支付作業要點
 scale 800 width
 actor 請領資格者 as Alice #blue
 actor 家庭照顧者 as Bob #red
-participant 照管中心 as CM
-participant 長照機構A as COA #yellow
-participant 長照機構B as COB #green
+participant 照管中心或A as CM
+participant 長照服務X as COA #yellow
+participant 長照服務Y as COB #green
 participant 縣市政府 as GOV
 autonumber 100
 note over Alice, GOV : 長期照顧給付及支付基準(1071101公告版)
 note over Alice, CM : 第一節 給付
-Alice -> CM : 長照需要等級
-CM -> Alice : 照顧計畫
-CM -> Alice : 個人額度 - 照顧及專業服務
-CM -> Alice : 個人額度 - 交通接送服務
-CM -> Alice : 個人額度 - 輔具服務及居家無障礙環境改善服務
+Alice -> CM : 需求評估
+CM -> CM : 長照需要等級
+CM -> Alice : 個人額度\n - 照顧及專業服務\n - 交通接送服務\n - 輔具服務及居家無障礙環境改善服務
 CM -> Bob : 喘息服務額度
-note over Alice, COB : 第二節 支付
+CM -> Alice : 案家可支付自費額度雙方合意簽名
+CM -> CM : 核備照顧計畫
+note over Alice, CM #red : 異動需重新核定 104-105
+note over CM, GOV : 第二節 支付
 autonumber 200
-Alice -> COA : 服務請求
-COA -> CM : 確認額度
-COA -> Alice : 事前準備實際服務事後善後及紀錄
-Bob -> COB : 服務請求
-COB -> Bob : 事前準備實際服務事後善後及紀錄
+CM -> CM : 服務代碼配對
+CM -> COA : 病人資料派案
+COA -> Alice : 事前準備、實際服務、事後善後及紀錄
+CM -> COB : 照顧者資料派案
+COB -> Bob : 事前準備、實際服務、事後善後及紀錄
 note over COA, GOV : 金流$ 每月10日前申報
 COA -> GOV : 領款收據、服務費用總表
 GOV -> COA : 15日內暫付
