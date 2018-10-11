@@ -1,8 +1,5 @@
 @startuml
-title Seq-LongCare-181009-1
-' 修正「長期照顧（照顧服務、專業服務、交通接送服務、輔具服務及居家無障礙環境改善服務）給付及支付基準」，並自107年11月1日起施行。- 衛生福利部 https://www.mohw.gov.tw/cp-3763-44235-1.html
-' 長期照顧給付及支付基準(1071101公告版).pdf
-' 直轄市、縣(市)政府辦理長期照顧服務提供者特約簽訂及費用支付作業要點
+title Seq-LongTermCare-181010-1
 scale 800 width
 actor 請領資格者 as Alice #blue
 actor 家庭照顧者 as Bob #red
@@ -10,6 +7,8 @@ participant 照管中心或A as CM
 participant 長照服務X as COA #yellow
 participant 長照服務Y as COB #green
 participant 縣市政府 as GOV
+participant  長照特種基金 as FUND
+actor 吸菸者 as SMOKER #black
 autonumber 100
 note over Alice, GOV : 長期照顧給付及支付基準(1071101公告版)
 note over Alice, CM : 第一節 給付
@@ -25,10 +24,13 @@ autonumber 200
 CM -> CM : 服務代碼配對
 CM -> COA : 病人資料派案
 COA -> Alice : 事前準備、實際服務、事後善後及紀錄
+Alice -> COA : 自費$
 CM -> COB : 照顧者資料派案
 COB -> Bob : 事前準備、實際服務、事後善後及紀錄
+Bob -> COB : 自費$
 note over COA, GOV : 金流$ 每月10日前申報
 COA -> GOV : 領款收據、服務費用總表
-GOV -> COA : 15日內暫付
-GOV -> COA : 75日內全額
+GOV -> COA : 75日內全額$
+FUND ->GOV : 支付$
+SMOKER -> FUND : 107年五個月撥入120億元\n菸稅110億元佔九成。
 @enduml
