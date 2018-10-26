@@ -1,0 +1,222 @@
+{
+  "name": "LongCareLevelCheck",
+  "remarks": [
+    "' 修正「長期照顧（照顧服務、專業服務、交通接送服務、輔具服務及居家無障礙環境改善服務）給付及支付基準」，並自107年11月1日起施行。- 衛生福利部 https://www.mohw.gov.tw/cp-3763-44235-1.html",
+    "",
+    "長期照顧給付及支付基準(1071101公告版).pdf",
+    ""
+  ],
+  "states": {
+    "Initial": {
+      "type": "Initial",
+      "direct_transition": "Check_LongCare"
+    },
+    "Terminal": {
+      "type": "Terminal"
+    },
+    "LV2": {
+      "type": "Simple",
+      "conditional_transition": [
+        {
+          "transition": "LV3",
+          "condition": {
+            "condition_type": "Symptom",
+            "symptom": "IndexXXX",
+            "operator": ">=",
+            "value": 50
+          }
+        },
+        {
+          "transition": "LV5",
+          "condition": {
+            "condition_type": "Age",
+            "operator": ">",
+            "quantity": 90,
+            "unit": "years"
+          }
+        },
+        {
+          "transition": "Terminal",
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "attr",
+            "operator": "==",
+            "value": true
+          }
+        }
+      ]
+    },
+    "LV3": {
+      "type": "Simple",
+      "conditional_transition": [
+        {
+          "transition": "LV4",
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "xxx",
+            "operator": "==",
+            "value": 123
+          }
+        },
+        {
+          "transition": "LV5",
+          "condition": {
+            "condition_type": "Age",
+            "operator": ">",
+            "quantity": 78,
+            "unit": "years"
+          }
+        },
+        {
+          "transition": "LV7",
+          "condition": {
+            "condition_type": "Age",
+            "operator": ">",
+            "quantity": 105,
+            "unit": "years"
+          }
+        },
+        {
+          "transition": "Terminal",
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "attr",
+            "operator": "==",
+            "value": true
+          }
+        }
+      ]
+    },
+    "LV4": {
+      "type": "Simple",
+      "direct_transition": "LV5"
+    },
+    "LV5": {
+      "type": "Simple",
+      "direct_transition": "LV6"
+    },
+    "LV6": {
+      "type": "Simple",
+      "direct_transition": "LV7"
+    },
+    "LV7": {
+      "type": "Simple",
+      "direct_transition": "LV8"
+    },
+    "LV8": {
+      "type": "Simple",
+      "direct_transition": "Terminal"
+    },
+    "CheckLevel": {
+      "type": "Simple",
+      "distributed_transition": [
+        {
+          "transition": "LV2",
+          "distribution": 0.2
+        },
+        {
+          "transition": "LV3",
+          "distribution": 0.15
+        },
+        {
+          "transition": "LV4",
+          "distribution": 0.1
+        },
+        {
+          "transition": "LV1",
+          "distribution": 0.4
+        },
+        {
+          "transition": "LV5",
+          "distribution": 0.05
+        },
+        {
+          "transition": "LV6",
+          "distribution": 0.05
+        },
+        {
+          "transition": "LV7",
+          "distribution": 0.03
+        },
+        {
+          "transition": "LV8",
+          "distribution": 0.02
+        }
+      ]
+    },
+    "Check_LongCare": {
+      "type": "Simple",
+      "remarks": [
+        "65 歲以上",
+        "領有身心障礙證明(手冊)者",
+        "55-64 歲原住民",
+        "50 歲以上失智症者",
+        ""
+      ],
+      "conditional_transition": [
+        {
+          "transition": "CheckLevel",
+          "condition": {
+            "condition_type": "At Least",
+            "minimum": 1,
+            "conditions": [
+              {
+                "condition_type": "Age",
+                "operator": ">=",
+                "quantity": 65,
+                "unit": "years",
+                "value": 0
+              },
+              {
+                "condition_type": "Attribute",
+                "attribute": "身心障礙證明(手冊)",
+                "operator": "==",
+                "value": true
+              },
+              {
+                "condition_type": "And",
+                "conditions": [
+                  {
+                    "condition_type": "Age",
+                    "operator": ">=",
+                    "quantity": 55,
+                    "unit": "years",
+                    "value": 0
+                  },
+                  {
+                    "condition_type": "Race",
+                    "race": "Native"
+                  }
+                ]
+              },
+              {
+                "condition_type": "And",
+                "conditions": [
+                  {
+                    "condition_type": "Attribute",
+                    "attribute": "失智症者",
+                    "operator": "==",
+                    "value": true
+                  },
+                  {
+                    "condition_type": "Age",
+                    "operator": ">=",
+                    "quantity": 50,
+                    "unit": "years"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "transition": "Terminal"
+        }
+      ]
+    },
+    "LV1": {
+      "type": "Simple",
+      "direct_transition": "Terminal"
+    }
+  }
+}
