@@ -3,6 +3,7 @@
 
 cd "$(dirname "$0")"
 WASM_FILE="smart_ltc.wasm"
+BINDGEN_DIR="bindout"
 
 init-rust() {
     rustup target add wasm32-unknown-unknown --toolchain nightly
@@ -16,8 +17,9 @@ server() {
 }
 
 build(){
+    mkdir -p ${BINDGEN_DIR}
     cargo  +nightly build --target wasm32-unknown-unknown
-    wasm-bindgen target/wasm32-unknown-unknown/debug/${WASM_FILE} --out-dir ./gen
+    wasm-bindgen target/wasm32-unknown-unknown/debug/${WASM_FILE} --out-dir ./${BINDGEN_DIR}
 }
 
 case "$1" in 

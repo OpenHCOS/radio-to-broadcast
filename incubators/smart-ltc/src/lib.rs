@@ -14,16 +14,16 @@ pub struct User {
 }
 
 #[wasm_bindgen]
-pub fn set_jsvalue(js_objects: &JsValue) -> i32 {
+pub fn set_jsvalue(js_objects: &JsValue) -> usize {
     unsafe { STATE = "測試" }
     // https://github.com/rustwasm/wasm-bindgen/blob/9ebbcd382742f3c078f49a7aec9e252b28987991/src/lib.rs#L205
     let users: Vec<User> = js_objects.into_serde().unwrap();
-    1
+    users.len()
 }
 
 #[wasm_bindgen]
 pub fn foo() -> i32 {
-    1
+    101
 }
 
 #[wasm_bindgen]
